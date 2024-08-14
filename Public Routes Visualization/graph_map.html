@@ -1,0 +1,4191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e4b150adad1d0a7919d6f3c4754d5652 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e4b150adad1d0a7919d6f3c4754d5652" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e4b150adad1d0a7919d6f3c4754d5652 = L.map(
+                "map_e4b150adad1d0a7919d6f3c4754d5652",
+                {
+                    center: [33.65292301785717, 73.06640374387754],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7803cee1f6ffab6fa10ccc365405bb1e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+            var poly_line_e374cc457d236167d91b041ae36a5f83 = L.polyline(
+                [[33.351247, 72.772021], [33.351247, 73.39755977127159], [33.87376952252252, 73.39755977127159], [33.87376952252252, 72.772021], [33.351247, 72.772021]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+            var marker_4f6ab3797c7ea9d949a1015b99661af6 = L.marker(
+                [33.4600997, 73.2107099],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_8ee50eb07811fb65a767d4ec95c9035e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f2c26d2303559ea2802f4829af32699 = $(`<div id="html_5f2c26d2303559ea2802f4829af32699" style="width: 100.0%; height: 100.0%;">Dhoke Shah Alam Bus Stop</div>`)[0];
+                popup_8ee50eb07811fb65a767d4ec95c9035e.setContent(html_5f2c26d2303559ea2802f4829af32699);
+            
+        
+
+        marker_4f6ab3797c7ea9d949a1015b99661af6.bindPopup(popup_8ee50eb07811fb65a767d4ec95c9035e)
+        ;
+
+        
+    
+    
+            var marker_26c680467f64a4444a6e9c763efa3d9d = L.marker(
+                [33.47777, 73.1961845],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_d7e03a0bb2999249d411ebcd10685c68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10430d4b5577c5d63f6b5a58c1c06fe8 = $(`<div id="html_10430d4b5577c5d63f6b5a58c1c06fe8" style="width: 100.0%; height: 100.0%;">Rawat Chakbeli Road Bus Stop</div>`)[0];
+                popup_d7e03a0bb2999249d411ebcd10685c68.setContent(html_10430d4b5577c5d63f6b5a58c1c06fe8);
+            
+        
+
+        marker_26c680467f64a4444a6e9c763efa3d9d.bindPopup(popup_d7e03a0bb2999249d411ebcd10685c68)
+        ;
+
+        
+    
+    
+            var marker_ed065d6936b89d229058c29f65443d12 = L.marker(
+                [33.4926029, 73.2064654],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_19330608dcba40929a2a86003fc2104c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4724bfbf254e9ab1bd267d72bb037ad7 = $(`<div id="html_4724bfbf254e9ab1bd267d72bb037ad7" style="width: 100.0%; height: 100.0%;">Qasim Abad</div>`)[0];
+                popup_19330608dcba40929a2a86003fc2104c.setContent(html_4724bfbf254e9ab1bd267d72bb037ad7);
+            
+        
+
+        marker_ed065d6936b89d229058c29f65443d12.bindPopup(popup_19330608dcba40929a2a86003fc2104c)
+        ;
+
+        
+    
+    
+            var marker_f213880fb04f67e5ecf8eb8aa9c65346 = L.marker(
+                [33.4863996, 73.2212806],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_503b7c54627ac4159bd5f448eabcaec4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad077df339b1942888e96b101ad02778 = $(`<div id="html_ad077df339b1942888e96b101ad02778" style="width: 100.0%; height: 100.0%;">Dhoke Majar Bus Stop</div>`)[0];
+                popup_503b7c54627ac4159bd5f448eabcaec4.setContent(html_ad077df339b1942888e96b101ad02778);
+            
+        
+
+        marker_f213880fb04f67e5ecf8eb8aa9c65346.bindPopup(popup_503b7c54627ac4159bd5f448eabcaec4)
+        ;
+
+        
+    
+    
+            var marker_28b9414231263c73831dec896ba3472a = L.marker(
+                [33.5106054, 73.1798632],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_a3a29d8d085f0c8d1fda98f6ffbfc03d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c51024b58a0ea7a741e54a0dbc5fde7 = $(`<div id="html_2c51024b58a0ea7a741e54a0dbc5fde7" style="width: 100.0%; height: 100.0%;">Grand Trunk Road Bus Stop</div>`)[0];
+                popup_a3a29d8d085f0c8d1fda98f6ffbfc03d.setContent(html_2c51024b58a0ea7a741e54a0dbc5fde7);
+            
+        
+
+        marker_28b9414231263c73831dec896ba3472a.bindPopup(popup_a3a29d8d085f0c8d1fda98f6ffbfc03d)
+        ;
+
+        
+    
+    
+            var marker_f1453d910853fc05b961410063a5cbeb = L.marker(
+                [33.5086774, 73.182807],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_4ad32702e80f4789d4065f50c6579cef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af776e4fd76c629333e79d89240333d9 = $(`<div id="html_af776e4fd76c629333e79d89240333d9" style="width: 100.0%; height: 100.0%;">Bhangril Bus Stop</div>`)[0];
+                popup_4ad32702e80f4789d4065f50c6579cef.setContent(html_af776e4fd76c629333e79d89240333d9);
+            
+        
+
+        marker_f1453d910853fc05b961410063a5cbeb.bindPopup(popup_4ad32702e80f4789d4065f50c6579cef)
+        ;
+
+        
+    
+    
+            var marker_fa6cf223ae023a66d5fade8c32298b50 = L.marker(
+                [33.5050869, 73.1886743],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_261201b78005e9bf578a2180c19fe20f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98888e58100091a8e7a003edbc3cc094 = $(`<div id="html_98888e58100091a8e7a003edbc3cc094" style="width: 100.0%; height: 100.0%;">Parvez Dhaba Bus Stop</div>`)[0];
+                popup_261201b78005e9bf578a2180c19fe20f.setContent(html_98888e58100091a8e7a003edbc3cc094);
+            
+        
+
+        marker_fa6cf223ae023a66d5fade8c32298b50.bindPopup(popup_261201b78005e9bf578a2180c19fe20f)
+        ;
+
+        
+    
+    
+            var marker_b061e63a506609a7f2038649a227bf7d = L.marker(
+                [33.5434756, 72.8277844],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_27b0bdd9461d677853e7aa4ff9fe1fa2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d36c743c073e20ecea790cac31ee8f6d = $(`<div id="html_d36c743c073e20ecea790cac31ee8f6d" style="width: 100.0%; height: 100.0%;">Airport Traffic Control</div>`)[0];
+                popup_27b0bdd9461d677853e7aa4ff9fe1fa2.setContent(html_d36c743c073e20ecea790cac31ee8f6d);
+            
+        
+
+        marker_b061e63a506609a7f2038649a227bf7d.bindPopup(popup_27b0bdd9461d677853e7aa4ff9fe1fa2)
+        ;
+
+        
+    
+    
+            var marker_5bdad5008db163fdf3d7ef59e444972d = L.marker(
+                [33.5395659, 73.1272852],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_e8544ddb04304ed0e873e89b1d2173bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31bffbded1ddcd90cd3e4698e8d5df51 = $(`<div id="html_31bffbded1ddcd90cd3e4698e8d5df51" style="width: 100.0%; height: 100.0%;">Humak Road Bus Stop</div>`)[0];
+                popup_e8544ddb04304ed0e873e89b1d2173bd.setContent(html_31bffbded1ddcd90cd3e4698e8d5df51);
+            
+        
+
+        marker_5bdad5008db163fdf3d7ef59e444972d.bindPopup(popup_e8544ddb04304ed0e873e89b1d2173bd)
+        ;
+
+        
+    
+    
+            var marker_3081af28562278ed26425d004603e471 = L.marker(
+                [33.538362, 73.12251619999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_5b28ca49a41463058fa86abc9f1105cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06a82d3f083623c99b7614d9786d5193 = $(`<div id="html_06a82d3f083623c99b7614d9786d5193" style="width: 100.0%; height: 100.0%;">Kahuta Humak Road Junction Bus Stop</div>`)[0];
+                popup_5b28ca49a41463058fa86abc9f1105cd.setContent(html_06a82d3f083623c99b7614d9786d5193);
+            
+        
+
+        marker_3081af28562278ed26425d004603e471.bindPopup(popup_5b28ca49a41463058fa86abc9f1105cd)
+        ;
+
+        
+    
+    
+            var marker_93386bef27fe125770947c6168ef8d58 = L.marker(
+                [33.5410414, 73.14279379999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_381aa7f2ad8857be4adbeec7deca994b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9f9fad8b029cc7e6d8ec1946be33e17 = $(`<div id="html_e9f9fad8b029cc7e6d8ec1946be33e17" style="width: 100.0%; height: 100.0%;">Ghee Mill Bus Stop</div>`)[0];
+                popup_381aa7f2ad8857be4adbeec7deca994b.setContent(html_e9f9fad8b029cc7e6d8ec1946be33e17);
+            
+        
+
+        marker_93386bef27fe125770947c6168ef8d58.bindPopup(popup_381aa7f2ad8857be4adbeec7deca994b)
+        ;
+
+        
+    
+    
+            var marker_441aa7375eb30e709b267c5e91937000 = L.marker(
+                [33.5414036, 73.14733609999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_ff6af9b096fc2e8e143bfcd8724bbb3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45dad3077d39167af46d7f19d7d0aaa1 = $(`<div id="html_45dad3077d39167af46d7f19d7d0aaa1" style="width: 100.0%; height: 100.0%;">Burji Bus Stop</div>`)[0];
+                popup_ff6af9b096fc2e8e143bfcd8724bbb3d.setContent(html_45dad3077d39167af46d7f19d7d0aaa1);
+            
+        
+
+        marker_441aa7375eb30e709b267c5e91937000.bindPopup(popup_ff6af9b096fc2e8e143bfcd8724bbb3d)
+        ;
+
+        
+    
+    
+            var marker_7c86f7744c3cbbd4845e0f4168ae2b85 = L.marker(
+                [33.5427025, 73.17797999999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_807698cb1a8ef09c1b741e78933c1d1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c730ecbff09cec0106bd9d9fd1483179 = $(`<div id="html_c730ecbff09cec0106bd9d9fd1483179" style="width: 100.0%; height: 100.0%;">Public van stop</div>`)[0];
+                popup_807698cb1a8ef09c1b741e78933c1d1a.setContent(html_c730ecbff09cec0106bd9d9fd1483179);
+            
+        
+
+        marker_7c86f7744c3cbbd4845e0f4168ae2b85.bindPopup(popup_807698cb1a8ef09c1b741e78933c1d1a)
+        ;
+
+        
+    
+    
+            var marker_118f648f3c7ab52df025805c3873edc9 = L.marker(
+                [33.5439973, 73.178296],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_05a9de2ca610801c1a03036914c15ea5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5dfabdb32de1e523d8bb4bb2da699bf7 = $(`<div id="html_5dfabdb32de1e523d8bb4bb2da699bf7" style="width: 100.0%; height: 100.0%;">KakPul Bus Stop</div>`)[0];
+                popup_05a9de2ca610801c1a03036914c15ea5.setContent(html_5dfabdb32de1e523d8bb4bb2da699bf7);
+            
+        
+
+        marker_118f648f3c7ab52df025805c3873edc9.bindPopup(popup_05a9de2ca610801c1a03036914c15ea5)
+        ;
+
+        
+    
+    
+            var marker_54784dea27b7b47e8504859706cc27c7 = L.marker(
+                [33.5361501, 73.16561659999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_031ea4d4ee793827f7d958939a3d7753 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71338c0f6c51e02b5da92fc3ac4426ba = $(`<div id="html_71338c0f6c51e02b5da92fc3ac4426ba" style="width: 100.0%; height: 100.0%;">SVL Point</div>`)[0];
+                popup_031ea4d4ee793827f7d958939a3d7753.setContent(html_71338c0f6c51e02b5da92fc3ac4426ba);
+            
+        
+
+        marker_54784dea27b7b47e8504859706cc27c7.bindPopup(popup_031ea4d4ee793827f7d958939a3d7753)
+        ;
+
+        
+    
+    
+            var marker_ee5c1c1e1a34be1cebe5a9afecbadb69 = L.marker(
+                [33.5559622, 72.83736429999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_55075b851aa96cce891975d152b8e22c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b7bc1ac3c44498b7c2ad85f057a878d = $(`<div id="html_5b7bc1ac3c44498b7c2ad85f057a878d" style="width: 100.0%; height: 100.0%;">Metro Station</div>`)[0];
+                popup_55075b851aa96cce891975d152b8e22c.setContent(html_5b7bc1ac3c44498b7c2ad85f057a878d);
+            
+        
+
+        marker_ee5c1c1e1a34be1cebe5a9afecbadb69.bindPopup(popup_55075b851aa96cce891975d152b8e22c)
+        ;
+
+        
+    
+    
+            var marker_c46c237085d3f9a041c1b869913b9e06 = L.marker(
+                [33.5576346, 72.8362181],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_a06fdd94619f4443ef20f1185ac4591c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e96090f53905251f8c592cb2840416bb = $(`<div id="html_e96090f53905251f8c592cb2840416bb" style="width: 100.0%; height: 100.0%;">Metro Cab</div>`)[0];
+                popup_a06fdd94619f4443ef20f1185ac4591c.setContent(html_e96090f53905251f8c592cb2840416bb);
+            
+        
+
+        marker_c46c237085d3f9a041c1b869913b9e06.bindPopup(popup_a06fdd94619f4443ef20f1185ac4591c)
+        ;
+
+        
+    
+    
+            var marker_118341bcac26b358fccf929bb6c189a8 = L.marker(
+                [33.5542961, 73.1382607],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_cce67d13c1a1dc5ca14113dc51445506 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_735f4d6f27185b6ba39b66e922697299 = $(`<div id="html_735f4d6f27185b6ba39b66e922697299" style="width: 100.0%; height: 100.0%;">Makha Travel Bharia Town</div>`)[0];
+                popup_cce67d13c1a1dc5ca14113dc51445506.setContent(html_735f4d6f27185b6ba39b66e922697299);
+            
+        
+
+        marker_118341bcac26b358fccf929bb6c189a8.bindPopup(popup_cce67d13c1a1dc5ca14113dc51445506)
+        ;
+
+        
+    
+    
+            var marker_2f9c8e96f6a643febc7935460581976c = L.marker(
+                [33.569402, 73.1579107],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_ee94e93ef900c2d76e40f95deebb905d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_255cfc4a88408d5650608495a8c253b8 = $(`<div id="html_255cfc4a88408d5650608495a8c253b8" style="width: 100.0%; height: 100.0%;">Soan Bus Stop</div>`)[0];
+                popup_ee94e93ef900c2d76e40f95deebb905d.setContent(html_255cfc4a88408d5650608495a8c253b8);
+            
+        
+
+        marker_2f9c8e96f6a643febc7935460581976c.bindPopup(popup_ee94e93ef900c2d76e40f95deebb905d)
+        ;
+
+        
+    
+    
+            var marker_1fd16087eeb31b472bb2b267c700e51f = L.marker(
+                [33.562791, 73.1635809],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_dac8496fc3d2cd82318311496e4706f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22bf2c78111ca1177101292d1b78bb1d = $(`<div id="html_22bf2c78111ca1177101292d1b78bb1d" style="width: 100.0%; height: 100.0%;">Naval Anchorage Bus Stop</div>`)[0];
+                popup_dac8496fc3d2cd82318311496e4706f2.setContent(html_22bf2c78111ca1177101292d1b78bb1d);
+            
+        
+
+        marker_1fd16087eeb31b472bb2b267c700e51f.bindPopup(popup_dac8496fc3d2cd82318311496e4706f2)
+        ;
+
+        
+    
+    
+            var marker_a0a56eec244b701e7e17a707316deafc = L.marker(
+                [33.55188, 73.1711219],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_e73003448a23e7fb2c7ef0eb7aeb07ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04b606db83041c57a94969bd7f7535e0 = $(`<div id="html_04b606db83041c57a94969bd7f7535e0" style="width: 100.0%; height: 100.0%;">River Garden Bus Stop</div>`)[0];
+                popup_e73003448a23e7fb2c7ef0eb7aeb07ae.setContent(html_04b606db83041c57a94969bd7f7535e0);
+            
+        
+
+        marker_a0a56eec244b701e7e17a707316deafc.bindPopup(popup_e73003448a23e7fb2c7ef0eb7aeb07ae)
+        ;
+
+        
+    
+    
+            var marker_7be867149af406c163854db17c53aca7 = L.marker(
+                [33.5563271, 73.1678617],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_99c9dba4cfcd5e6bbe25eb9b87d7ebe5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c0a5efabbbf3b78765353ca0c7121a9 = $(`<div id="html_8c0a5efabbbf3b78765353ca0c7121a9" style="width: 100.0%; height: 100.0%;">Bhinder Bus Stop</div>`)[0];
+                popup_99c9dba4cfcd5e6bbe25eb9b87d7ebe5.setContent(html_8c0a5efabbbf3b78765353ca0c7121a9);
+            
+        
+
+        marker_7be867149af406c163854db17c53aca7.bindPopup(popup_99c9dba4cfcd5e6bbe25eb9b87d7ebe5)
+        ;
+
+        
+    
+    
+            var marker_1df2f4b9bdf08336f2c151a2e6f5435b = L.marker(
+                [33.5568915, 73.22370930000001],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_994785b634d007f24d5921b6eeb22321 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2241de7c231da76939eeedaa06639cd8 = $(`<div id="html_2241de7c231da76939eeedaa06639cd8" style="width: 100.0%; height: 100.0%;">Sihala School Bus Stop</div>`)[0];
+                popup_994785b634d007f24d5921b6eeb22321.setContent(html_2241de7c231da76939eeedaa06639cd8);
+            
+        
+
+        marker_1df2f4b9bdf08336f2c151a2e6f5435b.bindPopup(popup_994785b634d007f24d5921b6eeb22321)
+        ;
+
+        
+    
+    
+            var marker_89b456d007d19c1c818b18e708d11c84 = L.marker(
+                [33.5578381, 73.2268059],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_9f3a9abab234b705948ece724fd99277 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0037599718420902c2dd973300ba6da4 = $(`<div id="html_0037599718420902c2dd973300ba6da4" style="width: 100.0%; height: 100.0%;">Markaz Stop</div>`)[0];
+                popup_9f3a9abab234b705948ece724fd99277.setContent(html_0037599718420902c2dd973300ba6da4);
+            
+        
+
+        marker_89b456d007d19c1c818b18e708d11c84.bindPopup(popup_9f3a9abab234b705948ece724fd99277)
+        ;
+
+        
+    
+    
+            var marker_b838875e2f62b4a4af78b7ecf6aaed6c = L.marker(
+                [33.5753057, 72.8485802],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_46b55d8eb5f67ec28015846060f30f62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e4705e89ae825937ca259440401a6dc = $(`<div id="html_1e4705e89ae825937ca259440401a6dc" style="width: 100.0%; height: 100.0%;">Islamabad Airport Taxi by MAT</div>`)[0];
+                popup_46b55d8eb5f67ec28015846060f30f62.setContent(html_1e4705e89ae825937ca259440401a6dc);
+            
+        
+
+        marker_b838875e2f62b4a4af78b7ecf6aaed6c.bindPopup(popup_46b55d8eb5f67ec28015846060f30f62)
+        ;
+
+        
+    
+    
+            var marker_10c75b2baa6722adb2522781e5fa130b = L.marker(
+                [33.57604910000001, 73.1531277],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_fa16e0ff36e47dbaa269e800cc802867 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27c7b69ab4ea2ee21cabe85010d1177b = $(`<div id="html_27c7b69ab4ea2ee21cabe85010d1177b" style="width: 100.0%; height: 100.0%;">PWD Bus Stop</div>`)[0];
+                popup_fa16e0ff36e47dbaa269e800cc802867.setContent(html_27c7b69ab4ea2ee21cabe85010d1177b);
+            
+        
+
+        marker_10c75b2baa6722adb2522781e5fa130b.bindPopup(popup_fa16e0ff36e47dbaa269e800cc802867)
+        ;
+
+        
+    
+    
+            var marker_16ed623be1aab67a61e7754e40b4dfb1 = L.marker(
+                [33.5774471, 73.15196159999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_9b70e8b2f0962fb5a9c8e1bd1544c5db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14fe157f8939c473c211c3eb0dc7db16 = $(`<div id="html_14fe157f8939c473c211c3eb0dc7db16" style="width: 100.0%; height: 100.0%;">Korang Bus Stop</div>`)[0];
+                popup_9b70e8b2f0962fb5a9c8e1bd1544c5db.setContent(html_14fe157f8939c473c211c3eb0dc7db16);
+            
+        
+
+        marker_16ed623be1aab67a61e7754e40b4dfb1.bindPopup(popup_9b70e8b2f0962fb5a9c8e1bd1544c5db)
+        ;
+
+        
+    
+    
+            var marker_5817edc1a18f94b8047b2c50a0d165c7 = L.marker(
+                [33.5939217, 73.14007939999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_779e208eba91d656044ac511c78ee591 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28d63658cf7f6d771c4188539585a5d6 = $(`<div id="html_28d63658cf7f6d771c4188539585a5d6" style="width: 100.0%; height: 100.0%;">Airport Society E Bus Stop</div>`)[0];
+                popup_779e208eba91d656044ac511c78ee591.setContent(html_28d63658cf7f6d771c4188539585a5d6);
+            
+        
+
+        marker_5817edc1a18f94b8047b2c50a0d165c7.bindPopup(popup_779e208eba91d656044ac511c78ee591)
+        ;
+
+        
+    
+    
+            var marker_82fc64ef3c391dfd8034897f25a96ca5 = L.marker(
+                [33.6052076, 73.1317138],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_80dc34b2f68c975224e0b162cd170601 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1dfdb76884a606342ba2fe742b779b6d = $(`<div id="html_1dfdb76884a606342ba2fe742b779b6d" style="width: 100.0%; height: 100.0%;">Koraal Chowk</div>`)[0];
+                popup_80dc34b2f68c975224e0b162cd170601.setContent(html_1dfdb76884a606342ba2fe742b779b6d);
+            
+        
+
+        marker_82fc64ef3c391dfd8034897f25a96ca5.bindPopup(popup_80dc34b2f68c975224e0b162cd170601)
+        ;
+
+        
+    
+    
+            var marker_14084f2a86a77ea29baeeb7c72bacf06 = L.marker(
+                [33.6053534, 73.1312978],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_9ffc898c246340b9eeb3d34ac27825ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_193bffb7d102f67610a02ed5a13cdef3 = $(`<div id="html_193bffb7d102f67610a02ed5a13cdef3" style="width: 100.0%; height: 100.0%;">Koraal Chowk Bus Stop</div>`)[0];
+                popup_9ffc898c246340b9eeb3d34ac27825ec.setContent(html_193bffb7d102f67610a02ed5a13cdef3);
+            
+        
+
+        marker_14084f2a86a77ea29baeeb7c72bacf06.bindPopup(popup_9ffc898c246340b9eeb3d34ac27825ec)
+        ;
+
+        
+    
+    
+            var marker_b13460c4b3a47aa609daa672707c3483 = L.marker(
+                [33.5984827, 73.1380674],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_eb525f9306791416f83fc9daef9e5da2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43bc09c8f8bbf0e468eab3eaedb759c4 = $(`<div id="html_43bc09c8f8bbf0e468eab3eaedb759c4" style="width: 100.0%; height: 100.0%;">Gulberg Station - Blue Line Metro</div>`)[0];
+                popup_eb525f9306791416f83fc9daef9e5da2.setContent(html_43bc09c8f8bbf0e468eab3eaedb759c4);
+            
+        
+
+        marker_b13460c4b3a47aa609daa672707c3483.bindPopup(popup_eb525f9306791416f83fc9daef9e5da2)
+        ;
+
+        
+    
+    
+            var marker_649bb73ccdf4f22a85ecda89e3c2e38a = L.marker(
+                [33.5937966, 73.139787],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_5340d81b2d9faf40b8226007dff9a633 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7f3bfb39a47161f2247593b05c98ddb = $(`<div id="html_e7f3bfb39a47161f2247593b05c98ddb" style="width: 100.0%; height: 100.0%;">Airport Society Bus Stop</div>`)[0];
+                popup_5340d81b2d9faf40b8226007dff9a633.setContent(html_e7f3bfb39a47161f2247593b05c98ddb);
+            
+        
+
+        marker_649bb73ccdf4f22a85ecda89e3c2e38a.bindPopup(popup_5340d81b2d9faf40b8226007dff9a633)
+        ;
+
+        
+    
+    
+            var marker_325991c43bf6fcc7f4ca61e2158d28b2 = L.marker(
+                [33.577432, 73.151962],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_15247036c1abb1789f53926a460537b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3b86f8abc4700fe60b9dd8005a24463 = $(`<div id="html_b3b86f8abc4700fe60b9dd8005a24463" style="width: 100.0%; height: 100.0%;">Pakistan Town Bus Stop</div>`)[0];
+                popup_15247036c1abb1789f53926a460537b9.setContent(html_b3b86f8abc4700fe60b9dd8005a24463);
+            
+        
+
+        marker_325991c43bf6fcc7f4ca61e2158d28b2.bindPopup(popup_15247036c1abb1789f53926a460537b9)
+        ;
+
+        
+    
+    
+            var marker_e1d4a420c99596eb82f94564e9bce3a5 = L.marker(
+                [33.6047133, 73.1307266],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_c7c27fe82e25e995f54a64c3b585a8bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_564cf10e16d520a71da0204c20a40baa = $(`<div id="html_564cf10e16d520a71da0204c20a40baa" style="width: 100.0%; height: 100.0%;">Koral Chowk</div>`)[0];
+                popup_c7c27fe82e25e995f54a64c3b585a8bf.setContent(html_564cf10e16d520a71da0204c20a40baa);
+            
+        
+
+        marker_e1d4a420c99596eb82f94564e9bce3a5.bindPopup(popup_c7c27fe82e25e995f54a64c3b585a8bf)
+        ;
+
+        
+    
+    
+            var marker_02e2a78a8011557965b284d23a1da92b = L.marker(
+                [33.6151164, 72.9915776],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_4f9a65bb88772db89921c4f1dc914f93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1de74683b068f4526f0b3fff9aebd8ad = $(`<div id="html_1de74683b068f4526f0b3fff9aebd8ad" style="width: 100.0%; height: 100.0%;">New Coach Service Adda</div>`)[0];
+                popup_4f9a65bb88772db89921c4f1dc914f93.setContent(html_1de74683b068f4526f0b3fff9aebd8ad);
+            
+        
+
+        marker_02e2a78a8011557965b284d23a1da92b.bindPopup(popup_4f9a65bb88772db89921c4f1dc914f93)
+        ;
+
+        
+    
+    
+            var marker_c421a03ec8440d4492ed02b469ffc866 = L.marker(
+                [33.6150529, 72.99229129999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_0e6f4353274104da77d05e4348da1103 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_738ba3c0645cfe80d227b7645339d4d9 = $(`<div id="html_738ba3c0645cfe80d227b7645339d4d9" style="width: 100.0%; height: 100.0%;">Faisal Movers Bus Terminal</div>`)[0];
+                popup_0e6f4353274104da77d05e4348da1103.setContent(html_738ba3c0645cfe80d227b7645339d4d9);
+            
+        
+
+        marker_c421a03ec8440d4492ed02b469ffc866.bindPopup(popup_0e6f4353274104da77d05e4348da1103)
+        ;
+
+        
+    
+    
+            var marker_aaf4bbaf10e1469391aab07f8cf94735 = L.marker(
+                [33.6047802, 73.1302858],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_826fcaa6d6bed11a6af8982af9c1ccf2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e34dcc51916cbd1be90fdb700622375 = $(`<div id="html_1e34dcc51916cbd1be90fdb700622375" style="width: 100.0%; height: 100.0%;">Koral Chowk</div>`)[0];
+                popup_826fcaa6d6bed11a6af8982af9c1ccf2.setContent(html_1e34dcc51916cbd1be90fdb700622375);
+            
+        
+
+        marker_aaf4bbaf10e1469391aab07f8cf94735.bindPopup(popup_826fcaa6d6bed11a6af8982af9c1ccf2)
+        ;
+
+        
+    
+    
+            var marker_ae7a8958abcfc80feeab3045bd96a9c9 = L.marker(
+                [33.6187901, 73.14281919999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_41d555cdb68f72d9180f9defef5ee199 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c138837f44d8aa0929cdb52a8ad356c1 = $(`<div id="html_c138837f44d8aa0929cdb52a8ad356c1" style="width: 100.0%; height: 100.0%;">Tawasul Transport | Online Toyota Hiace Booking | Azad Kashmir to Rawalpindi & Islamabad | Coaster</div>`)[0];
+                popup_41d555cdb68f72d9180f9defef5ee199.setContent(html_c138837f44d8aa0929cdb52a8ad356c1);
+            
+        
+
+        marker_ae7a8958abcfc80feeab3045bd96a9c9.bindPopup(popup_41d555cdb68f72d9180f9defef5ee199)
+        ;
+
+        
+    
+    
+            var marker_1d21df0b7fb2dcddc0078d523e905112 = L.marker(
+                [33.6050618, 73.1321299],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_9922a337234738b90d20f7e873557235 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27ce2966e708b3be52bba3a9cd3df5d4 = $(`<div id="html_27ce2966e708b3be52bba3a9cd3df5d4" style="width: 100.0%; height: 100.0%;">Koraal Chowk</div>`)[0];
+                popup_9922a337234738b90d20f7e873557235.setContent(html_27ce2966e708b3be52bba3a9cd3df5d4);
+            
+        
+
+        marker_1d21df0b7fb2dcddc0078d523e905112.bindPopup(popup_9922a337234738b90d20f7e873557235)
+        ;
+
+        
+    
+    
+            var marker_90c41cdf47d2d1365f8bb875763cd591 = L.marker(
+                [33.6370091, 72.8961968],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_5f8822a19a16e1094845f4739b50a04f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47200347e958ce9af2d9c3a768a31325 = $(`<div id="html_47200347e958ce9af2d9c3a768a31325" style="width: 100.0%; height: 100.0%;">Quality Chowk Bus Stop</div>`)[0];
+                popup_5f8822a19a16e1094845f4739b50a04f.setContent(html_47200347e958ce9af2d9c3a768a31325);
+            
+        
+
+        marker_90c41cdf47d2d1365f8bb875763cd591.bindPopup(popup_5f8822a19a16e1094845f4739b50a04f)
+        ;
+
+        
+    
+    
+            var marker_99382a1a554374aee3dde43eeab2a1f0 = L.marker(
+                [33.6326651, 72.9232067],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_03e30d9860326012c35d9649e76f81c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5639634e87f4fa8de39467f086631753 = $(`<div id="html_5639634e87f4fa8de39467f086631753" style="width: 100.0%; height: 100.0%;">Public Parking Lot</div>`)[0];
+                popup_03e30d9860326012c35d9649e76f81c9.setContent(html_5639634e87f4fa8de39467f086631753);
+            
+        
+
+        marker_99382a1a554374aee3dde43eeab2a1f0.bindPopup(popup_03e30d9860326012c35d9649e76f81c9)
+        ;
+
+        
+    
+    
+            var marker_8b33b651b214ec4846ec269170eb8a5f = L.marker(
+                [33.6334295, 72.9353869],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_2e536b095cc866964145e15e7e04fd8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28ac9808361cf5422d416f22c03dda5b = $(`<div id="html_28ac9808361cf5422d416f22c03dda5b" style="width: 100.0%; height: 100.0%;">Motorway Bus Stop</div>`)[0];
+                popup_2e536b095cc866964145e15e7e04fd8e.setContent(html_28ac9808361cf5422d416f22c03dda5b);
+            
+        
+
+        marker_8b33b651b214ec4846ec269170eb8a5f.bindPopup(popup_2e536b095cc866964145e15e7e04fd8e)
+        ;
+
+        
+    
+    
+            var marker_b82629262973a685d1f56aa57849696d = L.marker(
+                [33.6314128, 72.9408194],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_87096d262bedf55e4fe09f251df67b3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd5966eff27b051268230b42a20c8c49 = $(`<div id="html_cd5966eff27b051268230b42a20c8c49" style="width: 100.0%; height: 100.0%;">Islamabad Bus Terminal</div>`)[0];
+                popup_87096d262bedf55e4fe09f251df67b3a.setContent(html_cd5966eff27b051268230b42a20c8c49);
+            
+        
+
+        marker_b82629262973a685d1f56aa57849696d.bindPopup(popup_87096d262bedf55e4fe09f251df67b3a)
+        ;
+
+        
+    
+    
+            var marker_6a4e0075dfc8b8c684c6890278bc4a46 = L.marker(
+                [33.6273035, 72.94526479999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_367bd4f753f48dba5e543f34959aa098 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea97962d7e40bea343eda5d28e1f2521 = $(`<div id="html_ea97962d7e40bea343eda5d28e1f2521" style="width: 100.0%; height: 100.0%;">Pindi Coaches 26 no.</div>`)[0];
+                popup_367bd4f753f48dba5e543f34959aa098.setContent(html_ea97962d7e40bea343eda5d28e1f2521);
+            
+        
+
+        marker_6a4e0075dfc8b8c684c6890278bc4a46.bindPopup(popup_367bd4f753f48dba5e543f34959aa098)
+        ;
+
+        
+    
+    
+            var marker_f44b2ac727deac328a97165ac1d35ab6 = L.marker(
+                [33.6319379, 72.9448122],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_dd4e08d2228161ed132855988c9f5d04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be36d7ada902d55f6f44f28c4c2805e4 = $(`<div id="html_be36d7ada902d55f6f44f28c4c2805e4" style="width: 100.0%; height: 100.0%;">Metro bus stop</div>`)[0];
+                popup_dd4e08d2228161ed132855988c9f5d04.setContent(html_be36d7ada902d55f6f44f28c4c2805e4);
+            
+        
+
+        marker_f44b2ac727deac328a97165ac1d35ab6.bindPopup(popup_dd4e08d2228161ed132855988c9f5d04)
+        ;
+
+        
+    
+    
+            var marker_ccabe5d12af61942b451c5a858a289a0 = L.marker(
+                [33.6300594, 72.9361691],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_6084000c632a5259e208112bd627a3bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_118ff25d41a792dcafb8a08ddf5aa3bf = $(`<div id="html_118ff25d41a792dcafb8a08ddf5aa3bf" style="width: 100.0%; height: 100.0%;">Rawalpindi Point Srinagar Highway</div>`)[0];
+                popup_6084000c632a5259e208112bd627a3bb.setContent(html_118ff25d41a792dcafb8a08ddf5aa3bf);
+            
+        
+
+        marker_ccabe5d12af61942b451c5a858a289a0.bindPopup(popup_6084000c632a5259e208112bd627a3bb)
+        ;
+
+        
+    
+    
+            var marker_8bb909e8b8316d3e6dd2c36bccc449f5 = L.marker(
+                [33.628087, 72.9439337],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_7ac94999ac77232f3a31941e4cce3375 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d3926487fa4dfd1ba39fe0716a14ce16 = $(`<div id="html_d3926487fa4dfd1ba39fe0716a14ce16" style="width: 100.0%; height: 100.0%;">Potohar Express 26 No. Terminal</div>`)[0];
+                popup_7ac94999ac77232f3a31941e4cce3375.setContent(html_d3926487fa4dfd1ba39fe0716a14ce16);
+            
+        
+
+        marker_8bb909e8b8316d3e6dd2c36bccc449f5.bindPopup(popup_7ac94999ac77232f3a31941e4cce3375)
+        ;
+
+        
+    
+    
+            var marker_1ea77d614c1bc89333ccb2e8d4a75e8c = L.marker(
+                [33.6276282, 72.93473050000001],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_211ba2556ec76e4033fd1841aeae472d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_199f50643e8c365eff7880562032a4e8 = $(`<div id="html_199f50643e8c365eff7880562032a4e8" style="width: 100.0%; height: 100.0%;">Chongi No 26 Bus Stop</div>`)[0];
+                popup_211ba2556ec76e4033fd1841aeae472d.setContent(html_199f50643e8c365eff7880562032a4e8);
+            
+        
+
+        marker_1ea77d614c1bc89333ccb2e8d4a75e8c.bindPopup(popup_211ba2556ec76e4033fd1841aeae472d)
+        ;
+
+        
+    
+    
+            var marker_3f9ee00167f4f924337a5dd816181086 = L.marker(
+                [33.6313664, 72.9403262],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_34c5a1a96be1be39890aec6601082dc2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef119b9d864c3709ed6dc115ff74fa60 = $(`<div id="html_ef119b9d864c3709ed6dc115ff74fa60" style="width: 100.0%; height: 100.0%;">Islamabad Bus terminal</div>`)[0];
+                popup_34c5a1a96be1be39890aec6601082dc2.setContent(html_ef119b9d864c3709ed6dc115ff74fa60);
+            
+        
+
+        marker_3f9ee00167f4f924337a5dd816181086.bindPopup(popup_34c5a1a96be1be39890aec6601082dc2)
+        ;
+
+        
+    
+    
+            var marker_db66f43d81f1750910bb82dc9f1a27e5 = L.marker(
+                [33.6272918, 72.94531309999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_d848e7c5b39ab0f107f509e623abe33b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b70bdd43109bbb8f1897781a5fd6a98 = $(`<div id="html_0b70bdd43109bbb8f1897781a5fd6a98" style="width: 100.0%; height: 100.0%;">Kohistan Express Motor Way Stop (26 Number)</div>`)[0];
+                popup_d848e7c5b39ab0f107f509e623abe33b.setContent(html_0b70bdd43109bbb8f1897781a5fd6a98);
+            
+        
+
+        marker_db66f43d81f1750910bb82dc9f1a27e5.bindPopup(popup_d848e7c5b39ab0f107f509e623abe33b)
+        ;
+
+        
+    
+    
+            var marker_1d6e977f1da9215bb2cb14d0f3b0309e = L.marker(
+                [33.6278629, 72.944079],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_e09621100922c570010a23f76eec6f0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06938c8eb0886a6f1a153212cbc5d3d8 = $(`<div id="html_06938c8eb0886a6f1a153212cbc5d3d8" style="width: 100.0%; height: 100.0%;">Faisal Movers</div>`)[0];
+                popup_e09621100922c570010a23f76eec6f0e.setContent(html_06938c8eb0886a6f1a153212cbc5d3d8);
+            
+        
+
+        marker_1d6e977f1da9215bb2cb14d0f3b0309e.bindPopup(popup_e09621100922c570010a23f76eec6f0e)
+        ;
+
+        
+    
+    
+            var marker_e0b10ddbbca6f6cd0f91832f689b6f58 = L.marker(
+                [33.6278523, 72.9443016],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_4304a2c343ee3b04fc5090da28b61087 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c0c23c90ea72ad2ee4aef718044054e = $(`<div id="html_7c0c23c90ea72ad2ee4aef718044054e" style="width: 100.0%; height: 100.0%;">26 Number Bus Stop</div>`)[0];
+                popup_4304a2c343ee3b04fc5090da28b61087.setContent(html_7c0c23c90ea72ad2ee4aef718044054e);
+            
+        
+
+        marker_e0b10ddbbca6f6cd0f91832f689b6f58.bindPopup(popup_4304a2c343ee3b04fc5090da28b61087)
+        ;
+
+        
+    
+    
+            var marker_01e188ebeddefc0ddce32b2693aff05d = L.marker(
+                [33.632133, 72.9444555],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_e96ab7f8b3527fbc4d2783debf2c6238 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_660e80d6ddbdcf04d2d9045840de4c38 = $(`<div id="html_660e80d6ddbdcf04d2d9045840de4c38" style="width: 100.0%; height: 100.0%;">26No Chungi MetroBus station</div>`)[0];
+                popup_e96ab7f8b3527fbc4d2783debf2c6238.setContent(html_660e80d6ddbdcf04d2d9045840de4c38);
+            
+        
+
+        marker_01e188ebeddefc0ddce32b2693aff05d.bindPopup(popup_e96ab7f8b3527fbc4d2783debf2c6238)
+        ;
+
+        
+    
+    
+            var marker_0df93492816cb321b0674865cd754687 = L.marker(
+                [33.6319666, 72.9410481],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_76a6520507619a52b9fbfba34a98bdc2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51db315b09560ef838e0d83d559591c2 = $(`<div id="html_51db315b09560ef838e0d83d559591c2" style="width: 100.0%; height: 100.0%;">Q Connect Bus Terminal</div>`)[0];
+                popup_76a6520507619a52b9fbfba34a98bdc2.setContent(html_51db315b09560ef838e0d83d559591c2);
+            
+        
+
+        marker_0df93492816cb321b0674865cd754687.bindPopup(popup_76a6520507619a52b9fbfba34a98bdc2)
+        ;
+
+        
+    
+    
+            var marker_b5e8ab6d2f245212ea8456f61f847fc1 = L.marker(
+                [33.6316299, 72.94050659999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_e8c28f0bda98c4d9d39064ad2fdf00f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14b59c8e53983a415711adc978be7e7a = $(`<div id="html_14b59c8e53983a415711adc978be7e7a" style="width: 100.0%; height: 100.0%;">Skyways Bus Terminal 26 Number</div>`)[0];
+                popup_e8c28f0bda98c4d9d39064ad2fdf00f0.setContent(html_14b59c8e53983a415711adc978be7e7a);
+            
+        
+
+        marker_b5e8ab6d2f245212ea8456f61f847fc1.bindPopup(popup_e8c28f0bda98c4d9d39064ad2fdf00f0)
+        ;
+
+        
+    
+    
+            var marker_2e635ba86efcc2c7d051938fa5a1f251 = L.marker(
+                [33.6306673, 72.94014609999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_230db9dd0f4ea8be5494a183fef0a62f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_543e41bf18a4149c388b1647b6ac5249 = $(`<div id="html_543e41bf18a4149c388b1647b6ac5249" style="width: 100.0%; height: 100.0%;">Motorway Mor Bus Stop</div>`)[0];
+                popup_230db9dd0f4ea8be5494a183fef0a62f.setContent(html_543e41bf18a4149c388b1647b6ac5249);
+            
+        
+
+        marker_2e635ba86efcc2c7d051938fa5a1f251.bindPopup(popup_230db9dd0f4ea8be5494a183fef0a62f)
+        ;
+
+        
+    
+    
+            var marker_b9015bc5923b1832995d5552f9bc890c = L.marker(
+                [33.6276948, 72.9439697],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_bdcc9f0026eb5444c1fd9678c2d82539 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d44084257eebef6e9aa14da59feaa4d = $(`<div id="html_5d44084257eebef6e9aa14da59feaa4d" style="width: 100.0%; height: 100.0%;">Sania express</div>`)[0];
+                popup_bdcc9f0026eb5444c1fd9678c2d82539.setContent(html_5d44084257eebef6e9aa14da59feaa4d);
+            
+        
+
+        marker_b9015bc5923b1832995d5552f9bc890c.bindPopup(popup_bdcc9f0026eb5444c1fd9678c2d82539)
+        ;
+
+        
+    
+    
+            var marker_e396b2141ea2ca34d9ecd65ab00d6b89 = L.marker(
+                [33.6406328, 72.9616787],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_baaa9fc2460c7c063518ae8109a68926 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_37489255ba40c876d8f1ae8d2ca2a6a3 = $(`<div id="html_37489255ba40c876d8f1ae8d2ca2a6a3" style="width: 100.0%; height: 100.0%;">Golra Metrobus Station</div>`)[0];
+                popup_baaa9fc2460c7c063518ae8109a68926.setContent(html_37489255ba40c876d8f1ae8d2ca2a6a3);
+            
+        
+
+        marker_e396b2141ea2ca34d9ecd65ab00d6b89.bindPopup(popup_baaa9fc2460c7c063518ae8109a68926)
+        ;
+
+        
+    
+    
+            var marker_55352881a7199ebe01af37edf7512529 = L.marker(
+                [33.6240036, 72.9515171],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_fef1beb89d34cd3d6d5f36ee55dfdef3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9731c9e0043a6c902e8aa15152b9585f = $(`<div id="html_9731c9e0043a6c902e8aa15152b9585f" style="width: 100.0%; height: 100.0%;">Hotel Stop North</div>`)[0];
+                popup_fef1beb89d34cd3d6d5f36ee55dfdef3.setContent(html_9731c9e0043a6c902e8aa15152b9585f);
+            
+        
+
+        marker_55352881a7199ebe01af37edf7512529.bindPopup(popup_fef1beb89d34cd3d6d5f36ee55dfdef3)
+        ;
+
+        
+    
+    
+            var marker_56120b1fbda55a61ad0a5db7fe74b16b = L.marker(
+                [33.6247909, 72.9715133],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_7277855065e29b5f8bfdcc0e86f65701 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e2e70d86e4db8e5ead16666ed13d691 = $(`<div id="html_1e2e70d86e4db8e5ead16666ed13d691" style="width: 100.0%; height: 100.0%;">Golra Mor Bus Stop</div>`)[0];
+                popup_7277855065e29b5f8bfdcc0e86f65701.setContent(html_1e2e70d86e4db8e5ead16666ed13d691);
+            
+        
+
+        marker_56120b1fbda55a61ad0a5db7fe74b16b.bindPopup(popup_7277855065e29b5f8bfdcc0e86f65701)
+        ;
+
+        
+    
+    
+            var marker_e9d90f77b8b07204956a2e410a229779 = L.marker(
+                [33.6155309, 72.9927434],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_718dc9e40eddb5dc3f510624c4d6ba2e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50378b9a98a8f83c8ed7ae172f8a13d7 = $(`<div id="html_50378b9a98a8f83c8ed7ae172f8a13d7" style="width: 100.0%; height: 100.0%;">Ghosia Travels</div>`)[0];
+                popup_718dc9e40eddb5dc3f510624c4d6ba2e.setContent(html_50378b9a98a8f83c8ed7ae172f8a13d7);
+            
+        
+
+        marker_e9d90f77b8b07204956a2e410a229779.bindPopup(popup_718dc9e40eddb5dc3f510624c4d6ba2e)
+        ;
+
+        
+    
+    
+            var marker_c4d9779cd271d9c67c17e3ce1ec6db62 = L.marker(
+                [33.6379506, 73.0251534],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_717b61c2c99ccd3f9a84f8e87a2e8ae7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b53e92c36238a83052073b1b34242e8 = $(`<div id="html_4b53e92c36238a83052073b1b34242e8" style="width: 100.0%; height: 100.0%;">Northern Area Transport Corporation Bus Terminal</div>`)[0];
+                popup_717b61c2c99ccd3f9a84f8e87a2e8ae7.setContent(html_4b53e92c36238a83052073b1b34242e8);
+            
+        
+
+        marker_c4d9779cd271d9c67c17e3ce1ec6db62.bindPopup(popup_717b61c2c99ccd3f9a84f8e87a2e8ae7)
+        ;
+
+        
+    
+    
+            var marker_38ac718f89e43d71504d892858ddc0ea = L.marker(
+                [33.6359189, 73.0322017],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_d42bf4c0d4e76e729679a8ff86eab4cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_523b54d5833364b70e61cd9fd66b10f3 = $(`<div id="html_523b54d5833364b70e61cd9fd66b10f3" style="width: 100.0%; height: 100.0%;">Haripur Adda- Bus Stand</div>`)[0];
+                popup_d42bf4c0d4e76e729679a8ff86eab4cb.setContent(html_523b54d5833364b70e61cd9fd66b10f3);
+            
+        
+
+        marker_38ac718f89e43d71504d892858ddc0ea.bindPopup(popup_d42bf4c0d4e76e729679a8ff86eab4cb)
+        ;
+
+        
+    
+    
+            var marker_0c8aa9e6d2698567441ebcb2de3c6a7c = L.marker(
+                [33.63454, 73.03039609999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_82b022a8c525408f6e43e7a36ff79997 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58b29bb3ebfcb61a81ada544af148ffd = $(`<div id="html_58b29bb3ebfcb61a81ada544af148ffd" style="width: 100.0%; height: 100.0%;">I.J.P. Road</div>`)[0];
+                popup_82b022a8c525408f6e43e7a36ff79997.setContent(html_58b29bb3ebfcb61a81ada544af148ffd);
+            
+        
+
+        marker_0c8aa9e6d2698567441ebcb2de3c6a7c.bindPopup(popup_82b022a8c525408f6e43e7a36ff79997)
+        ;
+
+        
+    
+    
+            var marker_2c5c93e3056a7a99b52aca791cfcf829 = L.marker(
+                [33.6415891, 73.04331599999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_3c5efcadba186855339bfd2d50ab9efb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3667dd4222bde9baa45d12347ff512e8 = $(`<div id="html_3667dd4222bde9baa45d12347ff512e8" style="width: 100.0%; height: 100.0%;">CDA Bus Stop</div>`)[0];
+                popup_3c5efcadba186855339bfd2d50ab9efb.setContent(html_3667dd4222bde9baa45d12347ff512e8);
+            
+        
+
+        marker_2c5c93e3056a7a99b52aca791cfcf829.bindPopup(popup_3c5efcadba186855339bfd2d50ab9efb)
+        ;
+
+        
+    
+    
+            var marker_8489b4db06310a819d1d5e2bb69245e1 = L.marker(
+                [33.6267912, 73.11585199999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_40749df4348efc864b0560d747796b0d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf967a226ed0db3d934c83f232ba76bd = $(`<div id="html_cf967a226ed0db3d934c83f232ba76bd" style="width: 100.0%; height: 100.0%;">Khanna Bus Stop East</div>`)[0];
+                popup_40749df4348efc864b0560d747796b0d.setContent(html_cf967a226ed0db3d934c83f232ba76bd);
+            
+        
+
+        marker_8489b4db06310a819d1d5e2bb69245e1.bindPopup(popup_40749df4348efc864b0560d747796b0d)
+        ;
+
+        
+    
+    
+            var marker_fcd7f25274dae5542ddb173d4341c0c6 = L.marker(
+                [33.6268364, 73.11591229999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_c854756b00f4a77b5820477c7778885e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_431231b26f620aa936f3c314816dab8c = $(`<div id="html_431231b26f620aa936f3c314816dab8c" style="width: 100.0%; height: 100.0%;">کھنہ بس سٹاپ</div>`)[0];
+                popup_c854756b00f4a77b5820477c7778885e.setContent(html_431231b26f620aa936f3c314816dab8c);
+            
+        
+
+        marker_fcd7f25274dae5542ddb173d4341c0c6.bindPopup(popup_c854756b00f4a77b5820477c7778885e)
+        ;
+
+        
+    
+    
+            var marker_d00071ac84df31a5f9147c6fa1578393 = L.marker(
+                [33.6292588, 73.1155425],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_dfbffd1a711644f2704206254ec3067b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b72b1f82454990b59b0ed0cc7f93439a = $(`<div id="html_b72b1f82454990b59b0ed0cc7f93439a" style="width: 100.0%; height: 100.0%;">Khanna Bridge</div>`)[0];
+                popup_dfbffd1a711644f2704206254ec3067b.setContent(html_b72b1f82454990b59b0ed0cc7f93439a);
+            
+        
+
+        marker_d00071ac84df31a5f9147c6fa1578393.bindPopup(popup_dfbffd1a711644f2704206254ec3067b)
+        ;
+
+        
+    
+    
+            var marker_5ff9e362002d09a8606b5e603c43b12d = L.marker(
+                [33.6336092, 73.13268719999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_4a12135d56c8c6965e38c73578c2979a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_067e040e31a995b813f9bdbc99f5a52d = $(`<div id="html_067e040e31a995b813f9bdbc99f5a52d" style="width: 100.0%; height: 100.0%;">Burmma Bus Stop</div>`)[0];
+                popup_4a12135d56c8c6965e38c73578c2979a.setContent(html_067e040e31a995b813f9bdbc99f5a52d);
+            
+        
+
+        marker_5ff9e362002d09a8606b5e603c43b12d.bindPopup(popup_4a12135d56c8c6965e38c73578c2979a)
+        ;
+
+        
+    
+    
+            var marker_6b41de7d97015b40eec050e1ccaa06ba = L.marker(
+                [33.6327237, 73.12688829999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_bb52cff1b5c784dfb939ccac6dda44bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ba9129cf08c0f8ff134de25a9675d98 = $(`<div id="html_4ba9129cf08c0f8ff134de25a9675d98" style="width: 100.0%; height: 100.0%;">Sanam Chowk Bus Stop</div>`)[0];
+                popup_bb52cff1b5c784dfb939ccac6dda44bd.setContent(html_4ba9129cf08c0f8ff134de25a9675d98);
+            
+        
+
+        marker_6b41de7d97015b40eec050e1ccaa06ba.bindPopup(popup_bb52cff1b5c784dfb939ccac6dda44bd)
+        ;
+
+        
+    
+    
+            var marker_b762fee747970569515c198f5a774425 = L.marker(
+                [33.6336795, 73.2729292],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_c89f08f50b297383d0af1324bfebe064 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d94770b92292cd7b8153f3669c24346 = $(`<div id="html_8d94770b92292cd7b8153f3669c24346" style="width: 100.0%; height: 100.0%;">Chirah Bus Stop</div>`)[0];
+                popup_c89f08f50b297383d0af1324bfebe064.setContent(html_8d94770b92292cd7b8153f3669c24346);
+            
+        
+
+        marker_b762fee747970569515c198f5a774425.bindPopup(popup_c89f08f50b297383d0af1324bfebe064)
+        ;
+
+        
+    
+    
+            var marker_6c80f0b32b989c48c04f91d274f4c7a1 = L.marker(
+                [33.650611, 72.9105384],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_43dff67b0457376d0d9d2166a31e61bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb4071fec64eb8183347ab5bb3790a08 = $(`<div id="html_cb4071fec64eb8183347ab5bb3790a08" style="width: 100.0%; height: 100.0%;">tarnol stop</div>`)[0];
+                popup_43dff67b0457376d0d9d2166a31e61bd.setContent(html_cb4071fec64eb8183347ab5bb3790a08);
+            
+        
+
+        marker_6c80f0b32b989c48c04f91d274f4c7a1.bindPopup(popup_43dff67b0457376d0d9d2166a31e61bd)
+        ;
+
+        
+    
+    
+            var marker_a3075f6637c1baa136631a30fb68190e = L.marker(
+                [33.6520494, 72.9086579],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_fdab46baa652853d1ab59ed42d5ff780 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10095c1a55eb9910d09a786476def66f = $(`<div id="html_10095c1a55eb9910d09a786476def66f" style="width: 100.0%; height: 100.0%;">Indrive</div>`)[0];
+                popup_fdab46baa652853d1ab59ed42d5ff780.setContent(html_10095c1a55eb9910d09a786476def66f);
+            
+        
+
+        marker_a3075f6637c1baa136631a30fb68190e.bindPopup(popup_fdab46baa652853d1ab59ed42d5ff780)
+        ;
+
+        
+    
+    
+            var marker_4ab28b9aa91e1cf8152568db3c639776 = L.marker(
+                [33.6497688, 72.91078809999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_3d9fea9cdf4d90b5ee81b7e3cc6afcda = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1dc5faf7abb0d27dbec77970f3c8f27 = $(`<div id="html_b1dc5faf7abb0d27dbec77970f3c8f27" style="width: 100.0%; height: 100.0%;">Tarnol Railway Interchange</div>`)[0];
+                popup_3d9fea9cdf4d90b5ee81b7e3cc6afcda.setContent(html_b1dc5faf7abb0d27dbec77970f3c8f27);
+            
+        
+
+        marker_4ab28b9aa91e1cf8152568db3c639776.bindPopup(popup_3d9fea9cdf4d90b5ee81b7e3cc6afcda)
+        ;
+
+        
+    
+    
+            var marker_551ec99b300eaf65691d8d7182a21e7b = L.marker(
+                [33.6457826, 72.9552913],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_80c18bf7b44e073fb0233267a9d71289 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7479dbae58f88e369c0f6ef41f68de04 = $(`<div id="html_7479dbae58f88e369c0f6ef41f68de04" style="width: 100.0%; height: 100.0%;">Usman Chowk Bus Stop</div>`)[0];
+                popup_80c18bf7b44e073fb0233267a9d71289.setContent(html_7479dbae58f88e369c0f6ef41f68de04);
+            
+        
+
+        marker_551ec99b300eaf65691d8d7182a21e7b.bindPopup(popup_80c18bf7b44e073fb0233267a9d71289)
+        ;
+
+        
+    
+    
+            var marker_c93e9359155da1f4feb3df620833f80a = L.marker(
+                [33.631923, 72.9449178],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_1d24d65f4c984a10347e28529ebc3376 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d9f4ce01696a1223db1d00154be6d17 = $(`<div id="html_7d9f4ce01696a1223db1d00154be6d17" style="width: 100.0%; height: 100.0%;">N-5 Metro Station</div>`)[0];
+                popup_1d24d65f4c984a10347e28529ebc3376.setContent(html_7d9f4ce01696a1223db1d00154be6d17);
+            
+        
+
+        marker_c93e9359155da1f4feb3df620833f80a.bindPopup(popup_1d24d65f4c984a10347e28529ebc3376)
+        ;
+
+        
+    
+    
+            var marker_8813a71b526440b04dab41d68246a7d5 = L.marker(
+                [33.6551169, 73.0106993],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_5478c82af35729403f90cd172b600f01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da1a0e755cb2b71e5092017cedac70f4 = $(`<div id="html_da1a0e755cb2b71e5092017cedac70f4" style="width: 100.0%; height: 100.0%;">Police line Bus stop</div>`)[0];
+                popup_5478c82af35729403f90cd172b600f01.setContent(html_da1a0e755cb2b71e5092017cedac70f4);
+            
+        
+
+        marker_8813a71b526440b04dab41d68246a7d5.bindPopup(popup_5478c82af35729403f90cd172b600f01)
+        ;
+
+        
+    
+    
+            var marker_c85e3cfab7145bae164313bbcda5ccca = L.marker(
+                [33.6556935, 73.0247132],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_b7076558a0c0a5ac3880174454faad53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_180192dc93b438ecf526a7823d4f13aa = $(`<div id="html_180192dc93b438ecf526a7823d4f13aa" style="width: 100.0%; height: 100.0%;">University Bus Stop</div>`)[0];
+                popup_b7076558a0c0a5ac3880174454faad53.setContent(html_180192dc93b438ecf526a7823d4f13aa);
+            
+        
+
+        marker_c85e3cfab7145bae164313bbcda5ccca.bindPopup(popup_b7076558a0c0a5ac3880174454faad53)
+        ;
+
+        
+    
+    
+            var marker_2f853ca919cd54565e26f7e35fbc46a0 = L.marker(
+                [33.6542218, 73.0233619],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_9e2243bedf6bf65aff0d88556be310a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df4512c79876ea11bd0b480a6c703a50 = $(`<div id="html_df4512c79876ea11bd0b480a6c703a50" style="width: 100.0%; height: 100.0%;">IIU Bus Stand</div>`)[0];
+                popup_9e2243bedf6bf65aff0d88556be310a2.setContent(html_df4512c79876ea11bd0b480a6c703a50);
+            
+        
+
+        marker_2f853ca919cd54565e26f7e35fbc46a0.bindPopup(popup_9e2243bedf6bf65aff0d88556be310a2)
+        ;
+
+        
+    
+    
+            var marker_81cf3556e440b7ec4e54dfcd21c57329 = L.marker(
+                [33.6444908, 73.0494958],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_8becda0f2f538a80b225db278a0de0fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6937333cba4ec5667cec1cb7f893bef = $(`<div id="html_d6937333cba4ec5667cec1cb7f893bef" style="width: 100.0%; height: 100.0%;">Khalid Hospital Bus Stop</div>`)[0];
+                popup_8becda0f2f538a80b225db278a0de0fd.setContent(html_d6937333cba4ec5667cec1cb7f893bef);
+            
+        
+
+        marker_81cf3556e440b7ec4e54dfcd21c57329.bindPopup(popup_8becda0f2f538a80b225db278a0de0fd)
+        ;
+
+        
+    
+    
+            var marker_5b790cd652b7ff51bdeedebd51c03511 = L.marker(
+                [33.6465819, 73.0534521],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_14ff066b2bd508d1165ea922f3b78ef7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_858554c9a97e9e56d5b8d5541baf8ad1 = $(`<div id="html_858554c9a97e9e56d5b8d5541baf8ad1" style="width: 100.0%; height: 100.0%;">Katarian Pull Bus Stop</div>`)[0];
+                popup_14ff066b2bd508d1165ea922f3b78ef7.setContent(html_858554c9a97e9e56d5b8d5541baf8ad1);
+            
+        
+
+        marker_5b790cd652b7ff51bdeedebd51c03511.bindPopup(popup_14ff066b2bd508d1165ea922f3b78ef7)
+        ;
+
+        
+    
+    
+            var marker_692a66092a42674545b295b865ce1be7 = L.marker(
+                [33.6469392, 73.0534065],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_25121eebacdd1da6f9cf83b46e554bdd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99cf4417608057b025980fcbae1f9762 = $(`<div id="html_99cf4417608057b025980fcbae1f9762" style="width: 100.0%; height: 100.0%;">Katarian Pull Bus Stop</div>`)[0];
+                popup_25121eebacdd1da6f9cf83b46e554bdd.setContent(html_99cf4417608057b025980fcbae1f9762);
+            
+        
+
+        marker_692a66092a42674545b295b865ce1be7.bindPopup(popup_25121eebacdd1da6f9cf83b46e554bdd)
+        ;
+
+        
+    
+    
+            var marker_45512b5a53e9c41114ed961f17dd0560 = L.marker(
+                [33.6567162, 73.055074],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_0c8ccace631fbb9c6df6ee2059473fc5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85345bbfed44670dea43c8f22f96c195 = $(`<div id="html_85345bbfed44670dea43c8f22f96c195" style="width: 100.0%; height: 100.0%;">I-9 Chowk Bus/Wagon Stop</div>`)[0];
+                popup_0c8ccace631fbb9c6df6ee2059473fc5.setContent(html_85345bbfed44670dea43c8f22f96c195);
+            
+        
+
+        marker_45512b5a53e9c41114ed961f17dd0560.bindPopup(popup_0c8ccace631fbb9c6df6ee2059473fc5)
+        ;
+
+        
+    
+    
+            var marker_6f43a3c953b3279820f0ef190c111b9b = L.marker(
+                [33.6462648, 73.0370128],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_329e0b78a701d20d3a0ac5491805edbd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c428de1a54833ac2a5b309c88581aebd = $(`<div id="html_c428de1a54833ac2a5b309c88581aebd" style="width: 100.0%; height: 100.0%;">I-10 Markaz Bus Stop</div>`)[0];
+                popup_329e0b78a701d20d3a0ac5491805edbd.setContent(html_c428de1a54833ac2a5b309c88581aebd);
+            
+        
+
+        marker_6f43a3c953b3279820f0ef190c111b9b.bindPopup(popup_329e0b78a701d20d3a0ac5491805edbd)
+        ;
+
+        
+    
+    
+            var marker_71dd2ee62cfbf7419076ecd9e50be76a = L.marker(
+                [33.6468031, 73.0364625],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_09b30415c7c39581902bfd40d34b167a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_693bb75ab78b6e49ebc51155fd9d72d0 = $(`<div id="html_693bb75ab78b6e49ebc51155fd9d72d0" style="width: 100.0%; height: 100.0%;">Chanbeli</div>`)[0];
+                popup_09b30415c7c39581902bfd40d34b167a.setContent(html_693bb75ab78b6e49ebc51155fd9d72d0);
+            
+        
+
+        marker_71dd2ee62cfbf7419076ecd9e50be76a.bindPopup(popup_09b30415c7c39581902bfd40d34b167a)
+        ;
+
+        
+    
+    
+            var marker_f231ba54c38f06aae25e8f87eba72256 = L.marker(
+                [33.6523694, 73.0644411],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_461a496e56b19dd60c83ba6de1871c23 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4039bae2d8bb4413a0933f64bb62ec2a = $(`<div id="html_4039bae2d8bb4413a0933f64bb62ec2a" style="width: 100.0%; height: 100.0%;">Pindora Chungi Bus Stop</div>`)[0];
+                popup_461a496e56b19dd60c83ba6de1871c23.setContent(html_4039bae2d8bb4413a0933f64bb62ec2a);
+            
+        
+
+        marker_f231ba54c38f06aae25e8f87eba72256.bindPopup(popup_461a496e56b19dd60c83ba6de1871c23)
+        ;
+
+        
+    
+    
+            var marker_ea81b9a1e1d06fd3928084f4509398be = L.marker(
+                [33.6563418, 73.07204349999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_2511e8af2ef0f03e148acea7c4d8d885 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a1262b7a700e2e4dc6ecbe041c2b86e = $(`<div id="html_9a1262b7a700e2e4dc6ecbe041c2b86e" style="width: 100.0%; height: 100.0%;">IJP Metrobus Station</div>`)[0];
+                popup_2511e8af2ef0f03e148acea7c4d8d885.setContent(html_9a1262b7a700e2e4dc6ecbe041c2b86e);
+            
+        
+
+        marker_ea81b9a1e1d06fd3928084f4509398be.bindPopup(popup_2511e8af2ef0f03e148acea7c4d8d885)
+        ;
+
+        
+    
+    
+            var marker_5538360b19ffc75c21344b3f7790c33d = L.marker(
+                [33.6579308, 73.0589667],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_4a61a3403fc442f0cdb70586069e9c51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea93768ffd9bcc8e0f59a05547f3895e = $(`<div id="html_ea93768ffd9bcc8e0f59a05547f3895e" style="width: 100.0%; height: 100.0%;">Workshop Bus Stop</div>`)[0];
+                popup_4a61a3403fc442f0cdb70586069e9c51.setContent(html_ea93768ffd9bcc8e0f59a05547f3895e);
+            
+        
+
+        marker_5538360b19ffc75c21344b3f7790c33d.bindPopup(popup_4a61a3403fc442f0cdb70586069e9c51)
+        ;
+
+        
+    
+    
+            var marker_8e9ecf314a8c0b0df9146dd0b416c07a = L.marker(
+                [33.6564775, 73.07208279999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_c8d8b64ac34233c73743e1d54cadb410 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b30b78f2df2a26607dcbbbebfbe7b3a = $(`<div id="html_0b30b78f2df2a26607dcbbbebfbe7b3a" style="width: 100.0%; height: 100.0%;">IJP Metro Bus Station</div>`)[0];
+                popup_c8d8b64ac34233c73743e1d54cadb410.setContent(html_0b30b78f2df2a26607dcbbbebfbe7b3a);
+            
+        
+
+        marker_8e9ecf314a8c0b0df9146dd0b416c07a.bindPopup(popup_c8d8b64ac34233c73743e1d54cadb410)
+        ;
+
+        
+    
+    
+            var marker_bfdb9306974d3f6e4e0c249a931aeff5 = L.marker(
+                [33.6561724, 73.0717126],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_6983fd2b5f797e5ed8dbd9c1176fe4dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6895cb8250dcd1c50552c5efc640e0d6 = $(`<div id="html_6895cb8250dcd1c50552c5efc640e0d6" style="width: 100.0%; height: 100.0%;">IJP Metro Bus Station</div>`)[0];
+                popup_6983fd2b5f797e5ed8dbd9c1176fe4dd.setContent(html_6895cb8250dcd1c50552c5efc640e0d6);
+            
+        
+
+        marker_bfdb9306974d3f6e4e0c249a931aeff5.bindPopup(popup_6983fd2b5f797e5ed8dbd9c1176fe4dd)
+        ;
+
+        
+    
+    
+            var marker_c12ae545b3bbc8ccae04129c17d63638 = L.marker(
+                [33.6501307, 73.0983804],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_4e7c893b3ae4ee03e734dac540c5adf4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0fcdcdf8e70cae6cf2ab1f2777fc1a08 = $(`<div id="html_0fcdcdf8e70cae6cf2ab1f2777fc1a08" style="width: 100.0%; height: 100.0%;">Sohan Bus Stop East</div>`)[0];
+                popup_4e7c893b3ae4ee03e734dac540c5adf4.setContent(html_0fcdcdf8e70cae6cf2ab1f2777fc1a08);
+            
+        
+
+        marker_c12ae545b3bbc8ccae04129c17d63638.bindPopup(popup_4e7c893b3ae4ee03e734dac540c5adf4)
+        ;
+
+        
+    
+    
+            var marker_fbf79e8c9be39e35e6d1adf51abf56ae = L.marker(
+                [33.6427591, 73.10373539999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_8a8d6c1d61aa20d0b39b56804e0270cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22d0bdeda3add4069eb58fbeddda997e = $(`<div id="html_22d0bdeda3add4069eb58fbeddda997e" style="width: 100.0%; height: 100.0%;">Islamabad Highway Bus Stop</div>`)[0];
+                popup_8a8d6c1d61aa20d0b39b56804e0270cf.setContent(html_22d0bdeda3add4069eb58fbeddda997e);
+            
+        
+
+        marker_fbf79e8c9be39e35e6d1adf51abf56ae.bindPopup(popup_8a8d6c1d61aa20d0b39b56804e0270cf)
+        ;
+
+        
+    
+    
+            var marker_043364d38777a289dd77a65918cea320 = L.marker(
+                [33.6472302, 73.15754849999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_43f4b40e1d916b9510775a5a339c59b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3631a22207e7f16c3ca58341e7a5ad6a = $(`<div id="html_3631a22207e7f16c3ca58341e7a5ad6a" style="width: 100.0%; height: 100.0%;">Park Link Road Bus Depot</div>`)[0];
+                popup_43f4b40e1d916b9510775a5a339c59b5.setContent(html_3631a22207e7f16c3ca58341e7a5ad6a);
+            
+        
+
+        marker_043364d38777a289dd77a65918cea320.bindPopup(popup_43f4b40e1d916b9510775a5a339c59b5)
+        ;
+
+        
+    
+    
+            var marker_638e72a8865bfb2ebb42cac2ca427619 = L.marker(
+                [33.6441372, 73.1644257],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_4a7f0d661a6ec3f1830f6af1b5b3cdb6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1a599653532f1361fa146e2f6a7ffa1 = $(`<div id="html_a1a599653532f1361fa146e2f6a7ffa1" style="width: 100.0%; height: 100.0%;">Pick and drop and booking available in islamabad</div>`)[0];
+                popup_4a7f0d661a6ec3f1830f6af1b5b3cdb6.setContent(html_a1a599653532f1361fa146e2f6a7ffa1);
+            
+        
+
+        marker_638e72a8865bfb2ebb42cac2ca427619.bindPopup(popup_4a7f0d661a6ec3f1830f6af1b5b3cdb6)
+        ;
+
+        
+    
+    
+            var marker_6d2a80ee1e1e797bb606751caf292513 = L.marker(
+                [33.6430986, 73.1996083],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_cd428eeb8bdc7f8806e36fad29046567 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_559eb96c13a736c036659f9a6e8b2098 = $(`<div id="html_559eb96c13a736c036659f9a6e8b2098" style="width: 100.0%; height: 100.0%;">17 Meel Lehtarar Road Bus Stop</div>`)[0];
+                popup_cd428eeb8bdc7f8806e36fad29046567.setContent(html_559eb96c13a736c036659f9a6e8b2098);
+            
+        
+
+        marker_6d2a80ee1e1e797bb606751caf292513.bindPopup(popup_cd428eeb8bdc7f8806e36fad29046567)
+        ;
+
+        
+    
+    
+            var marker_bcbc9542416ef8ec45f4a55be7a1bae2 = L.marker(
+                [33.6532636, 73.2418102],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_8b925d0f1fcc69c441708e75862868bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_923f9710b792fee0ebeef31f69631956 = $(`<div id="html_923f9710b792fee0ebeef31f69631956" style="width: 100.0%; height: 100.0%;">Nilore Barrier</div>`)[0];
+                popup_8b925d0f1fcc69c441708e75862868bf.setContent(html_923f9710b792fee0ebeef31f69631956);
+            
+        
+
+        marker_bcbc9542416ef8ec45f4a55be7a1bae2.bindPopup(popup_8b925d0f1fcc69c441708e75862868bf)
+        ;
+
+        
+    
+    
+            var marker_364350c94658ddd09f46b9e5d7675177 = L.marker(
+                [33.675591, 72.8524],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_d685c25c05320068386db28b19ec262a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b27e4fa8499451db097aa879ff02797 = $(`<div id="html_7b27e4fa8499451db097aa879ff02797" style="width: 100.0%; height: 100.0%;">Sangjani Bus Stop</div>`)[0];
+                popup_d685c25c05320068386db28b19ec262a.setContent(html_7b27e4fa8499451db097aa879ff02797);
+            
+        
+
+        marker_364350c94658ddd09f46b9e5d7675177.bindPopup(popup_d685c25c05320068386db28b19ec262a)
+        ;
+
+        
+    
+    
+            var marker_0c457a213e29287316dcfdc95dfd84ae = L.marker(
+                [33.662807, 72.991742],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_3e1550974a5df709b655e56354bc75fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0891db4de96f29d6da61d9be3272c2e = $(`<div id="html_b0891db4de96f29d6da61d9be3272c2e" style="width: 100.0%; height: 100.0%;">Private Public Transport Stand (Suzuki Stop)</div>`)[0];
+                popup_3e1550974a5df709b655e56354bc75fa.setContent(html_b0891db4de96f29d6da61d9be3272c2e);
+            
+        
+
+        marker_0c457a213e29287316dcfdc95dfd84ae.bindPopup(popup_3e1550974a5df709b655e56354bc75fa)
+        ;
+
+        
+    
+    
+            var marker_0cbe5334d271438ef6e2019fde35b3f2 = L.marker(
+                [33.674561, 73.0101693],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_30150870aa53a628ab90a9c9fb834d17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7ff16b91db05ebb2aec8638b7adca24 = $(`<div id="html_a7ff16b91db05ebb2aec8638b7adca24" style="width: 100.0%; height: 100.0%;">Tanki Stop G-10/2</div>`)[0];
+                popup_30150870aa53a628ab90a9c9fb834d17.setContent(html_a7ff16b91db05ebb2aec8638b7adca24);
+            
+        
+
+        marker_0cbe5334d271438ef6e2019fde35b3f2.bindPopup(popup_30150870aa53a628ab90a9c9fb834d17)
+        ;
+
+        
+    
+    
+            var marker_d90a53c1861cda3b95c3914742b78049 = L.marker(
+                [33.6629671, 73.0073717],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_a61948066c89356d14802dec317fd343 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23780268bc5588fe1719daddf71efbcc = $(`<div id="html_23780268bc5588fe1719daddf71efbcc" style="width: 100.0%; height: 100.0%;">Police Foundation Station - Orange Line Metrobus</div>`)[0];
+                popup_a61948066c89356d14802dec317fd343.setContent(html_23780268bc5588fe1719daddf71efbcc);
+            
+        
+
+        marker_d90a53c1861cda3b95c3914742b78049.bindPopup(popup_a61948066c89356d14802dec317fd343)
+        ;
+
+        
+    
+    
+            var marker_7de7898da43bbd58cc81cd283387be6f = L.marker(
+                [33.6578351, 73.0221996],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_3a400ee79ff3b36298721f6aa1b5f61e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0eb26a3de5fd55baba4ec6095c157a9b = $(`<div id="html_0eb26a3de5fd55baba4ec6095c157a9b" style="width: 100.0%; height: 100.0%;">Hostel Bus Stop</div>`)[0];
+                popup_3a400ee79ff3b36298721f6aa1b5f61e.setContent(html_0eb26a3de5fd55baba4ec6095c157a9b);
+            
+        
+
+        marker_7de7898da43bbd58cc81cd283387be6f.bindPopup(popup_3a400ee79ff3b36298721f6aa1b5f61e)
+        ;
+
+        
+    
+    
+            var marker_2b432efc13d3beedfdd930d0175137a8 = L.marker(
+                [33.6676618, 73.0162098],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_48f59f5423e3fca1762da29977db95f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9bbb48aded4b466c8b4d734184764699 = $(`<div id="html_9bbb48aded4b466c8b4d734184764699" style="width: 100.0%; height: 100.0%;">G-10 Metro Bus Station</div>`)[0];
+                popup_48f59f5423e3fca1762da29977db95f8.setContent(html_9bbb48aded4b466c8b4d734184764699);
+            
+        
+
+        marker_2b432efc13d3beedfdd930d0175137a8.bindPopup(popup_48f59f5423e3fca1762da29977db95f8)
+        ;
+
+        
+    
+    
+            var marker_c10d04723bd255698c3dc4cca7c65697 = L.marker(
+                [33.6673174, 73.01394479999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_2da7199e1497e0357b75b0339366036a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d854d5fa691a4d9c971d7d2f0aeaaeed = $(`<div id="html_d854d5fa691a4d9c971d7d2f0aeaaeed" style="width: 100.0%; height: 100.0%;">SWVL Point G-10 Srinagar Highway</div>`)[0];
+                popup_2da7199e1497e0357b75b0339366036a.setContent(html_d854d5fa691a4d9c971d7d2f0aeaaeed);
+            
+        
+
+        marker_c10d04723bd255698c3dc4cca7c65697.bindPopup(popup_2da7199e1497e0357b75b0339366036a)
+        ;
+
+        
+    
+    
+            var marker_64015128dacb42d691def0ecda92b5b5 = L.marker(
+                [33.6751824, 73.0534521],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_0fa7ebf7b2ad508c71f9a77ae681599a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7a796bd639e91e963b07cd630780cb9 = $(`<div id="html_b7a796bd639e91e963b07cd630780cb9" style="width: 100.0%; height: 100.0%;">Faiz Ahmed Faiz Metrobus Station (H-9 Entrance)</div>`)[0];
+                popup_0fa7ebf7b2ad508c71f9a77ae681599a.setContent(html_b7a796bd639e91e963b07cd630780cb9);
+            
+        
+
+        marker_64015128dacb42d691def0ecda92b5b5.bindPopup(popup_0fa7ebf7b2ad508c71f9a77ae681599a)
+        ;
+
+        
+    
+    
+            var marker_caeae848b7b5a5153a1ec1a3ba3336dd = L.marker(
+                [33.6639456, 73.04989929999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_16f7f7a892b57c93bbe6622659496771 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_844cfb6ccafc938aba4ef251e56e9f71 = $(`<div id="html_844cfb6ccafc938aba4ef251e56e9f71" style="width: 100.0%; height: 100.0%;">Dalda Mill Stop</div>`)[0];
+                popup_16f7f7a892b57c93bbe6622659496771.setContent(html_844cfb6ccafc938aba4ef251e56e9f71);
+            
+        
+
+        marker_caeae848b7b5a5153a1ec1a3ba3336dd.bindPopup(popup_16f7f7a892b57c93bbe6622659496771)
+        ;
+
+        
+    
+    
+            var marker_43e86650d950d64b907627443e114840 = L.marker(
+                [33.6760239, 73.0550185],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_d40d3d95ad279da5bd33ee61b15cf80f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_378c7e0fa5b64a25d8990e13e0043859 = $(`<div id="html_378c7e0fa5b64a25d8990e13e0043859" style="width: 100.0%; height: 100.0%;">Faiz Ahmed Faiz Metro Bus Station (H-8 Entrance)</div>`)[0];
+                popup_d40d3d95ad279da5bd33ee61b15cf80f.setContent(html_378c7e0fa5b64a25d8990e13e0043859);
+            
+        
+
+        marker_43e86650d950d64b907627443e114840.bindPopup(popup_d40d3d95ad279da5bd33ee61b15cf80f)
+        ;
+
+        
+    
+    
+            var marker_e976a6b15ce372baa5b412852b53b082 = L.marker(
+                [33.6605377, 73.06455260000001],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_eb6f1ee9604727beddb53fcd91dc320c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_854886f6f27af66b6e81b37f30e2f9f4 = $(`<div id="html_854886f6f27af66b6e81b37f30e2f9f4" style="width: 100.0%; height: 100.0%;">Pothohar Metro Station West</div>`)[0];
+                popup_eb6f1ee9604727beddb53fcd91dc320c.setContent(html_854886f6f27af66b6e81b37f30e2f9f4);
+            
+        
+
+        marker_e976a6b15ce372baa5b412852b53b082.bindPopup(popup_eb6f1ee9604727beddb53fcd91dc320c)
+        ;
+
+        
+    
+    
+            var marker_a528b38dd2841182f977c51a315792f6 = L.marker(
+                [33.6612071, 73.06617779999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_9b0029b142108faa059aab7255f23b4c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef0640fdb755d2e8d8a8ec67a6f4db04 = $(`<div id="html_ef0640fdb755d2e8d8a8ec67a6f4db04" style="width: 100.0%; height: 100.0%;">Pothohar Metro Station East</div>`)[0];
+                popup_9b0029b142108faa059aab7255f23b4c.setContent(html_ef0640fdb755d2e8d8a8ec67a6f4db04);
+            
+        
+
+        marker_a528b38dd2841182f977c51a315792f6.bindPopup(popup_9b0029b142108faa059aab7255f23b4c)
+        ;
+
+        
+    
+    
+            var marker_9d2aae9576808db52c444ee592e64e8d = L.marker(
+                [33.6716913, 73.0565366],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_c89beddd7a4934e81812c41426c5f067 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a9e04e93e94b9e87a2e8b79adbab65a = $(`<div id="html_3a9e04e93e94b9e87a2e8b79adbab65a" style="width: 100.0%; height: 100.0%;">H-9 Bus Stop .</div>`)[0];
+                popup_c89beddd7a4934e81812c41426c5f067.setContent(html_3a9e04e93e94b9e87a2e8b79adbab65a);
+            
+        
+
+        marker_9d2aae9576808db52c444ee592e64e8d.bindPopup(popup_c89beddd7a4934e81812c41426c5f067)
+        ;
+
+        
+    
+    
+            var marker_632119eba5c08a81af46959e0ddf636b = L.marker(
+                [33.6605786, 73.0642372],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_2f8cf6d951bbaa058ac770d1319fe798 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_577a8cc77b14bbd3cac7c8f2d7863cc4 = $(`<div id="html_577a8cc77b14bbd3cac7c8f2d7863cc4" style="width: 100.0%; height: 100.0%;">Police Station Bus Stop</div>`)[0];
+                popup_2f8cf6d951bbaa058ac770d1319fe798.setContent(html_577a8cc77b14bbd3cac7c8f2d7863cc4);
+            
+        
+
+        marker_632119eba5c08a81af46959e0ddf636b.bindPopup(popup_2f8cf6d951bbaa058ac770d1319fe798)
+        ;
+
+        
+    
+    
+            var marker_341ff4886b886b0f6b4bf1040de81ebf = L.marker(
+                [33.6756334, 73.05446529999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_ec7dad8c0b6484f8fca0b0d3d1704066 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a5e25913d8ab4312907a9c06ef79439 = $(`<div id="html_0a5e25913d8ab4312907a9c06ef79439" style="width: 100.0%; height: 100.0%;">Faiz Ahmed Faiz Metro Bus Station</div>`)[0];
+                popup_ec7dad8c0b6484f8fca0b0d3d1704066.setContent(html_0a5e25913d8ab4312907a9c06ef79439);
+            
+        
+
+        marker_341ff4886b886b0f6b4bf1040de81ebf.bindPopup(popup_ec7dad8c0b6484f8fca0b0d3d1704066)
+        ;
+
+        
+    
+    
+            var marker_98e070b5f80ddcba44d036b417cccc5f = L.marker(
+                [33.6718587, 73.0559492],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_db403ddcbea18b7d2f16a27c5aed7857 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6daee31e13dfd26eb4086bc1e5200816 = $(`<div id="html_6daee31e13dfd26eb4086bc1e5200816" style="width: 100.0%; height: 100.0%;">H-9 Bus Stop .</div>`)[0];
+                popup_db403ddcbea18b7d2f16a27c5aed7857.setContent(html_6daee31e13dfd26eb4086bc1e5200816);
+            
+        
+
+        marker_98e070b5f80ddcba44d036b417cccc5f.bindPopup(popup_db403ddcbea18b7d2f16a27c5aed7857)
+        ;
+
+        
+    
+    
+            var marker_ca740c86ff6778bd2b3ead55627d462c = L.marker(
+                [33.6618207, 73.08348749999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_b1e128ac9c4107c26cc5605909236242 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8eccefe5800a65d48642aa1749bc710d = $(`<div id="html_8eccefe5800a65d48642aa1749bc710d" style="width: 100.0%; height: 100.0%;">Peshawar Bus Terminal</div>`)[0];
+                popup_b1e128ac9c4107c26cc5605909236242.setContent(html_8eccefe5800a65d48642aa1749bc710d);
+            
+        
+
+        marker_ca740c86ff6778bd2b3ead55627d462c.bindPopup(popup_b1e128ac9c4107c26cc5605909236242)
+        ;
+
+        
+    
+    
+            var marker_3d5c0ff57b0351ea9a7c3a6773680860 = L.marker(
+                [33.6631592, 73.08527389999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_03331df0284e5eae91e2018df51daf9e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4118d3e349d63616ca37a2e83e7da71 = $(`<div id="html_b4118d3e349d63616ca37a2e83e7da71" style="width: 100.0%; height: 100.0%;">Faizabad Stop</div>`)[0];
+                popup_03331df0284e5eae91e2018df51daf9e.setContent(html_b4118d3e349d63616ca37a2e83e7da71);
+            
+        
+
+        marker_3d5c0ff57b0351ea9a7c3a6773680860.bindPopup(popup_03331df0284e5eae91e2018df51daf9e)
+        ;
+
+        
+    
+    
+            var marker_56cb0425600b56bba05eda8fc1f78486 = L.marker(
+                [33.6595791, 73.0911359],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_7da140ca2c268b6abea936c20b2838d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed1543ab530247cd9a610ddd27dc660a = $(`<div id="html_ed1543ab530247cd9a610ddd27dc660a" style="width: 100.0%; height: 100.0%;">Sohan Stop West</div>`)[0];
+                popup_7da140ca2c268b6abea936c20b2838d6.setContent(html_ed1543ab530247cd9a610ddd27dc660a);
+            
+        
+
+        marker_56cb0425600b56bba05eda8fc1f78486.bindPopup(popup_7da140ca2c268b6abea936c20b2838d6)
+        ;
+
+        
+    
+    
+            var marker_79991953c4e1a77cb1fdcb5339571423 = L.marker(
+                [33.6645769, 73.15235849999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_cfc450c6bfd382d5e3c381bc79e1fbba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_211dda389bb5cd48287f62f6eb2aa92c = $(`<div id="html_211dda389bb5cd48287f62f6eb2aa92c" style="width: 100.0%; height: 100.0%;">Chatha Bakhtawar Bus Stop</div>`)[0];
+                popup_cfc450c6bfd382d5e3c381bc79e1fbba.setContent(html_211dda389bb5cd48287f62f6eb2aa92c);
+            
+        
+
+        marker_79991953c4e1a77cb1fdcb5339571423.bindPopup(popup_cfc450c6bfd382d5e3c381bc79e1fbba)
+        ;
+
+        
+    
+    
+            var marker_66fb4c06c13f4912a3f8758de7fc56a3 = L.marker(
+                [33.6760774, 73.1423593],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_73d56b85a3af4b8b0d75e378896ea0fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc2e011f15b9a5a198c0d254ea0d476f = $(`<div id="html_fc2e011f15b9a5a198c0d254ea0d476f" style="width: 100.0%; height: 100.0%;">Shehzad Town Stop</div>`)[0];
+                popup_73d56b85a3af4b8b0d75e378896ea0fa.setContent(html_fc2e011f15b9a5a198c0d254ea0d476f);
+            
+        
+
+        marker_66fb4c06c13f4912a3f8758de7fc56a3.bindPopup(popup_73d56b85a3af4b8b0d75e378896ea0fa)
+        ;
+
+        
+    
+    
+            var marker_0c4a0164a3240066d0b64540aedd1200 = L.marker(
+                [33.6474548, 73.15756499999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_ce852906044c4135d52b2e1f153352e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d3fa7ff591b81bec8cd59c3346ecc89 = $(`<div id="html_5d3fa7ff591b81bec8cd59c3346ecc89" style="width: 100.0%; height: 100.0%;">COMSATS University, Bus Parking</div>`)[0];
+                popup_ce852906044c4135d52b2e1f153352e1.setContent(html_5d3fa7ff591b81bec8cd59c3346ecc89);
+            
+        
+
+        marker_0c4a0164a3240066d0b64540aedd1200.bindPopup(popup_ce852906044c4135d52b2e1f153352e1)
+        ;
+
+        
+    
+    
+            var marker_56f3f65d59b62c7429f23136d1d5b4c7 = L.marker(
+                [33.6482689, 73.1619688],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_987563445f48f20d672e4169522a185d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0980209f1a6d36ff8507f4a393b30f2 = $(`<div id="html_a0980209f1a6d36ff8507f4a393b30f2" style="width: 100.0%; height: 100.0%;">Tamma Bus Stop NB</div>`)[0];
+                popup_987563445f48f20d672e4169522a185d.setContent(html_a0980209f1a6d36ff8507f4a393b30f2);
+            
+        
+
+        marker_56f3f65d59b62c7429f23136d1d5b4c7.bindPopup(popup_987563445f48f20d672e4169522a185d)
+        ;
+
+        
+    
+    
+            var marker_6d72fc58f2acee8202503ba1f3da6232 = L.marker(
+                [33.6763293, 73.142077],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_75069f62fbc026612a585a3d79b6a74d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_888968174fab2b34b79a10c98c7fadc7 = $(`<div id="html_888968174fab2b34b79a10c98c7fadc7" style="width: 100.0%; height: 100.0%;">Shahzad Town Bus Stop</div>`)[0];
+                popup_75069f62fbc026612a585a3d79b6a74d.setContent(html_888968174fab2b34b79a10c98c7fadc7);
+            
+        
+
+        marker_6d72fc58f2acee8202503ba1f3da6232.bindPopup(popup_75069f62fbc026612a585a3d79b6a74d)
+        ;
+
+        
+    
+    
+            var marker_ab5ff4dec129d7ad15467f41f153c4c6 = L.marker(
+                [33.685488, 72.8373776],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_0b4cdca9b3e20b78a311d59db917d421 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_759d188ed57076da8803c423e13c1c79 = $(`<div id="html_759d188ed57076da8803c423e13c1c79" style="width: 100.0%; height: 100.0%;">B-17 Sector Bus Stop</div>`)[0];
+                popup_0b4cdca9b3e20b78a311d59db917d421.setContent(html_759d188ed57076da8803c423e13c1c79);
+            
+        
+
+        marker_ab5ff4dec129d7ad15467f41f153c4c6.bindPopup(popup_0b4cdca9b3e20b78a311d59db917d421)
+        ;
+
+        
+    
+    
+            var marker_fdcb41412cfecbad9d039eec8bdd5f92 = L.marker(
+                [33.6880777, 72.8308692],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_4f12b9b2844cad65a72d66fe4b8ff926 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a9bcbbf8d98552686955b12c882ccfd = $(`<div id="html_4a9bcbbf8d98552686955b12c882ccfd" style="width: 100.0%; height: 100.0%;">RYDE Savaaree - Islamabad Taxi Service</div>`)[0];
+                popup_4f12b9b2844cad65a72d66fe4b8ff926.setContent(html_4a9bcbbf8d98552686955b12c882ccfd);
+            
+        
+
+        marker_fdcb41412cfecbad9d039eec8bdd5f92.bindPopup(popup_4f12b9b2844cad65a72d66fe4b8ff926)
+        ;
+
+        
+    
+    
+            var marker_ac1e93a0ea98c5c2c7693550c919c33e = L.marker(
+                [33.6907293, 72.9757042],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_5b1eefcd183fc87ed6b346671a12e567 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e14548158a395e16d3ce528a0ef82a4a = $(`<div id="html_e14548158a395e16d3ce528a0ef82a4a" style="width: 100.0%; height: 100.0%;">120 Van and 133 Suzuki stop</div>`)[0];
+                popup_5b1eefcd183fc87ed6b346671a12e567.setContent(html_e14548158a395e16d3ce528a0ef82a4a);
+            
+        
+
+        marker_ac1e93a0ea98c5c2c7693550c919c33e.bindPopup(popup_5b1eefcd183fc87ed6b346671a12e567)
+        ;
+
+        
+    
+    
+            var marker_cfa11513d02017748162d9af56f303ee = L.marker(
+                [33.6640705, 73.00527389999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_de17b124f4b64b3fd2dbc8afc933710c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b1676e574e2490e5d478043e21812ab = $(`<div id="html_4b1676e574e2490e5d478043e21812ab" style="width: 100.0%; height: 100.0%;">Police Foundation Metro Station North Gateway</div>`)[0];
+                popup_de17b124f4b64b3fd2dbc8afc933710c.setContent(html_4b1676e574e2490e5d478043e21812ab);
+            
+        
+
+        marker_cfa11513d02017748162d9af56f303ee.bindPopup(popup_de17b124f4b64b3fd2dbc8afc933710c)
+        ;
+
+        
+    
+    
+            var marker_d01b6a01bb1c367d3564544c1be14cf0 = L.marker(
+                [33.6898837, 73.0305357],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_b3751e059b9b8df227a6418253d7e662 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7494043bc7dc197d6e91c72fb9cefc1 = $(`<div id="html_c7494043bc7dc197d6e91c72fb9cefc1" style="width: 100.0%; height: 100.0%;">G-9 Markaz Bus Wagon Stop</div>`)[0];
+                popup_b3751e059b9b8df227a6418253d7e662.setContent(html_c7494043bc7dc197d6e91c72fb9cefc1);
+            
+        
+
+        marker_d01b6a01bb1c367d3564544c1be14cf0.bindPopup(popup_b3751e059b9b8df227a6418253d7e662)
+        ;
+
+        
+    
+    
+            var marker_f298376801780288cf5b62b01bbf3ea6 = L.marker(
+                [33.6880242, 73.0316648],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_19d472634bba703abc935ace3187016b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ff9adb2bc08134d65209b4faef12cf5 = $(`<div id="html_7ff9adb2bc08134d65209b4faef12cf5" style="width: 100.0%; height: 100.0%;">Swvl Point G-9 Markaz West</div>`)[0];
+                popup_19d472634bba703abc935ace3187016b.setContent(html_7ff9adb2bc08134d65209b4faef12cf5);
+            
+        
+
+        marker_f298376801780288cf5b62b01bbf3ea6.bindPopup(popup_19d472634bba703abc935ace3187016b)
+        ;
+
+        
+    
+    
+            var marker_711dc55d03f46d01df6c7c9d018a12cd = L.marker(
+                [33.6819959, 73.02040459999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_8c9f6aa3fc0d535fe0718c6ec38b2c41 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a79770adc94c3caecd97b1b8ea493fd3 = $(`<div id="html_a79770adc94c3caecd97b1b8ea493fd3" style="width: 100.0%; height: 100.0%;">Wagon Stop</div>`)[0];
+                popup_8c9f6aa3fc0d535fe0718c6ec38b2c41.setContent(html_a79770adc94c3caecd97b1b8ea493fd3);
+            
+        
+
+        marker_711dc55d03f46d01df6c7c9d018a12cd.bindPopup(popup_8c9f6aa3fc0d535fe0718c6ec38b2c41)
+        ;
+
+        
+    
+    
+            var marker_4eaff01fdd8718d5126d508c5f09d3c2 = L.marker(
+                [33.6882993, 73.0345485],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_9a180c8d6cd1c1139350e81b0adafbf5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b10fd268c19bf9a28fa961eaddda6f2 = $(`<div id="html_1b10fd268c19bf9a28fa961eaddda6f2" style="width: 100.0%; height: 100.0%;">Intercity Wagon & Bus Service</div>`)[0];
+                popup_9a180c8d6cd1c1139350e81b0adafbf5.setContent(html_1b10fd268c19bf9a28fa961eaddda6f2);
+            
+        
+
+        marker_4eaff01fdd8718d5126d508c5f09d3c2.bindPopup(popup_9a180c8d6cd1c1139350e81b0adafbf5)
+        ;
+
+        
+    
+    
+            var marker_52c657f18828a5361982371ed8a7d344 = L.marker(
+                [33.6780391, 73.0342931],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_3997518ac8824f53f950f6f3a26343ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3842747f0da8bdd43ee8d78db065485d = $(`<div id="html_3842747f0da8bdd43ee8d78db065485d" style="width: 100.0%; height: 100.0%;">NHA Metro Station</div>`)[0];
+                popup_3997518ac8824f53f950f6f3a26343ca.setContent(html_3842747f0da8bdd43ee8d78db065485d);
+            
+        
+
+        marker_52c657f18828a5361982371ed8a7d344.bindPopup(popup_3997518ac8824f53f950f6f3a26343ca)
+        ;
+
+        
+    
+    
+            var marker_f3decfa6f9c2334bc79fabad0fb94b9c = L.marker(
+                [33.6883378, 73.03437389999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_ca9b1a8526fa59320a9acd268ab0a130 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_811e23dc3a0251b71106237e83d214fe = $(`<div id="html_811e23dc3a0251b71106237e83d214fe" style="width: 100.0%; height: 100.0%;">Karachi Company Bus Stop</div>`)[0];
+                popup_ca9b1a8526fa59320a9acd268ab0a130.setContent(html_811e23dc3a0251b71106237e83d214fe);
+            
+        
+
+        marker_f3decfa6f9c2334bc79fabad0fb94b9c.bindPopup(popup_ca9b1a8526fa59320a9acd268ab0a130)
+        ;
+
+        
+    
+    
+            var marker_6e7afdd9cabe2741e0fbdad077bfb128 = L.marker(
+                [33.6884839, 73.0341351],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_0542048c569382ac59c929da515412f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_429ac5731686db8a5aa555f129060e24 = $(`<div id="html_429ac5731686db8a5aa555f129060e24" style="width: 100.0%; height: 100.0%;">Mansehra Wagon Stop</div>`)[0];
+                popup_0542048c569382ac59c929da515412f2.setContent(html_429ac5731686db8a5aa555f129060e24);
+            
+        
+
+        marker_6e7afdd9cabe2741e0fbdad077bfb128.bindPopup(popup_0542048c569382ac59c929da515412f2)
+        ;
+
+        
+    
+    
+            var marker_816f5542ec88376c60bb6520d1db82c0 = L.marker(
+                [33.6781857, 73.0420022],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_aaa710fd47af0d1d7bcb260b9de57b93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a755a0d0546fd65994115b875839662 = $(`<div id="html_7a755a0d0546fd65994115b875839662" style="width: 100.0%; height: 100.0%;">Metro Main Bus Depot</div>`)[0];
+                popup_aaa710fd47af0d1d7bcb260b9de57b93.setContent(html_7a755a0d0546fd65994115b875839662);
+            
+        
+
+        marker_816f5542ec88376c60bb6520d1db82c0.bindPopup(popup_aaa710fd47af0d1d7bcb260b9de57b93)
+        ;
+
+        
+    
+    
+            var marker_7eba4fddaa784dcfe94784e14b1d7013 = L.marker(
+                [33.6781209, 73.04207869999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_fba3546044564f7beb792b21239a5cc1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3695a527ad459f949822d9c275727948 = $(`<div id="html_3695a527ad459f949822d9c275727948" style="width: 100.0%; height: 100.0%;">Metrobus Depot</div>`)[0];
+                popup_fba3546044564f7beb792b21239a5cc1.setContent(html_3695a527ad459f949822d9c275727948);
+            
+        
+
+        marker_7eba4fddaa784dcfe94784e14b1d7013.bindPopup(popup_fba3546044564f7beb792b21239a5cc1)
+        ;
+
+        
+    
+    
+            var marker_40be5413dc39ee24e4b51597718d8428 = L.marker(
+                [33.6876925, 73.03386929999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_99db93ed01df25c221c042af4176b839 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e606919f4ef966fee70662c982a17e1 = $(`<div id="html_8e606919f4ef966fee70662c982a17e1" style="width: 100.0%; height: 100.0%;">Niazi Express</div>`)[0];
+                popup_99db93ed01df25c221c042af4176b839.setContent(html_8e606919f4ef966fee70662c982a17e1);
+            
+        
+
+        marker_40be5413dc39ee24e4b51597718d8428.bindPopup(popup_99db93ed01df25c221c042af4176b839)
+        ;
+
+        
+    
+    
+            var marker_66440f6f1dcbed9b13ca3b4b5a74a9ef = L.marker(
+                [33.6825073, 73.0474248],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_b9cab64d0084fe3491fafd00059521e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f5bd3f830c4ef1f5519f72b4fc5440c = $(`<div id="html_4f5bd3f830c4ef1f5519f72b4fc5440c" style="width: 100.0%; height: 100.0%;">Peshawar Morr Metrobus Station (H-9 Entrance)</div>`)[0];
+                popup_b9cab64d0084fe3491fafd00059521e3.setContent(html_4f5bd3f830c4ef1f5519f72b4fc5440c);
+            
+        
+
+        marker_66440f6f1dcbed9b13ca3b4b5a74a9ef.bindPopup(popup_b9cab64d0084fe3491fafd00059521e3)
+        ;
+
+        
+    
+    
+            var marker_9b576fb843e11542c8d78c65c682e8eb = L.marker(
+                [33.6948518, 73.0641675],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_8b8babe824407e4a0ceb34b00861e6ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_05f7c98436d0aeeb871ec097523873ed = $(`<div id="html_05f7c98436d0aeeb871ec097523873ed" style="width: 100.0%; height: 100.0%;">T&T Stop</div>`)[0];
+                popup_8b8babe824407e4a0ceb34b00861e6ce.setContent(html_05f7c98436d0aeeb871ec097523873ed);
+            
+        
+
+        marker_9b576fb843e11542c8d78c65c682e8eb.bindPopup(popup_8b8babe824407e4a0ceb34b00861e6ce)
+        ;
+
+        
+    
+    
+            var marker_c38b9bd1ec38acc5de1996990b2a30ce = L.marker(
+                [33.6899734, 73.0557346],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_d65a208b04fb753fb44c83854e3bc89b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b13e94e3b9f0db122185a0b0ae8e83c = $(`<div id="html_5b13e94e3b9f0db122185a0b0ae8e83c" style="width: 100.0%; height: 100.0%;">Sarya Chowk Bus Stop</div>`)[0];
+                popup_d65a208b04fb753fb44c83854e3bc89b.setContent(html_5b13e94e3b9f0db122185a0b0ae8e83c);
+            
+        
+
+        marker_c38b9bd1ec38acc5de1996990b2a30ce.bindPopup(popup_d65a208b04fb753fb44c83854e3bc89b)
+        ;
+
+        
+    
+    
+            var marker_b491c2298d47f1d1169489229bb04c4c = L.marker(
+                [33.6780595, 73.0773425],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_8faac797c2804a31ff3d438a4acff557 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_982d0d30c9f9df8f134261e30c210033 = $(`<div id="html_982d0d30c9f9df8f134261e30c210033" style="width: 100.0%; height: 100.0%;">Highway Stop</div>`)[0];
+                popup_8faac797c2804a31ff3d438a4acff557.setContent(html_982d0d30c9f9df8f134261e30c210033);
+            
+        
+
+        marker_b491c2298d47f1d1169489229bb04c4c.bindPopup(popup_8faac797c2804a31ff3d438a4acff557)
+        ;
+
+        
+    
+    
+            var marker_30c0aaa0da0283177a07bed8168073d0 = L.marker(
+                [33.6586028, 73.0601334],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_c6b876cfd686ed48f05b54c119ef6004 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0dc5c7b5cd93e9f431aaf7c4509cb8c3 = $(`<div id="html_0dc5c7b5cd93e9f431aaf7c4509cb8c3" style="width: 100.0%; height: 100.0%;">I-9/4 Bank Stop</div>`)[0];
+                popup_c6b876cfd686ed48f05b54c119ef6004.setContent(html_0dc5c7b5cd93e9f431aaf7c4509cb8c3);
+            
+        
+
+        marker_30c0aaa0da0283177a07bed8168073d0.bindPopup(popup_c6b876cfd686ed48f05b54c119ef6004)
+        ;
+
+        
+    
+    
+            var marker_b03e1625d12d5c3871652cf376a051a5 = L.marker(
+                [33.66077060000001, 73.0655998],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_06bd88471025dca4f53787aee1c5ce64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f33e8e5771ea1af26ddb7ffeea0d13d8 = $(`<div id="html_f33e8e5771ea1af26ddb7ffeea0d13d8" style="width: 100.0%; height: 100.0%;">Potohar Metro Bus Station</div>`)[0];
+                popup_06bd88471025dca4f53787aee1c5ce64.setContent(html_f33e8e5771ea1af26ddb7ffeea0d13d8);
+            
+        
+
+        marker_b03e1625d12d5c3871652cf376a051a5.bindPopup(popup_06bd88471025dca4f53787aee1c5ce64)
+        ;
+
+        
+    
+    
+            var marker_f3a3a080c1047ad42910ec0e4382c7fb = L.marker(
+                [33.6671204, 73.0607235],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_010f986fb33b928ce01212829b8cad5d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5447038275c18e9ea28fe4ed7b3b476f = $(`<div id="html_5447038275c18e9ea28fe4ed7b3b476f" style="width: 100.0%; height: 100.0%;">Metro Station I-8/I-9</div>`)[0];
+                popup_010f986fb33b928ce01212829b8cad5d.setContent(html_5447038275c18e9ea28fe4ed7b3b476f);
+            
+        
+
+        marker_f3a3a080c1047ad42910ec0e4382c7fb.bindPopup(popup_010f986fb33b928ce01212829b8cad5d)
+        ;
+
+        
+    
+    
+            var marker_13b973e535e71d3ff67c34fe03aa522b = L.marker(
+                [33.6879759, 73.1096792],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_5d62310c08467283893066a64f8d11e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b547cd4faad095e3b76b13b6be2b077c = $(`<div id="html_b547cd4faad095e3b76b13b6be2b077c" style="width: 100.0%; height: 100.0%;">Rawal Chowk Bus Stop</div>`)[0];
+                popup_5d62310c08467283893066a64f8d11e3.setContent(html_b547cd4faad095e3b76b13b6be2b077c);
+            
+        
+
+        marker_13b973e535e71d3ff67c34fe03aa522b.bindPopup(popup_5d62310c08467283893066a64f8d11e3)
+        ;
+
+        
+    
+    
+            var marker_131a856cfe4427bf4afb6692a702780c = L.marker(
+                [33.6798942, 73.3121324],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_18632c4a03347f87b1f4b284ea7f6697 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ccdcb1b186744311c7abe62c6b12d908 = $(`<div id="html_ccdcb1b186744311c7abe62c6b12d908" style="width: 100.0%; height: 100.0%;">Takia Stop</div>`)[0];
+                popup_18632c4a03347f87b1f4b284ea7f6697.setContent(html_ccdcb1b186744311c7abe62c6b12d908);
+            
+        
+
+        marker_131a856cfe4427bf4afb6692a702780c.bindPopup(popup_18632c4a03347f87b1f4b284ea7f6697)
+        ;
+
+        
+    
+    
+            var marker_18c7787513d12eff6b95aab6954049fb = L.marker(
+                [33.6899088, 73.3170784],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_e7e9efa58f9cca8d3f380b423a068874 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf693d22a4a2a862088fc461e5bd2e37 = $(`<div id="html_cf693d22a4a2a862088fc461e5bd2e37" style="width: 100.0%; height: 100.0%;">Pehont Bus Stop</div>`)[0];
+                popup_e7e9efa58f9cca8d3f380b423a068874.setContent(html_cf693d22a4a2a862088fc461e5bd2e37);
+            
+        
+
+        marker_18c7787513d12eff6b95aab6954049fb.bindPopup(popup_e7e9efa58f9cca8d3f380b423a068874)
+        ;
+
+        
+    
+    
+            var marker_30fc48789cc5568c206beaf3ca0169b9 = L.marker(
+                [33.6950671, 72.9770293],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_41d7a9143c7fd6c783a9e1a41db1174a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e587a58539ae9aced70e1c1d3908272 = $(`<div id="html_1e587a58539ae9aced70e1c1d3908272" style="width: 100.0%; height: 100.0%;">On line pick&Drop</div>`)[0];
+                popup_41d7a9143c7fd6c783a9e1a41db1174a.setContent(html_1e587a58539ae9aced70e1c1d3908272);
+            
+        
+
+        marker_30fc48789cc5568c206beaf3ca0169b9.bindPopup(popup_41d7a9143c7fd6c783a9e1a41db1174a)
+        ;
+
+        
+    
+    
+            var marker_5579f11d55581f52550d796d52485039 = L.marker(
+                [33.7056922, 73.0480206],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_8c0767c4125541b2970dfacc4e65507f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8af57d5bd60c77b4095bee3bbfe71049 = $(`<div id="html_8af57d5bd60c77b4095bee3bbfe71049" style="width: 100.0%; height: 100.0%;">PIMS Metrobus Station | Centaurus Mall</div>`)[0];
+                popup_8c0767c4125541b2970dfacc4e65507f.setContent(html_8af57d5bd60c77b4095bee3bbfe71049);
+            
+        
+
+        marker_5579f11d55581f52550d796d52485039.bindPopup(popup_8c0767c4125541b2970dfacc4e65507f)
+        ;
+
+        
+    
+    
+            var marker_bdc2d1ff039c382fef39915e8847156e = L.marker(
+                [33.7089366, 73.0397223],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_f9866dd4532007ee322774d39b3ed5aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_531809a13a34e60ede2c71b0b6e8d01e = $(`<div id="html_531809a13a34e60ede2c71b0b6e8d01e" style="width: 100.0%; height: 100.0%;">F-8 Katchery Stop</div>`)[0];
+                popup_f9866dd4532007ee322774d39b3ed5aa.setContent(html_531809a13a34e60ede2c71b0b6e8d01e);
+            
+        
+
+        marker_bdc2d1ff039c382fef39915e8847156e.bindPopup(popup_f9866dd4532007ee322774d39b3ed5aa)
+        ;
+
+        
+    
+    
+            var marker_9d58c24adba0fef80ac39b4a1882355b = L.marker(
+                [33.7053997, 73.05073569999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_37a367b4d94a0ca16a11c3f0dbfa35aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d13edd4f0e1ee7e88a39e184b8f76ab1 = $(`<div id="html_d13edd4f0e1ee7e88a39e184b8f76ab1" style="width: 100.0%; height: 100.0%;">PIMS Green/Blue Line Bus Stop</div>`)[0];
+                popup_37a367b4d94a0ca16a11c3f0dbfa35aa.setContent(html_d13edd4f0e1ee7e88a39e184b8f76ab1);
+            
+        
+
+        marker_9d58c24adba0fef80ac39b4a1882355b.bindPopup(popup_37a367b4d94a0ca16a11c3f0dbfa35aa)
+        ;
+
+        
+    
+    
+            var marker_22fc26403bb96b31ab8bd984e28f9953 = L.marker(
+                [33.7053495, 73.05060499999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_4b24ef68e456b8a53b84e7ba4ff1a77b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_281bc2c34de8d53015c6d271d4fb112e = $(`<div id="html_281bc2c34de8d53015c6d271d4fb112e" style="width: 100.0%; height: 100.0%;">Green Line Metro - PIMS Station</div>`)[0];
+                popup_4b24ef68e456b8a53b84e7ba4ff1a77b.setContent(html_281bc2c34de8d53015c6d271d4fb112e);
+            
+        
+
+        marker_22fc26403bb96b31ab8bd984e28f9953.bindPopup(popup_4b24ef68e456b8a53b84e7ba4ff1a77b)
+        ;
+
+        
+    
+    
+            var marker_7be63d3e0689dadc70a9072d9718c896 = L.marker(
+                [33.7057836, 73.0482688],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_95e851f87f3e9235986b9105402ff912 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d75cfce8fbbfea70e6ec98aed7fe1ff4 = $(`<div id="html_d75cfce8fbbfea70e6ec98aed7fe1ff4" style="width: 100.0%; height: 100.0%;">PIMS Metro Bus Station</div>`)[0];
+                popup_95e851f87f3e9235986b9105402ff912.setContent(html_d75cfce8fbbfea70e6ec98aed7fe1ff4);
+            
+        
+
+        marker_7be63d3e0689dadc70a9072d9718c896.bindPopup(popup_95e851f87f3e9235986b9105402ff912)
+        ;
+
+        
+    
+    
+            var marker_9a92482dbebda63f4d0c7f646926cb25 = L.marker(
+                [33.6840982, 73.0479579],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_6dbc4c6f6ff9117a1a548e4a517bf563 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e215adbc3d9be458c721d783cc6c2fc = $(`<div id="html_0e215adbc3d9be458c721d783cc6c2fc" style="width: 100.0%; height: 100.0%;">Kashmir Highway Station</div>`)[0];
+                popup_6dbc4c6f6ff9117a1a548e4a517bf563.setContent(html_0e215adbc3d9be458c721d783cc6c2fc);
+            
+        
+
+        marker_9a92482dbebda63f4d0c7f646926cb25.bindPopup(popup_6dbc4c6f6ff9117a1a548e4a517bf563)
+        ;
+
+        
+    
+    
+            var marker_85b05c77cec9ee5da7007a138d7164e8 = L.marker(
+                [33.7022481, 73.04143309999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_4181d5aaac7db8b1ffab10a6d72d80a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11f5143b35a279c6b6db59e52772ccca = $(`<div id="html_11f5143b35a279c6b6db59e52772ccca" style="width: 100.0%; height: 100.0%;">Katchery Metro Bus Station</div>`)[0];
+                popup_4181d5aaac7db8b1ffab10a6d72d80a5.setContent(html_11f5143b35a279c6b6db59e52772ccca);
+            
+        
+
+        marker_85b05c77cec9ee5da7007a138d7164e8.bindPopup(popup_4181d5aaac7db8b1ffab10a6d72d80a5)
+        ;
+
+        
+    
+    
+            var marker_7e26b5a14f1d42fff521d14880463c58 = L.marker(
+                [33.6966058, 73.0623952],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_50400c88def2ad1b72b1085dc1aea60c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33f20c41f4d00136f7158dee50174ea8 = $(`<div id="html_33f20c41f4d00136f7158dee50174ea8" style="width: 100.0%; height: 100.0%;">Blue Line Metro Bus Stop</div>`)[0];
+                popup_50400c88def2ad1b72b1085dc1aea60c.setContent(html_33f20c41f4d00136f7158dee50174ea8);
+            
+        
+
+        marker_7e26b5a14f1d42fff521d14880463c58.bindPopup(popup_50400c88def2ad1b72b1085dc1aea60c)
+        ;
+
+        
+    
+    
+            var marker_2b359a4bc9a021168a415c946b3b5df7 = L.marker(
+                [33.7123815, 73.0651385],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_f13dbc54f2efafc1bca77a23ccefa625 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3f785ff2f898c27ae0eca2b4dd24ecb = $(`<div id="html_b3f785ff2f898c27ae0eca2b4dd24ecb" style="width: 100.0%; height: 100.0%;">Service Morh Stop</div>`)[0];
+                popup_f13dbc54f2efafc1bca77a23ccefa625.setContent(html_b3f785ff2f898c27ae0eca2b4dd24ecb);
+            
+        
+
+        marker_2b359a4bc9a021168a415c946b3b5df7.bindPopup(popup_f13dbc54f2efafc1bca77a23ccefa625)
+        ;
+
+        
+    
+    
+            var marker_567ed3e636b54af2b8fc02a91fb8397f = L.marker(
+                [33.7069195, 73.07045459999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_b2556f659b8ec82bf134e55d4c1c55ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b253baa0e76ee8f5682c5f7548634e0d = $(`<div id="html_b253baa0e76ee8f5682c5f7548634e0d" style="width: 100.0%; height: 100.0%;">Puli Stop</div>`)[0];
+                popup_b2556f659b8ec82bf134e55d4c1c55ac.setContent(html_b253baa0e76ee8f5682c5f7548634e0d);
+            
+        
+
+        marker_567ed3e636b54af2b8fc02a91fb8397f.bindPopup(popup_b2556f659b8ec82bf134e55d4c1c55ac)
+        ;
+
+        
+    
+    
+            var marker_eb627a0a61cf3949f31961ed9a52e9fa = L.marker(
+                [33.70849, 73.0909896],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_d3c770ed80bbf0e700aab2ce8137a025 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e1c80b823cdb88887ad7171c8170aaf = $(`<div id="html_8e1c80b823cdb88887ad7171c8170aaf" style="width: 100.0%; height: 100.0%;">Pieas Bus Stop Aabpara</div>`)[0];
+                popup_d3c770ed80bbf0e700aab2ce8137a025.setContent(html_8e1c80b823cdb88887ad7171c8170aaf);
+            
+        
+
+        marker_eb627a0a61cf3949f31961ed9a52e9fa.bindPopup(popup_d3c770ed80bbf0e700aab2ce8137a025)
+        ;
+
+        
+    
+    
+            var marker_fb5ddef79df84b892e2e063110d90ff5 = L.marker(
+                [33.7071052, 73.089304],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_b7ff1e76d024398e32ca77d9fe80ac51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1756aa95ccfd588387f6509c88cebd9 = $(`<div id="html_b1756aa95ccfd588387f6509c88cebd9" style="width: 100.0%; height: 100.0%;">Abpara Bus Station</div>`)[0];
+                popup_b7ff1e76d024398e32ca77d9fe80ac51.setContent(html_b1756aa95ccfd588387f6509c88cebd9);
+            
+        
+
+        marker_fb5ddef79df84b892e2e063110d90ff5.bindPopup(popup_b7ff1e76d024398e32ca77d9fe80ac51)
+        ;
+
+        
+    
+    
+            var marker_25ddb5231e5d0155eae860503691817d = L.marker(
+                [33.7086175, 73.09106469999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_74f073ae93266c14a0a5dd683f5a4b46 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b93f8eb9847140aeb79cdc99d765493 = $(`<div id="html_1b93f8eb9847140aeb79cdc99d765493" style="width: 100.0%; height: 100.0%;">Aabpara</div>`)[0];
+                popup_74f073ae93266c14a0a5dd683f5a4b46.setContent(html_1b93f8eb9847140aeb79cdc99d765493);
+            
+        
+
+        marker_25ddb5231e5d0155eae860503691817d.bindPopup(popup_74f073ae93266c14a0a5dd683f5a4b46)
+        ;
+
+        
+    
+    
+            var marker_e62ac4805d91efd72b6d97780d34b5f9 = L.marker(
+                [33.7060049, 73.0888918],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_1ed0016dade3695e8e780ab113b26829 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9cac027ef45940bcaac1dd205b05f61 = $(`<div id="html_f9cac027ef45940bcaac1dd205b05f61" style="width: 100.0%; height: 100.0%;">Greenline Aabpara station</div>`)[0];
+                popup_1ed0016dade3695e8e780ab113b26829.setContent(html_f9cac027ef45940bcaac1dd205b05f61);
+            
+        
+
+        marker_e62ac4805d91efd72b6d97780d34b5f9.bindPopup(popup_1ed0016dade3695e8e780ab113b26829)
+        ;
+
+        
+    
+    
+            var marker_095254429c4d6a83b6da55185a56ed0e = L.marker(
+                [33.7084323, 73.0567324],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_bbacc687dedeb337696adcf5dafbfb7a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8a389368b1d24b2b6accd1f60211be8 = $(`<div id="html_f8a389368b1d24b2b6accd1f60211be8" style="width: 100.0%; height: 100.0%;">Khybar Plaza Stop</div>`)[0];
+                popup_bbacc687dedeb337696adcf5dafbfb7a.setContent(html_f8a389368b1d24b2b6accd1f60211be8);
+            
+        
+
+        marker_095254429c4d6a83b6da55185a56ed0e.bindPopup(popup_bbacc687dedeb337696adcf5dafbfb7a)
+        ;
+
+        
+    
+    
+            var marker_31bf5bc2fae33e0e0cb8bb4285ff32ce = L.marker(
+                [33.7082471, 73.0672105],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_511a60421e77a867284edd801047c3c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2a07b300a57f519f691f99a35233d1b = $(`<div id="html_d2a07b300a57f519f691f99a35233d1b" style="width: 100.0%; height: 100.0%;">Tanki Stop</div>`)[0];
+                popup_511a60421e77a867284edd801047c3c2.setContent(html_d2a07b300a57f519f691f99a35233d1b);
+            
+        
+
+        marker_31bf5bc2fae33e0e0cb8bb4285ff32ce.bindPopup(popup_511a60421e77a867284edd801047c3c2)
+        ;
+
+        
+    
+    
+            var marker_2b8ea18f0cea8ff285c63e3354f4a454 = L.marker(
+                [33.7083029, 73.1052107],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_b3524cced9bfd391baee63a805833bc8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5724be518af34933091e972a21a5a073 = $(`<div id="html_5724be518af34933091e972a21a5a073" style="width: 100.0%; height: 100.0%;">Kashmir Chowk Bus Stop</div>`)[0];
+                popup_b3524cced9bfd391baee63a805833bc8.setContent(html_5724be518af34933091e972a21a5a073);
+            
+        
+
+        marker_2b8ea18f0cea8ff285c63e3354f4a454.bindPopup(popup_b3524cced9bfd391baee63a805833bc8)
+        ;
+
+        
+    
+    
+            var marker_f4abc291e60692ff4c146fe4acd85f32 = L.marker(
+                [33.7238539, 73.0198899],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_ddb3d4b33245ffc17c644e68a985ac31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a28a81bea0c09421409bb3b2f7ff9918 = $(`<div id="html_a28a81bea0c09421409bb3b2f7ff9918" style="width: 100.0%; height: 100.0%;">Helipad</div>`)[0];
+                popup_ddb3d4b33245ffc17c644e68a985ac31.setContent(html_a28a81bea0c09421409bb3b2f7ff9918);
+            
+        
+
+        marker_f4abc291e60692ff4c146fe4acd85f32.bindPopup(popup_ddb3d4b33245ffc17c644e68a985ac31)
+        ;
+
+        
+    
+    
+            var marker_77d4c683472033205a194e9fa615d395 = L.marker(
+                [33.6957355, 73.0385524],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_c41c5ef5abafc06cfcafd987e287b2b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_994dd21485b0fbb7b53210524ada60de = $(`<div id="html_994dd21485b0fbb7b53210524ada60de" style="width: 100.0%; height: 100.0%;">Ibn-e-Sina</div>`)[0];
+                popup_c41c5ef5abafc06cfcafd987e287b2b7.setContent(html_994dd21485b0fbb7b53210524ada60de);
+            
+        
+
+        marker_77d4c683472033205a194e9fa615d395.bindPopup(popup_c41c5ef5abafc06cfcafd987e287b2b7)
+        ;
+
+        
+    
+    
+            var marker_b64bbbfc5825c51ba98578bdb5b94957 = L.marker(
+                [33.718022, 73.0714909],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_b91bb5879f360b4ceffc582ef83b1622 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f383f9a8c8438a65f066884f75e7b74e = $(`<div id="html_f383f9a8c8438a65f066884f75e7b74e" style="width: 100.0%; height: 100.0%;">7th Avenue Metrobus Station</div>`)[0];
+                popup_b91bb5879f360b4ceffc582ef83b1622.setContent(html_f383f9a8c8438a65f066884f75e7b74e);
+            
+        
+
+        marker_b64bbbfc5825c51ba98578bdb5b94957.bindPopup(popup_b91bb5879f360b4ceffc582ef83b1622)
+        ;
+
+        
+    
+    
+            var marker_8854887bb6ca34513787c6bbbbff5c43 = L.marker(
+                [33.7183028, 73.0727426],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_eab11f2583995002d760c9c8a4adb1e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f16fd81e2227310b0c4a7083abd2511 = $(`<div id="html_1f16fd81e2227310b0c4a7083abd2511" style="width: 100.0%; height: 100.0%;">7th Avenue Station South-East</div>`)[0];
+                popup_eab11f2583995002d760c9c8a4adb1e6.setContent(html_1f16fd81e2227310b0c4a7083abd2511);
+            
+        
+
+        marker_8854887bb6ca34513787c6bbbbff5c43.bindPopup(popup_eab11f2583995002d760c9c8a4adb1e6)
+        ;
+
+        
+    
+    
+            var marker_72d9beb2eb11371b53580bca2ea86346 = L.marker(
+                [33.7179793, 73.0714792],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_0b81973fac386c4ebe7468847afc4d47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ddcdbad58a6a7384aee6233b86f0a75 = $(`<div id="html_2ddcdbad58a6a7384aee6233b86f0a75" style="width: 100.0%; height: 100.0%;">7th Avenue Metro Bus Station</div>`)[0];
+                popup_0b81973fac386c4ebe7468847afc4d47.setContent(html_2ddcdbad58a6a7384aee6233b86f0a75);
+            
+        
+
+        marker_72d9beb2eb11371b53580bca2ea86346.bindPopup(popup_0b81973fac386c4ebe7468847afc4d47)
+        ;
+
+        
+    
+    
+            var marker_56db80cd6ca5e5f4ce5394e76cca5c3d = L.marker(
+                [33.7224436, 73.0583115],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_b52583fe36aff97f219a7c4249f81165 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_788c4757f5ac2b954bba037e1ae1e8ec = $(`<div id="html_788c4757f5ac2b954bba037e1ae1e8ec" style="width: 100.0%; height: 100.0%;">Public Parking</div>`)[0];
+                popup_b52583fe36aff97f219a7c4249f81165.setContent(html_788c4757f5ac2b954bba037e1ae1e8ec);
+            
+        
+
+        marker_56db80cd6ca5e5f4ce5394e76cca5c3d.bindPopup(popup_b52583fe36aff97f219a7c4249f81165)
+        ;
+
+        
+    
+    
+            var marker_2698acb845a1f8fb74cf0a942c6af871 = L.marker(
+                [33.7109881, 73.0616553],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_0f12b49a171c396ac4aa7fc814b2d7e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3328d9a38d3952ca6c2936f4e454146c = $(`<div id="html_3328d9a38d3952ca6c2936f4e454146c" style="width: 100.0%; height: 100.0%;">Service Stop</div>`)[0];
+                popup_0f12b49a171c396ac4aa7fc814b2d7e1.setContent(html_3328d9a38d3952ca6c2936f4e454146c);
+            
+        
+
+        marker_2698acb845a1f8fb74cf0a942c6af871.bindPopup(popup_0f12b49a171c396ac4aa7fc814b2d7e1)
+        ;
+
+        
+    
+    
+            var marker_7a9e733d452d513b4bdd09ad7710d477 = L.marker(
+                [33.7116426, 73.05930169999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_7267c11c08ede0db12f9a23f6175383a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bcc38ac5e1a25d88e7c65973d19adea0 = $(`<div id="html_bcc38ac5e1a25d88e7c65973d19adea0" style="width: 100.0%; height: 100.0%;">Stock Exchange Station</div>`)[0];
+                popup_7267c11c08ede0db12f9a23f6175383a.setContent(html_bcc38ac5e1a25d88e7c65973d19adea0);
+            
+        
+
+        marker_7a9e733d452d513b4bdd09ad7710d477.bindPopup(popup_7267c11c08ede0db12f9a23f6175383a)
+        ;
+
+        
+    
+    
+            var marker_3a531dafd89cc26a0b1024d7e36f6035 = L.marker(
+                [33.7216247, 73.07836979999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_80c7c08da3167bb101e648f897280616 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d70424a6936c6697f4c9a6218af59bd = $(`<div id="html_6d70424a6936c6697f4c9a6218af59bd" style="width: 100.0%; height: 100.0%;">Shaheed-e-Millat Metrobus Station</div>`)[0];
+                popup_80c7c08da3167bb101e648f897280616.setContent(html_6d70424a6936c6697f4c9a6218af59bd);
+            
+        
+
+        marker_3a531dafd89cc26a0b1024d7e36f6035.bindPopup(popup_80c7c08da3167bb101e648f897280616)
+        ;
+
+        
+    
+    
+            var marker_4f6ab6c939c7edaec7712194c756dd75 = L.marker(
+                [33.7145019, 73.0840618],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_3c422e40f5076e5fef69f2bd99291d63 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4c62ce289c79e997878e3ef440f19ed = $(`<div id="html_b4c62ce289c79e997878e3ef440f19ed" style="width: 100.0%; height: 100.0%;">Melody Wagon Stop</div>`)[0];
+                popup_3c422e40f5076e5fef69f2bd99291d63.setContent(html_b4c62ce289c79e997878e3ef440f19ed);
+            
+        
+
+        marker_4f6ab6c939c7edaec7712194c756dd75.bindPopup(popup_3c422e40f5076e5fef69f2bd99291d63)
+        ;
+
+        
+    
+    
+            var marker_515d37434078d1bba4d64dbb6141a845 = L.marker(
+                [33.7204512, 73.0842519],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_50f580308faba9060d84c75315ecc91f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58278bcf2182a251a32b9a1ea252956f = $(`<div id="html_58278bcf2182a251a32b9a1ea252956f" style="width: 100.0%; height: 100.0%;">Polyclinic Bus Stop</div>`)[0];
+                popup_50f580308faba9060d84c75315ecc91f.setContent(html_58278bcf2182a251a32b9a1ea252956f);
+            
+        
+
+        marker_515d37434078d1bba4d64dbb6141a845.bindPopup(popup_50f580308faba9060d84c75315ecc91f)
+        ;
+
+        
+    
+    
+            var marker_291fabe52333135ea4eae0ea5c2d27be = L.marker(
+                [33.7209074, 73.0801038],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_e0013026534851b1fb95f23bedb42dce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e3ed25d015c9367ab94bbe5cb8e54df5 = $(`<div id="html_e3ed25d015c9367ab94bbe5cb8e54df5" style="width: 100.0%; height: 100.0%;">Polyclinic Bus Stop</div>`)[0];
+                popup_e0013026534851b1fb95f23bedb42dce.setContent(html_e3ed25d015c9367ab94bbe5cb8e54df5);
+            
+        
+
+        marker_291fabe52333135ea4eae0ea5c2d27be.bindPopup(popup_e0013026534851b1fb95f23bedb42dce)
+        ;
+
+        
+    
+    
+            var marker_f536f97dd8a3855004f9c55430221bb8 = L.marker(
+                [33.7251753, 73.0845683],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_9610a0a0f380ea64fac7eb8b0cfb624b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_500035ff4b84dbf274eff520ea493dde = $(`<div id="html_500035ff4b84dbf274eff520ea493dde" style="width: 100.0%; height: 100.0%;">Parade Ground Station North</div>`)[0];
+                popup_9610a0a0f380ea64fac7eb8b0cfb624b.setContent(html_500035ff4b84dbf274eff520ea493dde);
+            
+        
+
+        marker_f536f97dd8a3855004f9c55430221bb8.bindPopup(popup_9610a0a0f380ea64fac7eb8b0cfb624b)
+        ;
+
+        
+    
+    
+            var marker_2e5b029594b41b06279949eb3a0a237a = L.marker(
+                [33.7248804, 73.0846002],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_e2714066aaa3f78dee40ace1f89d7123 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b482199c93b77af9d425f7834797aa21 = $(`<div id="html_b482199c93b77af9d425f7834797aa21" style="width: 100.0%; height: 100.0%;">Parade Ground Metro Bus Station</div>`)[0];
+                popup_e2714066aaa3f78dee40ace1f89d7123.setContent(html_b482199c93b77af9d425f7834797aa21);
+            
+        
+
+        marker_2e5b029594b41b06279949eb3a0a237a.bindPopup(popup_e2714066aaa3f78dee40ace1f89d7123)
+        ;
+
+        
+    
+    
+            var marker_283432d0e16229f0f77356cda0e5d919 = L.marker(
+                [33.7289454, 73.0907442],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_5a37edef3abca21320f7d793411765d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72af8419c65406682b496a65bc0d0cae = $(`<div id="html_72af8419c65406682b496a65bc0d0cae" style="width: 100.0%; height: 100.0%;">Metro Bus Parking</div>`)[0];
+                popup_5a37edef3abca21320f7d793411765d6.setContent(html_72af8419c65406682b496a65bc0d0cae);
+            
+        
+
+        marker_283432d0e16229f0f77356cda0e5d919.bindPopup(popup_5a37edef3abca21320f7d793411765d6)
+        ;
+
+        
+    
+    
+            var marker_3d0d95de23e2dbf60c40510290f198a7 = L.marker(
+                [33.7206241, 73.0838388],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_9c2869827b4ec0142268cbc63d918517 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91938f3891600b23e88596ad52862bba = $(`<div id="html_91938f3891600b23e88596ad52862bba" style="width: 100.0%; height: 100.0%;">Polyclinic Stop</div>`)[0];
+                popup_9c2869827b4ec0142268cbc63d918517.setContent(html_91938f3891600b23e88596ad52862bba);
+            
+        
+
+        marker_3d0d95de23e2dbf60c40510290f198a7.bindPopup(popup_9c2869827b4ec0142268cbc63d918517)
+        ;
+
+        
+    
+    
+            var marker_fd9b8722edfc9aabf8226d5df6395ad8 = L.marker(
+                [33.727876, 73.1424474],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_5d0361c922b5a66701571bc79cb17bdd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3739eb8d2e262e5cae443626fd72f0ea = $(`<div id="html_3739eb8d2e262e5cae443626fd72f0ea" style="width: 100.0%; height: 100.0%;">Dadan Khan Bus Stop</div>`)[0];
+                popup_5d0361c922b5a66701571bc79cb17bdd.setContent(html_3739eb8d2e262e5cae443626fd72f0ea);
+            
+        
+
+        marker_fd9b8722edfc9aabf8226d5df6395ad8.bindPopup(popup_5d0361c922b5a66701571bc79cb17bdd)
+        ;
+
+        
+    
+    
+            var marker_6c4b0a2fafdfd6c4676d6d3958eba0f1 = L.marker(
+                [33.7297783, 73.1445426],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_b081b5f19fa42c8b95f98ae11df371e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f386d6783444cc2266db64aae6703295 = $(`<div id="html_f386d6783444cc2266db64aae6703295" style="width: 100.0%; height: 100.0%;">Malpur Bus Stop North</div>`)[0];
+                popup_b081b5f19fa42c8b95f98ae11df371e2.setContent(html_f386d6783444cc2266db64aae6703295);
+            
+        
+
+        marker_6c4b0a2fafdfd6c4676d6d3958eba0f1.bindPopup(popup_b081b5f19fa42c8b95f98ae11df371e2)
+        ;
+
+        
+    
+    
+            var marker_0f55fd11380d13b110ee56c546a22295 = L.marker(
+                [33.7289041, 73.1440598],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_3a606cc78692ec005cc2eca57b86e1ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d3ab2ecddd8c800c52dd7b68237de2af = $(`<div id="html_d3ab2ecddd8c800c52dd7b68237de2af" style="width: 100.0%; height: 100.0%;">Malpur Bus Stop South</div>`)[0];
+                popup_3a606cc78692ec005cc2eca57b86e1ac.setContent(html_d3ab2ecddd8c800c52dd7b68237de2af);
+            
+        
+
+        marker_0f55fd11380d13b110ee56c546a22295.bindPopup(popup_3a606cc78692ec005cc2eca57b86e1ac)
+        ;
+
+        
+    
+    
+            var marker_3e0f993aed26f91ce99a98db57c13236 = L.marker(
+                [33.7279602, 73.0396226],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_f339d16714cd4d6beab12fd8f5332471 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a41d7c3d33bfe60e878d687acd3b8b1 = $(`<div id="html_2a41d7c3d33bfe60e878d687acd3b8b1" style="width: 100.0%; height: 100.0%;">Faisal Mosque Bus Stand</div>`)[0];
+                popup_f339d16714cd4d6beab12fd8f5332471.setContent(html_2a41d7c3d33bfe60e878d687acd3b8b1);
+            
+        
+
+        marker_3e0f993aed26f91ce99a98db57c13236.bindPopup(popup_f339d16714cd4d6beab12fd8f5332471)
+        ;
+
+        
+    
+    
+            var marker_b9004712bec1368ce82d7bce73e02f99 = L.marker(
+                [33.7206001, 73.0582036],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_4ab9d0e9d1a709d0c6c953d758cb15df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5deb8329c9f74811b920e2c2be6b52bd = $(`<div id="html_5deb8329c9f74811b920e2c2be6b52bd" style="width: 100.0%; height: 100.0%;">Public Parking</div>`)[0];
+                popup_4ab9d0e9d1a709d0c6c953d758cb15df.setContent(html_5deb8329c9f74811b920e2c2be6b52bd);
+            
+        
+
+        marker_b9004712bec1368ce82d7bce73e02f99.bindPopup(popup_4ab9d0e9d1a709d0c6c953d758cb15df)
+        ;
+
+        
+    
+    
+            var marker_2288b9d56835a030bde88d7d9114fb33 = L.marker(
+                [33.7116614, 73.05937709999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_18b15d7cf9331c8e86d2ea0d3a620c1d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_caaeff957b934e2f9a28510630bd885c = $(`<div id="html_caaeff957b934e2f9a28510630bd885c" style="width: 100.0%; height: 100.0%;">Stock Exchange Metrobus Station</div>`)[0];
+                popup_18b15d7cf9331c8e86d2ea0d3a620c1d.setContent(html_caaeff957b934e2f9a28510630bd885c);
+            
+        
+
+        marker_2288b9d56835a030bde88d7d9114fb33.bindPopup(popup_18b15d7cf9331c8e86d2ea0d3a620c1d)
+        ;
+
+        
+    
+    
+            var marker_df046f44beccc5b5e7a67228c17e715e = L.marker(
+                [33.7350447, 73.09232779999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_01aa3d4db8487a99651833955ec36d87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_838db3d698b89ff575a9b9aeae0593d5 = $(`<div id="html_838db3d698b89ff575a9b9aeae0593d5" style="width: 100.0%; height: 100.0%;">Secretariat MetroBus Station</div>`)[0];
+                popup_01aa3d4db8487a99651833955ec36d87.setContent(html_838db3d698b89ff575a9b9aeae0593d5);
+            
+        
+
+        marker_df046f44beccc5b5e7a67228c17e715e.bindPopup(popup_01aa3d4db8487a99651833955ec36d87)
+        ;
+
+        
+    
+    
+            var marker_d98003217f8a55545d90bb030a7108c3 = L.marker(
+                [33.7353017, 73.09220020000001],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_fd0c9cb9a57604f9dce4b469d0892d8d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5c647881a9f805cde84a7977a5c4578 = $(`<div id="html_b5c647881a9f805cde84a7977a5c4578" style="width: 100.0%; height: 100.0%;">Pak Secretariat</div>`)[0];
+                popup_fd0c9cb9a57604f9dce4b469d0892d8d.setContent(html_b5c647881a9f805cde84a7977a5c4578);
+            
+        
+
+        marker_d98003217f8a55545d90bb030a7108c3.bindPopup(popup_fd0c9cb9a57604f9dce4b469d0892d8d)
+        ;
+
+        
+    
+    
+            var marker_9354c14b3dc85d54478b735ee901ac74 = L.marker(
+                [33.7247209, 73.0844205],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_55d3f51d414f315ce1e3d23f8dcdd5ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80a63a616ae58a5f2cb4157c8c3f03e1 = $(`<div id="html_80a63a616ae58a5f2cb4157c8c3f03e1" style="width: 100.0%; height: 100.0%;">Parade Ground Metrobus Station</div>`)[0];
+                popup_55d3f51d414f315ce1e3d23f8dcdd5ce.setContent(html_80a63a616ae58a5f2cb4157c8c3f03e1);
+            
+        
+
+        marker_9354c14b3dc85d54478b735ee901ac74.bindPopup(popup_55d3f51d414f315ce1e3d23f8dcdd5ce)
+        ;
+
+        
+    
+    
+            var marker_7add1881a5c3993b7ee508ed4318d239 = L.marker(
+                [33.7453558, 73.1402219],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_bf3a76f840a25c845efe1870e1df9e51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f82da617e81f47988073a1cc4d76e4f2 = $(`<div id="html_f82da617e81f47988073a1cc4d76e4f2" style="width: 100.0%; height: 100.0%;">Buses Point</div>`)[0];
+                popup_bf3a76f840a25c845efe1870e1df9e51.setContent(html_f82da617e81f47988073a1cc4d76e4f2);
+            
+        
+
+        marker_7add1881a5c3993b7ee508ed4318d239.bindPopup(popup_bf3a76f840a25c845efe1870e1df9e51)
+        ;
+
+        
+    
+    
+            var marker_8830df00d95e0a7a46537ac02298c1f9 = L.marker(
+                [33.7345184, 73.15921840000001],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_d3ac084d8ee6d0e5d99c16a090ec5680 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec2e09a9ca3e5acef031fdbc361c9d90 = $(`<div id="html_ec2e09a9ca3e5acef031fdbc361c9d90" style="width: 100.0%; height: 100.0%;">Green Line Stop Shahdara - South</div>`)[0];
+                popup_d3ac084d8ee6d0e5d99c16a090ec5680.setContent(html_ec2e09a9ca3e5acef031fdbc361c9d90);
+            
+        
+
+        marker_8830df00d95e0a7a46537ac02298c1f9.bindPopup(popup_d3ac084d8ee6d0e5d99c16a090ec5680)
+        ;
+
+        
+    
+    
+            var marker_26acb9c8bc84ef863bf2dca7c8a89ccf = L.marker(
+                [33.7348909, 73.16757199999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_770d50434cd8e69c6485a3ec0fc1b10c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cbced091bd0fb7a9de9bd24dbe799f80 = $(`<div id="html_cbced091bd0fb7a9de9bd24dbe799f80" style="width: 100.0%; height: 100.0%;">Jillani Bus Stop</div>`)[0];
+                popup_770d50434cd8e69c6485a3ec0fc1b10c.setContent(html_cbced091bd0fb7a9de9bd24dbe799f80);
+            
+        
+
+        marker_26acb9c8bc84ef863bf2dca7c8a89ccf.bindPopup(popup_770d50434cd8e69c6485a3ec0fc1b10c)
+        ;
+
+        
+    
+    
+            var marker_0558534f0e01a358095c026543dc30e7 = L.marker(
+                [33.7349522, 73.1675707],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_d3d620f10f2454861119f15c8b2eb09a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10ad375688bac332a2183b2094a1506a = $(`<div id="html_10ad375688bac332a2183b2094a1506a" style="width: 100.0%; height: 100.0%;">Dhoke Jilani stop</div>`)[0];
+                popup_d3d620f10f2454861119f15c8b2eb09a.setContent(html_10ad375688bac332a2183b2094a1506a);
+            
+        
+
+        marker_0558534f0e01a358095c026543dc30e7.bindPopup(popup_d3d620f10f2454861119f15c8b2eb09a)
+        ;
+
+        
+    
+    
+            var marker_604940e539ab922efd42dfa2cad2e1df = L.marker(
+                [33.7354664, 73.2177293],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_c8423ac27e81d95586e5ebbe515212bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_653215a2133b70114ac2effb1c4cae6a = $(`<div id="html_653215a2133b70114ac2effb1c4cae6a" style="width: 100.0%; height: 100.0%;">Kalma Chowk Bus Stop</div>`)[0];
+                popup_c8423ac27e81d95586e5ebbe515212bd.setContent(html_653215a2133b70114ac2effb1c4cae6a);
+            
+        
+
+        marker_604940e539ab922efd42dfa2cad2e1df.bindPopup(popup_c8423ac27e81d95586e5ebbe515212bd)
+        ;
+
+        
+    
+    
+            var marker_d8d854215fc0ce628beba1a1f530e72c = L.marker(
+                [33.7508137, 73.13646609999999],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_245910e6ed9092bc94f28a471c6aa874 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c902935aa201d4feffb3ce671b31647 = $(`<div id="html_8c902935aa201d4feffb3ce671b31647" style="width: 100.0%; height: 100.0%;">University Bus Depot</div>`)[0];
+                popup_245910e6ed9092bc94f28a471c6aa874.setContent(html_8c902935aa201d4feffb3ce671b31647);
+            
+        
+
+        marker_d8d854215fc0ce628beba1a1f530e72c.bindPopup(popup_245910e6ed9092bc94f28a471c6aa874)
+        ;
+
+        
+    
+    
+            var marker_79ee8304de622ebc8970aabd5ebd6094 = L.marker(
+                [33.7508246, 73.1366017],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_15b580edd3f79f0397551995aea3fb48 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50924916b53afb4c8b1274c3906bfc79 = $(`<div id="html_50924916b53afb4c8b1274c3906bfc79" style="width: 100.0%; height: 100.0%;">Transport Unit</div>`)[0];
+                popup_15b580edd3f79f0397551995aea3fb48.setContent(html_50924916b53afb4c8b1274c3906bfc79);
+            
+        
+
+        marker_79ee8304de622ebc8970aabd5ebd6094.bindPopup(popup_15b580edd3f79f0397551995aea3fb48)
+        ;
+
+        
+    
+    
+            var marker_7983894a70ac223d7724ff15654d9c7b = L.marker(
+                [33.7636113, 73.2193494],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_051b6aa99e47149fe43a6e7be1351340 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca0deae7c1835a0daad3acd39d413876 = $(`<div id="html_ca0deae7c1835a0daad3acd39d413876" style="width: 100.0%; height: 100.0%;">Satra Meel Bus Stop</div>`)[0];
+                popup_051b6aa99e47149fe43a6e7be1351340.setContent(html_ca0deae7c1835a0daad3acd39d413876);
+            
+        
+
+        marker_7983894a70ac223d7724ff15654d9c7b.bindPopup(popup_051b6aa99e47149fe43a6e7be1351340)
+        ;
+
+        
+    
+    
+            var marker_d8cafc1937d09c6bdcc39d78187714dc = L.marker(
+                [33.7669114, 73.2339191],
+                {}
+            ).addTo(map_e4b150adad1d0a7919d6f3c4754d5652);
+        
+    
+        var popup_e6d212688e04ebcaaa1ba82a37b0882f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57cfacd946d3ab262592520e9a2f50fe = $(`<div id="html_57cfacd946d3ab262592520e9a2f50fe" style="width: 100.0%; height: 100.0%;">Anguri Road Bus Stop</div>`)[0];
+                popup_e6d212688e04ebcaaa1ba82a37b0882f.setContent(html_57cfacd946d3ab262592520e9a2f50fe);
+            
+        
+
+        marker_d8cafc1937d09c6bdcc39d78187714dc.bindPopup(popup_e6d212688e04ebcaaa1ba82a37b0882f)
+        ;
+
+        
+    
+</script>
+</html>

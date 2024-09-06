@@ -1,0 +1,3550 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-08-30">
+    <creator>NetworkX 3.3</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="2" title="percent_travelers" type="float" />
+      <attribute id="3" title="haversine_distance" type="float" />
+      <attribute id="4" title="google_distance" type="float" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="latitude" type="double" />
+      <attribute id="1" title="longitude" type="double" />
+    </attributes>
+    <nodes>
+      <node id="F8_E8_F9_E9" label="F8_E8_F9_E9">
+        <attvalues>
+          <attvalue for="0" value="33.7134014" />
+          <attvalue for="1" value="73.03277168" />
+        </attvalues>
+      </node>
+      <node id="CHAKLALA" label="CHAKLALA">
+        <attvalues>
+          <attvalue for="0" value="33.60093813" />
+          <attvalue for="1" value="73.07507165" />
+        </attvalues>
+      </node>
+      <node id="GHAURI_BURMA_TOWN_KHANNA" label="GHAURI_BURMA_TOWN_KHANNA">
+        <attvalues>
+          <attvalue for="0" value="33.62744882" />
+          <attvalue for="1" value="73.13042452" />
+        </attvalues>
+      </node>
+      <node id="RAWAL_ROAD" label="RAWAL_ROAD">
+        <attvalues>
+          <attvalue for="0" value="33.61876717" />
+          <attvalue for="1" value="73.073812" />
+        </attvalues>
+      </node>
+      <node id="ADIALA" label="ADIALA">
+        <attvalues>
+          <attvalue for="0" value="33.54623619" />
+          <attvalue for="1" value="73.05209675" />
+        </attvalues>
+      </node>
+      <node id="SATELLITE_TOWN" label="SATELLITE_TOWN">
+        <attvalues>
+          <attvalue for="0" value="33.63989311" />
+          <attvalue for="1" value="73.06257614" />
+        </attvalues>
+      </node>
+      <node id="G13_G14_GOLRA" label="G13_G14_GOLRA">
+        <attvalues>
+          <attvalue for="0" value="33.64752556" />
+          <attvalue for="1" value="72.95087122" />
+        </attvalues>
+      </node>
+      <node id="QASIM_MARKET_RANGE_ROAD" label="QASIM_MARKET_RANGE_ROAD">
+        <attvalues>
+          <attvalue for="0" value="33.59000295" />
+          <attvalue for="1" value="73.01657994" />
+        </attvalues>
+      </node>
+      <node id="DHA2_ZARAJ" label="DHA2_ZARAJ">
+        <attvalues>
+          <attvalue for="0" value="33.53117099" />
+          <attvalue for="1" value="73.15604532" />
+        </attvalues>
+      </node>
+      <node id="SHAMSABAD_DHOK_KALA" label="SHAMSABAD_DHOK_KALA">
+        <attvalues>
+          <attvalue for="0" value="33.65017158" />
+          <attvalue for="1" value="73.09153509" />
+        </attvalues>
+      </node>
+      <node id="F6_F7_E7" label="F6_F7_E7">
+        <attvalues>
+          <attvalue for="0" value="33.72367762" />
+          <attvalue for="1" value="73.06117237" />
+        </attvalues>
+      </node>
+      <node id="KOHINOOR_MILL_PIRWADHAI" label="KOHINOOR_MILL_PIRWADHAI">
+        <attvalues>
+          <attvalue for="0" value="33.61071461" />
+          <attvalue for="1" value="72.98985375" />
+        </attvalues>
+      </node>
+      <node id="BAHRIA8" label="BAHRIA8">
+        <attvalues>
+          <attvalue for="0" value="33.495714" />
+          <attvalue for="1" value="73.085473" />
+        </attvalues>
+      </node>
+      <node id="DHAMIAL_CHAKRI_ROAD" label="DHAMIAL_CHAKRI_ROAD">
+        <attvalues>
+          <attvalue for="0" value="33.56066811" />
+          <attvalue for="1" value="73.01000235" />
+        </attvalues>
+      </node>
+      <node id="LALKURTI_TENCH_DHOKSYEDAN" label="LALKURTI_TENCH_DHOKSYEDAN">
+        <attvalues>
+          <attvalue for="0" value="33.57943285" />
+          <attvalue for="1" value="73.04073332" />
+        </attvalues>
+      </node>
+      <node id="I8_H8_SHAKARPARIAN" label="I8_H8_SHAKARPARIAN">
+        <attvalues>
+          <attvalue for="0" value="33.68034167" />
+          <attvalue for="1" value="73.07717667" />
+        </attvalues>
+      </node>
+      <node id="H9_I9" label="H9_I9">
+        <attvalues>
+          <attvalue for="0" value="33.662345" />
+          <attvalue for="1" value="73.05200625" />
+        </attvalues>
+      </node>
+      <node id="LIAQUATBAGH_RAJABAZAR" label="LIAQUATBAGH_RAJABAZAR">
+        <attvalues>
+          <attvalue for="0" value="33.61586581" />
+          <attvalue for="1" value="73.05613158" />
+        </attvalues>
+      </node>
+      <node id="H10_H11_H12" label="H10_H11_H12">
+        <attvalues>
+          <attvalue for="0" value="33.6462776" />
+          <attvalue for="1" value="72.9999366" />
+        </attvalues>
+      </node>
+      <node id="I10_I11" label="I10_I11">
+        <attvalues>
+          <attvalue for="0" value="33.646044" />
+          <attvalue for="1" value="73.03527323" />
+        </attvalues>
+      </node>
+      <node id="MORGAH_ASKARI14" label="MORGAH_ASKARI14">
+        <attvalues>
+          <attvalue for="0" value="33.54724362" />
+          <attvalue for="1" value="73.07338379" />
+        </attvalues>
+      </node>
+      <node id="H13_I14_JHANGI_SYEDAN" label="H13_I14_JHANGI_SYEDAN">
+        <attvalues>
+          <attvalue for="0" value="33.62512322" />
+          <attvalue for="1" value="72.95902271" />
+        </attvalues>
+      </node>
+      <node id="WESTRIDGE" label="WESTRIDGE">
+        <attvalues>
+          <attvalue for="0" value="33.61226834" />
+          <attvalue for="1" value="73.01947658" />
+        </attvalues>
+      </node>
+      <node id="KHANNA_KORAL" label="KHANNA_KORAL">
+        <attvalues>
+          <attvalue for="0" value="33.62449535" />
+          <attvalue for="1" value="73.1067525" />
+        </attvalues>
+      </node>
+      <node id="F10_F11_E11_D12" label="F10_F11_E11_D12">
+        <attvalues>
+          <attvalue for="0" value="33.69226281" />
+          <attvalue for="1" value="72.99067119" />
+        </attvalues>
+      </node>
+      <node id="BHARAKAHU_BANIGALA" label="BHARAKAHU_BANIGALA">
+        <attvalues>
+          <attvalue for="0" value="33.73680847" />
+          <attvalue for="1" value="73.18177033" />
+        </attvalues>
+      </node>
+      <node id="FAIZABAD_STADIUM_ROAD" label="FAIZABAD_STADIUM_ROAD">
+        <attvalues>
+          <attvalue for="0" value="33.65196382" />
+          <attvalue for="1" value="73.07357536" />
+        </attvalues>
+      </node>
+      <node id="NAVAL_GULBERG" label="NAVAL_GULBERG">
+        <attvalues>
+          <attvalue for="0" value="33.57863522" />
+          <attvalue for="1" value="73.17832789" />
+        </attvalues>
+      </node>
+      <node id="TARAMRI_ALIPUR_FARASHTOWN" label="TARAMRI_ALIPUR_FARASHTOWN">
+        <attvalues>
+          <attvalue for="0" value="33.64359527" />
+          <attvalue for="1" value="73.195033" />
+        </attvalues>
+      </node>
+      <node id="DHA1_BAHRIA7" label="DHA1_BAHRIA7">
+        <attvalues>
+          <attvalue for="0" value="33.54223911" />
+          <attvalue for="1" value="73.10114689" />
+        </attvalues>
+      </node>
+      <node id="SHAKRIAL_SADIQABAD" label="SHAKRIAL_SADIQABAD">
+        <attvalues>
+          <attvalue for="0" value="33.63784416" />
+          <attvalue for="1" value="73.08968728" />
+        </attvalues>
+      </node>
+      <node id="SCHEME3_GULISTAN_COLONY" label="SCHEME3_GULISTAN_COLONY">
+        <attvalues>
+          <attvalue for="0" value="33.57718407" />
+          <attvalue for="1" value="73.09887208" />
+        </attvalues>
+      </node>
+      <node id="OLD_AIRPORT" label="OLD_AIRPORT">
+        <attvalues>
+          <attvalue for="0" value="33.59809288" />
+          <attvalue for="1" value="73.11899808" />
+        </attvalues>
+      </node>
+      <node id="G8_G9" label="G8_G9">
+        <attvalues>
+          <attvalue for="0" value="33.69034756" />
+          <attvalue for="1" value="73.04003006" />
+        </attvalues>
+      </node>
+      <node id="SADDAR" label="SADDAR">
+        <attvalues>
+          <attvalue for="0" value="33.59627289" />
+          <attvalue for="1" value="73.05574406" />
+        </attvalues>
+      </node>
+      <node id="G6_G7_BLUE_AREA" label="G6_G7_BLUE_AREA">
+        <attvalues>
+          <attvalue for="0" value="33.71343576" />
+          <attvalue for="1" value="73.07453243" />
+        </attvalues>
+      </node>
+      <node id="DHOKE_HASSU" label="DHOKE_HASSU">
+        <attvalues>
+          <attvalue for="0" value="33.62664115" />
+          <attvalue for="1" value="73.03386451" />
+        </attvalues>
+      </node>
+      <node id="G10_G11_G12" label="G10_G11_G12">
+        <attvalues>
+          <attvalue for="0" value="33.67167071" />
+          <attvalue for="1" value="73.00632507" />
+        </attvalues>
+      </node>
+      <node id="G5_F5_DIPLOMATIC_SECRETARIAT" label="G5_F5_DIPLOMATIC_SECRETARIAT">
+        <attvalues>
+          <attvalue for="0" value="33.72629888" />
+          <attvalue for="1" value="73.09936917" />
+        </attvalues>
+      </node>
+      <node id="BAHRIA1_6_PWD" label="BAHRIA1_6_PWD">
+        <attvalues>
+          <attvalue for="0" value="33.56252679" />
+          <attvalue for="1" value="73.13773117" />
+        </attvalues>
+      </node>
+      <node id="SOHAN_CHAK_SHAHZAD" label="SOHAN_CHAK_SHAHZAD">
+        <attvalues>
+          <attvalue for="0" value="33.67048536" />
+          <attvalue for="1" value="73.13181945" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="F8_E8_F9_E9" target="F10_F11_E11_D12" id="0">
+        <attvalues>
+          <attvalue for="2" value="0.0226505" />
+          <attvalue for="3" value="4.548887883517593" />
+          <attvalue for="4" value="6.354" />
+        </attvalues>
+      </edge>
+      <edge source="F8_E8_F9_E9" target="F6_F7_E7" id="1">
+        <attvalues>
+          <attvalue for="2" value="0.017024" />
+          <attvalue for="3" value="2.864527743806618" />
+          <attvalue for="4" value="3.893" />
+        </attvalues>
+      </edge>
+      <edge source="F8_E8_F9_E9" target="FAIZABAD_STADIUM_ROAD" id="2">
+        <attvalues>
+          <attvalue for="2" value="0.001658833333333333" />
+          <attvalue for="3" value="7.805396778948949" />
+          <attvalue for="4" value="8.708" />
+        </attvalues>
+      </edge>
+      <edge source="F8_E8_F9_E9" target="G10_G11_G12" id="3">
+        <attvalues>
+          <attvalue for="2" value="0.00743" />
+          <attvalue for="3" value="5.245806919299066" />
+          <attvalue for="4" value="7.412" />
+        </attvalues>
+      </edge>
+      <edge source="F8_E8_F9_E9" target="G5_F5_DIPLOMATIC_SECRETARIAT" id="4">
+        <attvalues>
+          <attvalue for="2" value="0.006636666666666667" />
+          <attvalue for="3" value="6.32420315445997" />
+          <attvalue for="4" value="9.44" />
+        </attvalues>
+      </edge>
+      <edge source="F8_E8_F9_E9" target="G6_G7_BLUE_AREA" id="5">
+        <attvalues>
+          <attvalue for="2" value="0.018683" />
+          <attvalue for="3" value="3.862646814587169" />
+          <attvalue for="4" value="7.253" />
+        </attvalues>
+      </edge>
+      <edge source="F8_E8_F9_E9" target="G8_G9" id="6">
+        <attvalues>
+          <attvalue for="2" value="0.020198" />
+          <attvalue for="3" value="2.649948232869767" />
+          <attvalue for="4" value="3.799" />
+        </attvalues>
+      </edge>
+      <edge source="F8_E8_F9_E9" target="H9_I9" id="7">
+        <attvalues>
+          <attvalue for="2" value="0.0019475" />
+          <attvalue for="3" value="5.949605251535492" />
+          <attvalue for="4" value="7.759" />
+        </attvalues>
+      </edge>
+      <edge source="F8_E8_F9_E9" target="I10_I11" id="8">
+        <attvalues>
+          <attvalue for="2" value="0.0023805" />
+          <attvalue for="3" value="7.493377073211968" />
+          <attvalue for="4" value="10.588" />
+        </attvalues>
+      </edge>
+      <edge source="F8_E8_F9_E9" target="I8_H8_SHAKARPARIAN" id="9">
+        <attvalues>
+          <attvalue for="2" value="0.005770833333333333" />
+          <attvalue for="3" value="5.512649236698762" />
+          <attvalue for="4" value="7.321" />
+        </attvalues>
+      </edge>
+      <edge source="F8_E8_F9_E9" target="SATELLITE_TOWN" id="10">
+        <attvalues>
+          <attvalue for="2" value="0.004400166666666667" />
+          <attvalue for="3" value="8.626491733324853" />
+          <attvalue for="4" value="10.92" />
+        </attvalues>
+      </edge>
+      <edge source="CHAKLALA" target="ADIALA" id="11">
+        <attvalues>
+          <attvalue for="2" value="0.0050495" />
+          <attvalue for="3" value="6.444246065303221" />
+          <attvalue for="4" value="9.426" />
+        </attvalues>
+      </edge>
+      <edge source="CHAKLALA" target="DHA1_BAHRIA7" id="12">
+        <attvalues>
+          <attvalue for="2" value="0.006780666666666667" />
+          <attvalue for="3" value="6.95975797061739" />
+          <attvalue for="4" value="10.828" />
+        </attvalues>
+      </edge>
+      <edge source="CHAKLALA" target="DHAMIAL_CHAKRI_ROAD" id="13">
+        <attvalues>
+          <attvalue for="2" value="0.003462333333333333" />
+          <attvalue for="3" value="7.509043516280465" />
+          <attvalue for="4" value="11.02" />
+        </attvalues>
+      </edge>
+      <edge source="CHAKLALA" target="DHOKE_HASSU" id="14">
+        <attvalues>
+          <attvalue for="2" value="0.005915" />
+          <attvalue for="3" value="4.767512562911802" />
+          <attvalue for="4" value="9.29" />
+        </attvalues>
+      </edge>
+      <edge source="CHAKLALA" target="FAIZABAD_STADIUM_ROAD" id="15">
+        <attvalues>
+          <attvalue for="2" value="0.003390333333333333" />
+          <attvalue for="3" value="5.675488975571227" />
+          <attvalue for="4" value="7.908" />
+        </attvalues>
+      </edge>
+      <edge source="CHAKLALA" target="H9_I9" id="16">
+        <attvalues>
+          <attvalue for="2" value="0.003678666666666667" />
+          <attvalue for="3" value="7.154268645051965" />
+          <attvalue for="4" value="11.051" />
+        </attvalues>
+      </edge>
+      <edge source="CHAKLALA" target="KHANNA_KORAL" id="17">
+        <attvalues>
+          <attvalue for="2" value="0.007285666666666667" />
+          <attvalue for="3" value="3.932977968165409" />
+          <attvalue for="4" value="11.356" />
+        </attvalues>
+      </edge>
+      <edge source="CHAKLALA" target="KOHINOOR_MILL_PIRWADHAI" id="18">
+        <attvalues>
+          <attvalue for="2" value="0.0039675" />
+          <attvalue for="3" value="7.966579365058244" />
+          <attvalue for="4" value="10.023" />
+        </attvalues>
+      </edge>
+      <edge source="CHAKLALA" target="LALKURTI_TENCH_DHOKSYEDAN" id="19">
+        <attvalues>
+          <attvalue for="2" value="0.02524733333333333" />
+          <attvalue for="3" value="3.979298925899917" />
+          <attvalue for="4" value="6.115" />
+        </attvalues>
+      </edge>
+      <edge source="CHAKLALA" target="LIAQUATBAGH_RAJABAZAR" id="20">
+        <attvalues>
+          <attvalue for="2" value="0.071486" />
+          <attvalue for="3" value="2.414892346010863" />
+          <attvalue for="4" value="2.955" />
+        </attvalues>
+      </edge>
+      <edge source="CHAKLALA" target="OLD_AIRPORT" id="21">
+        <attvalues>
+          <attvalue for="2" value="0.02026983333333333" />
+          <attvalue for="3" value="4.080623248814675" />
+          <attvalue for="4" value="6.082" />
+        </attvalues>
+      </edge>
+      <edge source="CHAKLALA" target="QASIM_MARKET_RANGE_ROAD" id="22">
+        <attvalues>
+          <attvalue for="2" value="0.007429833333333333" />
+          <attvalue for="3" value="5.552366057781096" />
+          <attvalue for="4" value="8.216" />
+        </attvalues>
+      </edge>
+      <edge source="CHAKLALA" target="RAWAL_ROAD" id="23">
+        <attvalues>
+          <attvalue for="2" value="0.4598611666666667" />
+          <attvalue for="3" value="1.985927735796624" />
+          <attvalue for="4" value="3.683" />
+        </attvalues>
+      </edge>
+      <edge source="CHAKLALA" target="SADDAR" id="24">
+        <attvalues>
+          <attvalue for="2" value="0.06016066666666667" />
+          <attvalue for="3" value="1.863734602797637" />
+          <attvalue for="4" value="3.134" />
+        </attvalues>
+      </edge>
+      <edge source="CHAKLALA" target="SATELLITE_TOWN" id="25">
+        <attvalues>
+          <attvalue for="2" value="0.02113566666666666" />
+          <attvalue for="3" value="4.483460185201873" />
+          <attvalue for="4" value="6.456" />
+        </attvalues>
+      </edge>
+      <edge source="CHAKLALA" target="SCHEME3_GULISTAN_COLONY" id="26">
+        <attvalues>
+          <attvalue for="2" value="0.03484116666666667" />
+          <attvalue for="3" value="3.440474903301653" />
+          <attvalue for="4" value="5.621" />
+        </attvalues>
+      </edge>
+      <edge source="CHAKLALA" target="SHAKRIAL_SADIQABAD" id="27">
+        <attvalues>
+          <attvalue for="2" value="0.01096466666666667" />
+          <attvalue for="3" value="4.321159305847289" />
+          <attvalue for="4" value="5.96" />
+        </attvalues>
+      </edge>
+      <edge source="CHAKLALA" target="WESTRIDGE" id="28">
+        <attvalues>
+          <attvalue for="2" value="0.004184" />
+          <attvalue for="3" value="5.300535114931185" />
+          <attvalue for="4" value="7.626" />
+        </attvalues>
+      </edge>
+      <edge source="GHAURI_BURMA_TOWN_KHANNA" target="FAIZABAD_STADIUM_ROAD" id="29">
+        <attvalues>
+          <attvalue for="2" value="0.018755" />
+          <attvalue for="3" value="5.926830382972772" />
+          <attvalue for="4" value="9.948" />
+        </attvalues>
+      </edge>
+      <edge source="GHAURI_BURMA_TOWN_KHANNA" target="KHANNA_KORAL" id="30">
+        <attvalues>
+          <attvalue for="2" value="0.06297383333333333" />
+          <attvalue for="3" value="2.216229634773043" />
+          <attvalue for="4" value="4.332" />
+        </attvalues>
+      </edge>
+      <edge source="GHAURI_BURMA_TOWN_KHANNA" target="OLD_AIRPORT" id="31">
+        <attvalues>
+          <attvalue for="2" value="0.02568016666666667" />
+          <attvalue for="3" value="3.431447052669173" />
+          <attvalue for="4" value="8.452" />
+        </attvalues>
+      </edge>
+      <edge source="GHAURI_BURMA_TOWN_KHANNA" target="SHAKRIAL_SADIQABAD" id="32">
+        <attvalues>
+          <attvalue for="2" value="0.048114" />
+          <attvalue for="3" value="3.9446750767347" />
+          <attvalue for="4" value="6.508" />
+        </attvalues>
+      </edge>
+      <edge source="GHAURI_BURMA_TOWN_KHANNA" target="SHAMSABAD_DHOK_KALA" id="33">
+        <attvalues>
+          <attvalue for="2" value="0.01002683333333333" />
+          <attvalue for="3" value="4.398332035237672" />
+          <attvalue for="4" value="6.558" />
+        </attvalues>
+      </edge>
+      <edge source="GHAURI_BURMA_TOWN_KHANNA" target="SOHAN_CHAK_SHAHZAD" id="34">
+        <attvalues>
+          <attvalue for="2" value="0.02171266666666667" />
+          <attvalue for="3" value="4.787186545180123" />
+          <attvalue for="4" value="10.45" />
+        </attvalues>
+      </edge>
+      <edge source="GHAURI_BURMA_TOWN_KHANNA" target="TARAMRI_ALIPUR_FARASHTOWN" id="35">
+        <attvalues>
+          <attvalue for="2" value="0.04010716666666667" />
+          <attvalue for="3" value="6.245002261407725" />
+          <attvalue for="4" value="8.174" />
+        </attvalues>
+      </edge>
+      <edge source="RAWAL_ROAD" target="ADIALA" id="36">
+        <attvalues>
+          <attvalue for="2" value="0.001818" />
+          <attvalue for="3" value="8.312160021791302" />
+          <attvalue for="4" value="10.573" />
+        </attvalues>
+      </edge>
+      <edge source="RAWAL_ROAD" target="CHAKLALA" id="37">
+        <attvalues>
+          <attvalue for="2" value="0.06636416666666667" />
+          <attvalue for="3" value="1.985927735796624" />
+          <attvalue for="4" value="3.743" />
+        </attvalues>
+      </edge>
+      <edge source="RAWAL_ROAD" target="DHOKE_HASSU" id="38">
+        <attvalues>
+          <attvalue for="2" value="0.004905166666666666" />
+          <attvalue for="3" value="3.801039699572261" />
+          <attvalue for="4" value="6.2" />
+        </attvalues>
+      </edge>
+      <edge source="RAWAL_ROAD" target="FAIZABAD_STADIUM_ROAD" id="39">
+        <attvalues>
+          <attvalue for="2" value="0.002957333333333333" />
+          <attvalue for="3" value="3.691364072260281" />
+          <attvalue for="4" value="5.34" />
+        </attvalues>
+      </edge>
+      <edge source="RAWAL_ROAD" target="G8_G9" id="40">
+        <attvalues>
+          <attvalue for="2" value="0.005337833333333333" />
+          <attvalue for="3" value="8.55151862980296" />
+          <attvalue for="4" value="10.392" />
+        </attvalues>
+      </edge>
+      <edge source="RAWAL_ROAD" target="GHAURI_BURMA_TOWN_KHANNA" id="41">
+        <attvalues>
+          <attvalue for="2" value="0.005626666666666666" />
+          <attvalue for="3" value="5.330004721407967" />
+          <attvalue for="4" value="7.982" />
+        </attvalues>
+      </edge>
+      <edge source="RAWAL_ROAD" target="H9_I9" id="42">
+        <attvalues>
+          <attvalue for="2" value="0.002452666666666667" />
+          <attvalue for="3" value="5.249286567707197" />
+          <attvalue for="4" value="8.484" />
+        </attvalues>
+      </edge>
+      <edge source="RAWAL_ROAD" target="I10_I11" id="43">
+        <attvalues>
+          <attvalue for="2" value="0.002885166666666667" />
+          <attvalue for="3" value="4.682937634910337" />
+          <attvalue for="4" value="10.346" />
+        </attvalues>
+      </edge>
+      <edge source="RAWAL_ROAD" target="KHANNA_KORAL" id="44">
+        <attvalues>
+          <attvalue for="2" value="0.005554333333333334" />
+          <attvalue for="3" value="3.115868825559371" />
+          <attvalue for="4" value="5.148" />
+        </attvalues>
+      </edge>
+      <edge source="RAWAL_ROAD" target="KOHINOOR_MILL_PIRWADHAI" id="45">
+        <attvalues>
+          <attvalue for="2" value="0.003722200000000001" />
+          <attvalue for="3" value="7.825991518371394" />
+          <attvalue for="4" value="11.17" />
+        </attvalues>
+      </edge>
+      <edge source="RAWAL_ROAD" target="LALKURTI_TENCH_DHOKSYEDAN" id="46">
+        <attvalues>
+          <attvalue for="2" value="0.004039500000000001" />
+          <attvalue for="3" value="5.340035640167721" />
+          <attvalue for="4" value="7.262" />
+        </attvalues>
+      </edge>
+      <edge source="RAWAL_ROAD" target="LIAQUATBAGH_RAJABAZAR" id="47">
+        <attvalues>
+          <attvalue for="2" value="0.07191866666666667" />
+          <attvalue for="3" value="1.668656006944972" />
+          <attvalue for="4" value="2.253" />
+        </attvalues>
+      </edge>
+      <edge source="RAWAL_ROAD" target="OLD_AIRPORT" id="48">
+        <attvalues>
+          <attvalue for="2" value="0.0039675" />
+          <attvalue for="3" value="4.774461169139133" />
+          <attvalue for="4" value="8.32" />
+        </attvalues>
+      </edge>
+      <edge source="RAWAL_ROAD" target="QASIM_MARKET_RANGE_ROAD" id="49">
+        <attvalues>
+          <attvalue for="2" value="0.003029666666666667" />
+          <attvalue for="3" value="6.190630877414745" />
+          <attvalue for="4" value="9.362" />
+        </attvalues>
+      </edge>
+      <edge source="RAWAL_ROAD" target="SADDAR" id="50">
+        <attvalues>
+          <attvalue for="2" value="0.01370583333333333" />
+          <attvalue for="3" value="3.009319049608492" />
+          <attvalue for="4" value="4.28" />
+        </attvalues>
+      </edge>
+      <edge source="RAWAL_ROAD" target="SATELLITE_TOWN" id="51">
+        <attvalues>
+          <attvalue for="2" value="0.04205483333333334" />
+          <attvalue for="3" value="2.569129579931715" />
+          <attvalue for="4" value="3.888" />
+        </attvalues>
+      </edge>
+      <edge source="RAWAL_ROAD" target="SCHEME3_GULISTAN_COLONY" id="52">
+        <attvalues>
+          <attvalue for="2" value="0.0039675" />
+          <attvalue for="3" value="5.17368352531637" />
+          <attvalue for="4" value="8.659" />
+        </attvalues>
+      </edge>
+      <edge source="RAWAL_ROAD" target="SHAKRIAL_SADIQABAD" id="53">
+        <attvalues>
+          <attvalue for="2" value="0.028205" />
+          <attvalue for="3" value="2.580730314755247" />
+          <attvalue for="4" value="3.392" />
+        </attvalues>
+      </edge>
+      <edge source="RAWAL_ROAD" target="SHAMSABAD_DHOK_KALA" id="54">
+        <attvalues>
+          <attvalue for="2" value="0.001226333333333333" />
+          <attvalue for="3" value="3.858283737414664" />
+          <attvalue for="4" value="7.097" />
+        </attvalues>
+      </edge>
+      <edge source="RAWAL_ROAD" target="WESTRIDGE" id="55">
+        <attvalues>
+          <attvalue for="2" value="0.001659166666666667" />
+          <attvalue for="3" value="5.083085995027736" />
+          <attvalue for="4" value="8.773" />
+        </attvalues>
+      </edge>
+      <edge source="ADIALA" target="BAHRIA8" id="56">
+        <attvalues>
+          <attvalue for="2" value="0.010171" />
+          <attvalue for="3" value="6.413485200466916" />
+          <attvalue for="4" value="10.594" />
+        </attvalues>
+      </edge>
+      <edge source="ADIALA" target="CHAKLALA" id="57">
+        <attvalues>
+          <attvalue for="2" value="0.009161166666666666" />
+          <attvalue for="3" value="6.444246065303221" />
+          <attvalue for="4" value="9.0" />
+        </attvalues>
+      </edge>
+      <edge source="ADIALA" target="DHA1_BAHRIA7" id="58">
+        <attvalues>
+          <attvalue for="2" value="0.005626666666666666" />
+          <attvalue for="3" value="4.567469415538677" />
+          <attvalue for="4" value="7.596" />
+        </attvalues>
+      </edge>
+      <edge source="ADIALA" target="DHAMIAL_CHAKRI_ROAD" id="59">
+        <attvalues>
+          <attvalue for="2" value="0.02481466666666667" />
+          <attvalue for="3" value="4.217943310796718" />
+          <attvalue for="4" value="9.089" />
+        </attvalues>
+      </edge>
+      <edge source="ADIALA" target="LALKURTI_TENCH_DHOKSYEDAN" id="60">
+        <attvalues>
+          <attvalue for="2" value="0.03347083333333333" />
+          <attvalue for="3" value="3.838526596246161" />
+          <attvalue for="4" value="6.906" />
+        </attvalues>
+      </edge>
+      <edge source="ADIALA" target="LIAQUATBAGH_RAJABAZAR" id="61">
+        <attvalues>
+          <attvalue for="2" value="0.01550916666666667" />
+          <attvalue for="3" value="7.751477386169976" />
+          <attvalue for="4" value="9.891" />
+        </attvalues>
+      </edge>
+      <edge source="ADIALA" target="MORGAH_ASKARI14" id="62">
+        <attvalues>
+          <attvalue for="2" value="0.049268" />
+          <attvalue for="3" value="1.97592833656715" />
+          <attvalue for="4" value="5.264" />
+        </attvalues>
+      </edge>
+      <edge source="ADIALA" target="QASIM_MARKET_RANGE_ROAD" id="63">
+        <attvalues>
+          <attvalue for="2" value="0.004472333333333333" />
+          <attvalue for="3" value="5.874747502363607" />
+          <attvalue for="4" value="9.787" />
+        </attvalues>
+      </edge>
+      <edge source="ADIALA" target="SADDAR" id="64">
+        <attvalues>
+          <attvalue for="2" value="0.01853866666666667" />
+          <attvalue for="3" value="5.57407919358671" />
+          <attvalue for="4" value="7.144" />
+        </attvalues>
+      </edge>
+      <edge source="ADIALA" target="SCHEME3_GULISTAN_COLONY" id="65">
+        <attvalues>
+          <attvalue for="2" value="0.006708666666666666" />
+          <attvalue for="3" value="5.534127177826924" />
+          <attvalue for="4" value="9.527" />
+        </attvalues>
+      </edge>
+      <edge source="ADIALA" target="WESTRIDGE" id="66">
+        <attvalues>
+          <attvalue for="2" value="0.002164166666666667" />
+          <attvalue for="3" value="7.939979967074373" />
+          <attvalue for="4" value="10.929" />
+        </attvalues>
+      </edge>
+      <edge source="SATELLITE_TOWN" target="CHAKLALA" id="67">
+        <attvalues>
+          <attvalue for="2" value="0.01082033333333333" />
+          <attvalue for="3" value="4.483460185201873" />
+          <attvalue for="4" value="6.444" />
+        </attvalues>
+      </edge>
+      <edge source="SATELLITE_TOWN" target="DHOKE_HASSU" id="68">
+        <attvalues>
+          <attvalue for="2" value="0.0521535" />
+          <attvalue for="3" value="3.039259960053293" />
+          <attvalue for="4" value="6.594" />
+        </attvalues>
+      </edge>
+      <edge source="SATELLITE_TOWN" target="F8_E8_F9_E9" id="69">
+        <attvalues>
+          <attvalue for="2" value="0.006492166666666667" />
+          <attvalue for="3" value="8.626491733324853" />
+          <attvalue for="4" value="11.106" />
+        </attvalues>
+      </edge>
+      <edge source="SATELLITE_TOWN" target="FAIZABAD_STADIUM_ROAD" id="70">
+        <attvalues>
+          <attvalue for="2" value="0.05244216666666666" />
+          <attvalue for="3" value="1.684687156856972" />
+          <attvalue for="4" value="3.704" />
+        </attvalues>
+      </edge>
+      <edge source="SATELLITE_TOWN" target="G8_G9" id="71">
+        <attvalues>
+          <attvalue for="2" value="0.01781733333333333" />
+          <attvalue for="3" value="5.98573098305537" />
+          <attvalue for="4" value="8.091" />
+        </attvalues>
+      </edge>
+      <edge source="SATELLITE_TOWN" target="H10_H11_H12" id="72">
+        <attvalues>
+          <attvalue for="2" value="0.0045445" />
+          <attvalue for="3" value="5.841858594868841" />
+          <attvalue for="4" value="10.369" />
+        </attvalues>
+      </edge>
+      <edge source="SATELLITE_TOWN" target="H9_I9" id="73">
+        <attvalues>
+          <attvalue for="2" value="0.02596883333333333" />
+          <attvalue for="3" value="2.681397918591253" />
+          <attvalue for="4" value="6.182" />
+        </attvalues>
+      </edge>
+      <edge source="SATELLITE_TOWN" target="I10_I11" id="74">
+        <attvalues>
+          <attvalue for="2" value="0.03830366666666667" />
+          <attvalue for="3" value="2.618348706386028" />
+          <attvalue for="4" value="5.185" />
+        </attvalues>
+      </edge>
+      <edge source="SATELLITE_TOWN" target="KOHINOOR_MILL_PIRWADHAI" id="75">
+        <attvalues>
+          <attvalue for="2" value="0.006853000000000001" />
+          <attvalue for="3" value="7.47425219040186" />
+          <attvalue for="4" value="9.767" />
+        </attvalues>
+      </edge>
+      <edge source="SATELLITE_TOWN" target="LALKURTI_TENCH_DHOKSYEDAN" id="76">
+        <attvalues>
+          <attvalue for="2" value="0.006059333333333333" />
+          <attvalue for="3" value="7.020589772074659" />
+          <attvalue for="4" value="11.015" />
+        </attvalues>
+      </edge>
+      <edge source="SATELLITE_TOWN" target="LIAQUATBAGH_RAJABAZAR" id="77">
+        <attvalues>
+          <attvalue for="2" value="0.1434043333333333" />
+          <attvalue for="3" value="2.737532160910613" />
+          <attvalue for="4" value="3.721" />
+        </attvalues>
+      </edge>
+      <edge source="SATELLITE_TOWN" target="RAWAL_ROAD" id="78">
+        <attvalues>
+          <attvalue for="2" value="0.032533" />
+          <attvalue for="3" value="2.569129579931715" />
+          <attvalue for="4" value="4.978" />
+        </attvalues>
+      </edge>
+      <edge source="SATELLITE_TOWN" target="SADDAR" id="79">
+        <attvalues>
+          <attvalue for="2" value="0.01796166666666667" />
+          <attvalue for="3" value="4.891430267972225" />
+          <attvalue for="4" value="8.033" />
+        </attvalues>
+      </edge>
+      <edge source="SATELLITE_TOWN" target="SCHEME3_GULISTAN_COLONY" id="80">
+        <attvalues>
+          <attvalue for="2" value="0.006636333333333333" />
+          <attvalue for="3" value="7.740792875322972" />
+          <attvalue for="4" value="11.361" />
+        </attvalues>
+      </edge>
+      <edge source="SATELLITE_TOWN" target="SHAKRIAL_SADIQABAD" id="81">
+        <attvalues>
+          <attvalue for="2" value="0.04667133333333334" />
+          <attvalue for="3" value="2.520129504782987" />
+          <attvalue for="4" value="3.692" />
+        </attvalues>
+      </edge>
+      <edge source="SATELLITE_TOWN" target="SHAMSABAD_DHOK_KALA" id="82">
+        <attvalues>
+          <attvalue for="2" value="0.005482166666666666" />
+          <attvalue for="3" value="2.91415326766103" />
+          <attvalue for="4" value="3.806" />
+        </attvalues>
+      </edge>
+      <edge source="SATELLITE_TOWN" target="WESTRIDGE" id="83">
+        <attvalues>
+          <attvalue for="2" value="0.003318" />
+          <attvalue for="3" value="5.035857663886821" />
+          <attvalue for="4" value="8.303" />
+        </attvalues>
+      </edge>
+      <edge source="G13_G14_GOLRA" target="G10_G11_G12" id="84">
+        <attvalues>
+          <attvalue for="2" value="0.0376545" />
+          <attvalue for="3" value="5.792213142962094" />
+          <attvalue for="4" value="8.934" />
+        </attvalues>
+      </edge>
+      <edge source="G13_G14_GOLRA" target="H10_H11_H12" id="85">
+        <attvalues>
+          <attvalue for="2" value="0.01125316666666667" />
+          <attvalue for="3" value="4.543915820747387" />
+          <attvalue for="4" value="10.397" />
+        </attvalues>
+      </edge>
+      <edge source="G13_G14_GOLRA" target="H13_I14_JHANGI_SYEDAN" id="86">
+        <attvalues>
+          <attvalue for="2" value="0.04746483333333334" />
+          <attvalue for="3" value="2.602825916175439" />
+          <attvalue for="4" value="5.434" />
+        </attvalues>
+      </edge>
+      <edge source="G13_G14_GOLRA" target="KOHINOOR_MILL_PIRWADHAI" id="87">
+        <attvalues>
+          <attvalue for="2" value="0.009161" />
+          <attvalue for="3" value="5.457161365444008" />
+          <attvalue for="4" value="9.131" />
+        </attvalues>
+      </edge>
+      <edge source="G13_G14_GOLRA" target="WESTRIDGE" id="88">
+        <attvalues>
+          <attvalue for="2" value="0.002235833333333333" />
+          <attvalue for="3" value="7.464247397728731" />
+          <attvalue for="4" value="9.918" />
+        </attvalues>
+      </edge>
+      <edge source="QASIM_MARKET_RANGE_ROAD" target="ADIALA" id="89">
+        <attvalues>
+          <attvalue for="2" value="0.003982" />
+          <attvalue for="3" value="5.874747502363607" />
+          <attvalue for="4" value="9.833" />
+        </attvalues>
+      </edge>
+      <edge source="QASIM_MARKET_RANGE_ROAD" target="CHAKLALA" id="90">
+        <attvalues>
+          <attvalue for="2" value="0.011758" />
+          <attvalue for="3" value="5.552366057781096" />
+          <attvalue for="4" value="10.107" />
+        </attvalues>
+      </edge>
+      <edge source="QASIM_MARKET_RANGE_ROAD" target="DHAMIAL_CHAKRI_ROAD" id="91">
+        <attvalues>
+          <attvalue for="2" value="0.03693333333333333" />
+          <attvalue for="3" value="3.318316735805543" />
+          <attvalue for="4" value="5.275" />
+        </attvalues>
+      </edge>
+      <edge source="QASIM_MARKET_RANGE_ROAD" target="DHOKE_HASSU" id="92">
+        <attvalues>
+          <attvalue for="2" value="0.008439833333333334" />
+          <attvalue for="3" value="4.377158634951421" />
+          <attvalue for="4" value="7.679" />
+        </attvalues>
+      </edge>
+      <edge source="QASIM_MARKET_RANGE_ROAD" target="H13_I14_JHANGI_SYEDAN" id="93">
+        <attvalues>
+          <attvalue for="2" value="0.008367666666666667" />
+          <attvalue for="3" value="6.607762512426785" />
+          <attvalue for="4" value="8.801" />
+        </attvalues>
+      </edge>
+      <edge source="QASIM_MARKET_RANGE_ROAD" target="I10_I11" id="94">
+        <attvalues>
+          <attvalue for="2" value="0.006852833333333333" />
+          <attvalue for="3" value="6.467420401354147" />
+          <attvalue for="4" value="11.215" />
+        </attvalues>
+      </edge>
+      <edge source="QASIM_MARKET_RANGE_ROAD" target="KOHINOOR_MILL_PIRWADHAI" id="95">
+        <attvalues>
+          <attvalue for="2" value="0.08584083333333332" />
+          <attvalue for="3" value="3.380970278107732" />
+          <attvalue for="4" value="5.597" />
+        </attvalues>
+      </edge>
+      <edge source="QASIM_MARKET_RANGE_ROAD" target="LALKURTI_TENCH_DHOKSYEDAN" id="96">
+        <attvalues>
+          <attvalue for="2" value="0.1070485" />
+          <attvalue for="3" value="2.527328494524788" />
+          <attvalue for="4" value="3.105" />
+        </attvalues>
+      </edge>
+      <edge source="QASIM_MARKET_RANGE_ROAD" target="LIAQUATBAGH_RAJABAZAR" id="97">
+        <attvalues>
+          <attvalue for="2" value="0.04602216666666667" />
+          <attvalue for="3" value="4.657038521994065" />
+          <attvalue for="4" value="7.33" />
+        </attvalues>
+      </edge>
+      <edge source="QASIM_MARKET_RANGE_ROAD" target="RAWAL_ROAD" id="98">
+        <attvalues>
+          <attvalue for="2" value="0.008151166666666666" />
+          <attvalue for="3" value="6.190630877414745" />
+          <attvalue for="4" value="8.633" />
+        </attvalues>
+      </edge>
+      <edge source="QASIM_MARKET_RANGE_ROAD" target="SADDAR" id="99">
+        <attvalues>
+          <attvalue for="2" value="0.07884383333333334" />
+          <attvalue for="3" value="3.693926263957708" />
+          <attvalue for="4" value="5.11" />
+        </attvalues>
+      </edge>
+      <edge source="QASIM_MARKET_RANGE_ROAD" target="SCHEME3_GULISTAN_COLONY" id="100">
+        <attvalues>
+          <attvalue for="2" value="0.007141499999999999" />
+          <attvalue for="3" value="7.755187316124863" />
+          <attvalue for="4" value="10.634" />
+        </attvalues>
+      </edge>
+      <edge source="QASIM_MARKET_RANGE_ROAD" target="WESTRIDGE" id="101">
+        <attvalues>
+          <attvalue for="2" value="0.1637466666666667" />
+          <attvalue for="3" value="2.490290827269272" />
+          <attvalue for="4" value="3.722" />
+        </attvalues>
+      </edge>
+      <edge source="DHA2_ZARAJ" target="BAHRIA1_6_PWD" id="102">
+        <attvalues>
+          <attvalue for="2" value="0.04623850000000001" />
+          <attvalue for="3" value="3.877762452368223" />
+          <attvalue for="4" value="9.77" />
+        </attvalues>
+      </edge>
+      <edge source="DHA2_ZARAJ" target="NAVAL_GULBERG" id="103">
+        <attvalues>
+          <attvalue for="2" value="0.01832233333333333" />
+          <attvalue for="3" value="5.667313114809573" />
+          <attvalue for="4" value="9.61" />
+        </attvalues>
+      </edge>
+      <edge source="SHAMSABAD_DHOK_KALA" target="CHAKLALA" id="104">
+        <attvalues>
+          <attvalue for="2" value="0.002091666666666667" />
+          <attvalue for="3" value="5.682768555511568" />
+          <attvalue for="4" value="8.21" />
+        </attvalues>
+      </edge>
+      <edge source="SHAMSABAD_DHOK_KALA" target="DHOKE_HASSU" id="105">
+        <attvalues>
+          <attvalue for="2" value="0.001731333333333333" />
+          <attvalue for="3" value="5.945541199599869" />
+          <attvalue for="4" value="10.644" />
+        </attvalues>
+      </edge>
+      <edge source="SHAMSABAD_DHOK_KALA" target="FAIZABAD_STADIUM_ROAD" id="106">
+        <attvalues>
+          <attvalue for="2" value="0.0312345" />
+          <attvalue for="3" value="1.674286543794784" />
+          <attvalue for="4" value="4.754" />
+        </attvalues>
+      </edge>
+      <edge source="SHAMSABAD_DHOK_KALA" target="G6_G7_BLUE_AREA" id="107">
+        <attvalues>
+          <attvalue for="2" value="0.016591" />
+          <attvalue for="3" value="7.208428810399502" />
+          <attvalue for="4" value="10.296" />
+        </attvalues>
+      </edge>
+      <edge source="SHAMSABAD_DHOK_KALA" target="G8_G9" id="108">
+        <attvalues>
+          <attvalue for="2" value="0.01045966666666667" />
+          <attvalue for="3" value="6.532630830731563" />
+          <attvalue for="4" value="9.648" />
+        </attvalues>
+      </edge>
+      <edge source="SHAMSABAD_DHOK_KALA" target="GHAURI_BURMA_TOWN_KHANNA" id="109">
+        <attvalues>
+          <attvalue for="2" value="0.006419999999999999" />
+          <attvalue for="3" value="4.398332035237672" />
+          <attvalue for="4" value="7.316" />
+        </attvalues>
+      </edge>
+      <edge source="SHAMSABAD_DHOK_KALA" target="H9_I9" id="110">
+        <attvalues>
+          <attvalue for="2" value="0.005987166666666668" />
+          <attvalue for="3" value="3.901015334480336" />
+          <attvalue for="4" value="7.354" />
+        </attvalues>
+      </edge>
+      <edge source="SHAMSABAD_DHOK_KALA" target="I10_I11" id="111">
+        <attvalues>
+          <attvalue for="2" value="0.003751" />
+          <attvalue for="3" value="5.228059373713712" />
+          <attvalue for="4" value="9.235" />
+        </attvalues>
+      </edge>
+      <edge source="SHAMSABAD_DHOK_KALA" target="I8_H8_SHAKARPARIAN" id="112">
+        <attvalues>
+          <attvalue for="2" value="0.01276783333333333" />
+          <attvalue for="3" value="3.608349547194914" />
+          <attvalue for="4" value="9.561" />
+        </attvalues>
+      </edge>
+      <edge source="SHAMSABAD_DHOK_KALA" target="KHANNA_KORAL" id="113">
+        <attvalues>
+          <attvalue for="2" value="0.001226333333333333" />
+          <attvalue for="3" value="3.183716462333116" />
+          <attvalue for="4" value="5.004" />
+        </attvalues>
+      </edge>
+      <edge source="SHAMSABAD_DHOK_KALA" target="LIAQUATBAGH_RAJABAZAR" id="114">
+        <attvalues>
+          <attvalue for="2" value="0.004688833333333333" />
+          <attvalue for="3" value="5.029381901098751" />
+          <attvalue for="4" value="6.747" />
+        </attvalues>
+      </edge>
+      <edge source="SHAMSABAD_DHOK_KALA" target="OLD_AIRPORT" id="115">
+        <attvalues>
+          <attvalue for="2" value="0.001586833333333333" />
+          <attvalue for="3" value="6.324578496328312" />
+          <attvalue for="4" value="10.458" />
+        </attvalues>
+      </edge>
+      <edge source="SHAMSABAD_DHOK_KALA" target="RAWAL_ROAD" id="116">
+        <attvalues>
+          <attvalue for="2" value="0.003823166666666667" />
+          <attvalue for="3" value="3.858283737414664" />
+          <attvalue for="4" value="5.625" />
+        </attvalues>
+      </edge>
+      <edge source="SHAMSABAD_DHOK_KALA" target="SADDAR" id="117">
+        <attvalues>
+          <attvalue for="2" value="0.004400333333333333" />
+          <attvalue for="3" value="6.848463072242009" />
+          <attvalue for="4" value="8.681" />
+        </attvalues>
+      </edge>
+      <edge source="SHAMSABAD_DHOK_KALA" target="SATELLITE_TOWN" id="118">
+        <attvalues>
+          <attvalue for="2" value="0.0157255" />
+          <attvalue for="3" value="2.91415326766103" />
+          <attvalue for="4" value="5.403" />
+        </attvalues>
+      </edge>
+      <edge source="SHAMSABAD_DHOK_KALA" target="SHAKRIAL_SADIQABAD" id="119">
+        <attvalues>
+          <attvalue for="2" value="0.03476933333333333" />
+          <attvalue for="3" value="1.381377725640426" />
+          <attvalue for="4" value="2.411" />
+        </attvalues>
+      </edge>
+      <edge source="SHAMSABAD_DHOK_KALA" target="SOHAN_CHAK_SHAHZAD" id="120">
+        <attvalues>
+          <attvalue for="2" value="0.01377783333333333" />
+          <attvalue for="3" value="4.359244516574154" />
+          <attvalue for="4" value="11.123" />
+        </attvalues>
+      </edge>
+      <edge source="F6_F7_E7" target="F10_F11_E11_D12" id="121">
+        <attvalues>
+          <attvalue for="2" value="0.007790333333333334" />
+          <attvalue for="3" value="7.398026410152882" />
+          <attvalue for="4" value="8.933" />
+        </attvalues>
+      </edge>
+      <edge source="F6_F7_E7" target="F8_E8_F9_E9" id="122">
+        <attvalues>
+          <attvalue for="2" value="0.01572533333333333" />
+          <attvalue for="3" value="2.864527743806618" />
+          <attvalue for="4" value="3.772" />
+        </attvalues>
+      </edge>
+      <edge source="F6_F7_E7" target="G10_G11_G12" id="123">
+        <attvalues>
+          <attvalue for="2" value="0.005193666666666667" />
+          <attvalue for="3" value="7.693345348997801" />
+          <attvalue for="4" value="10.856" />
+        </attvalues>
+      </edge>
+      <edge source="F6_F7_E7" target="G5_F5_DIPLOMATIC_SECRETARIAT" id="124">
+        <attvalues>
+          <attvalue for="2" value="0.016014" />
+          <attvalue for="3" value="3.544526936167741" />
+          <attvalue for="4" value="4.896" />
+        </attvalues>
+      </edge>
+      <edge source="F6_F7_E7" target="G6_G7_BLUE_AREA" id="125">
+        <attvalues>
+          <attvalue for="2" value="0.04205466666666666" />
+          <attvalue for="3" value="1.680422038231084" />
+          <attvalue for="4" value="2.419" />
+        </attvalues>
+      </edge>
+      <edge source="F6_F7_E7" target="G8_G9" id="126">
+        <attvalues>
+          <attvalue for="2" value="0.009666166666666667" />
+          <attvalue for="3" value="4.190485939134717" />
+          <attvalue for="4" value="7.127" />
+        </attvalues>
+      </edge>
+      <edge source="F6_F7_E7" target="H9_I9" id="127">
+        <attvalues>
+          <attvalue for="2" value="0.001947666666666667" />
+          <attvalue for="3" value="6.872397396498649" />
+          <attvalue for="4" value="11.17" />
+        </attvalues>
+      </edge>
+      <edge source="F6_F7_E7" target="I8_H8_SHAKARPARIAN" id="128">
+        <attvalues>
+          <attvalue for="2" value="0.004616833333333333" />
+          <attvalue for="3" value="5.041045394443421" />
+          <attvalue for="4" value="6.377" />
+        </attvalues>
+      </edge>
+      <edge source="F6_F7_E7" target="SHAMSABAD_DHOK_KALA" id="129">
+        <attvalues>
+          <attvalue for="2" value="0.0012118" />
+          <attvalue for="3" value="8.642799920777104" />
+          <attvalue for="4" value="10.926" />
+        </attvalues>
+      </edge>
+      <edge source="KOHINOOR_MILL_PIRWADHAI" target="DHOKE_HASSU" id="130">
+        <attvalues>
+          <attvalue for="2" value="0.0195485" />
+          <attvalue for="3" value="4.443409013338161" />
+          <attvalue for="4" value="6.795" />
+        </attvalues>
+      </edge>
+      <edge source="KOHINOOR_MILL_PIRWADHAI" target="FAIZABAD_STADIUM_ROAD" id="131">
+        <attvalues>
+          <attvalue for="2" value="0.002525" />
+          <attvalue for="3" value="9.00659924720807" />
+          <attvalue for="4" value="10.315" />
+        </attvalues>
+      </edge>
+      <edge source="KOHINOOR_MILL_PIRWADHAI" target="G13_G14_GOLRA" id="132">
+        <attvalues>
+          <attvalue for="2" value="0.011686" />
+          <attvalue for="3" value="5.457161365444008" />
+          <attvalue for="4" value="7.721" />
+        </attvalues>
+      </edge>
+      <edge source="KOHINOOR_MILL_PIRWADHAI" target="H10_H11_H12" id="133">
+        <attvalues>
+          <attvalue for="2" value="0.01695166666666667" />
+          <attvalue for="3" value="4.063120634231013" />
+          <attvalue for="4" value="10.468" />
+        </attvalues>
+      </edge>
+      <edge source="KOHINOOR_MILL_PIRWADHAI" target="H13_I14_JHANGI_SYEDAN" id="134">
+        <attvalues>
+          <attvalue for="2" value="0.07321716666666667" />
+          <attvalue for="3" value="3.273718221340348" />
+          <attvalue for="4" value="4.524" />
+        </attvalues>
+      </edge>
+      <edge source="KOHINOOR_MILL_PIRWADHAI" target="H9_I9" id="135">
+        <attvalues>
+          <attvalue for="2" value="0.006997166666666666" />
+          <attvalue for="3" value="8.128163314688937" />
+          <attvalue for="4" value="10.63" />
+        </attvalues>
+      </edge>
+      <edge source="KOHINOOR_MILL_PIRWADHAI" target="I10_I11" id="136">
+        <attvalues>
+          <attvalue for="2" value="0.01940416666666667" />
+          <attvalue for="3" value="5.754696492656144" />
+          <attvalue for="4" value="7.704" />
+        </attvalues>
+      </edge>
+      <edge source="KOHINOOR_MILL_PIRWADHAI" target="LALKURTI_TENCH_DHOKSYEDAN" id="137">
+        <attvalues>
+          <attvalue for="2" value="0.01392216666666667" />
+          <attvalue for="3" value="5.857245515215767" />
+          <attvalue for="4" value="9.946" />
+        </attvalues>
+      </edge>
+      <edge source="KOHINOOR_MILL_PIRWADHAI" target="LIAQUATBAGH_RAJABAZAR" id="138">
+        <attvalues>
+          <attvalue for="2" value="0.05619299999999999" />
+          <attvalue for="3" value="6.164152122626938" />
+          <attvalue for="4" value="8.58" />
+        </attvalues>
+      </edge>
+      <edge source="KOHINOOR_MILL_PIRWADHAI" target="QASIM_MARKET_RANGE_ROAD" id="139">
+        <attvalues>
+          <attvalue for="2" value="0.6622721666666668" />
+          <attvalue for="3" value="3.380970278107732" />
+          <attvalue for="4" value="6.648" />
+        </attvalues>
+      </edge>
+      <edge source="KOHINOOR_MILL_PIRWADHAI" target="SADDAR" id="140">
+        <attvalues>
+          <attvalue for="2" value="0.05107166666666666" />
+          <attvalue for="3" value="6.310046488763919" />
+          <attvalue for="4" value="8.538" />
+        </attvalues>
+      </edge>
+      <edge source="KOHINOOR_MILL_PIRWADHAI" target="WESTRIDGE" id="141">
+        <attvalues>
+          <attvalue for="2" value="0.0414055" />
+          <attvalue for="3" value="2.748635670548014" />
+          <attvalue for="4" value="4.83" />
+        </attvalues>
+      </edge>
+      <edge source="BAHRIA8" target="ADIALA" id="142">
+        <attvalues>
+          <attvalue for="2" value="0.004688666666666667" />
+          <attvalue for="3" value="6.413485200466916" />
+          <attvalue for="4" value="10.571" />
+        </attvalues>
+      </edge>
+      <edge source="BAHRIA8" target="DHA1_BAHRIA7" id="143">
+        <attvalues>
+          <attvalue for="2" value="0.08742766666666667" />
+          <attvalue for="3" value="5.373536636412007" />
+          <attvalue for="4" value="8.56" />
+        </attvalues>
+      </edge>
+      <edge source="BAHRIA8" target="MORGAH_ASKARI14" id="144">
+        <attvalues>
+          <attvalue for="2" value="0.01298416666666667" />
+          <attvalue for="3" value="5.838398939649317" />
+          <attvalue for="4" value="10.411" />
+        </attvalues>
+      </edge>
+      <edge source="DHAMIAL_CHAKRI_ROAD" target="ADIALA" id="145">
+        <attvalues>
+          <attvalue for="2" value="0.02315533333333333" />
+          <attvalue for="3" value="4.217943310796718" />
+          <attvalue for="4" value="9.096" />
+        </attvalues>
+      </edge>
+      <edge source="DHAMIAL_CHAKRI_ROAD" target="LALKURTI_TENCH_DHOKSYEDAN" id="146">
+        <attvalues>
+          <attvalue for="2" value="0.06383966666666667" />
+          <attvalue for="3" value="3.529891827232723" />
+          <attvalue for="4" value="5.172" />
+        </attvalues>
+      </edge>
+      <edge source="DHAMIAL_CHAKRI_ROAD" target="LIAQUATBAGH_RAJABAZAR" id="147">
+        <attvalues>
+          <attvalue for="2" value="0.02611283333333334" />
+          <attvalue for="3" value="7.478583193522065" />
+          <attvalue for="4" value="10.816" />
+        </attvalues>
+      </edge>
+      <edge source="DHAMIAL_CHAKRI_ROAD" target="QASIM_MARKET_RANGE_ROAD" id="148">
+        <attvalues>
+          <attvalue for="2" value="0.1978666666666667" />
+          <attvalue for="3" value="3.318316735805543" />
+          <attvalue for="4" value="5.275" />
+        </attvalues>
+      </edge>
+      <edge source="DHAMIAL_CHAKRI_ROAD" target="SADDAR" id="149">
+        <attvalues>
+          <attvalue for="2" value="0.04991733333333333" />
+          <attvalue for="3" value="5.799193469927861" />
+          <attvalue for="4" value="8.572" />
+        </attvalues>
+      </edge>
+      <edge source="DHAMIAL_CHAKRI_ROAD" target="WESTRIDGE" id="150">
+        <attvalues>
+          <attvalue for="2" value="0.005409999999999999" />
+          <attvalue for="3" value="5.804413177235491" />
+          <attvalue for="4" value="10.906" />
+        </attvalues>
+      </edge>
+      <edge source="LALKURTI_TENCH_DHOKSYEDAN" target="ADIALA" id="151">
+        <attvalues>
+          <attvalue for="2" value="0.02640133333333333" />
+          <attvalue for="3" value="3.838526596246161" />
+          <attvalue for="4" value="6.948" />
+        </attvalues>
+      </edge>
+      <edge source="LALKURTI_TENCH_DHOKSYEDAN" target="CHAKLALA" id="152">
+        <attvalues>
+          <attvalue for="2" value="0.02474233333333333" />
+          <attvalue for="3" value="3.979298925899917" />
+          <attvalue for="4" value="7.082" />
+        </attvalues>
+      </edge>
+      <edge source="LALKURTI_TENCH_DHOKSYEDAN" target="DHA1_BAHRIA7" id="153">
+        <attvalues>
+          <attvalue for="2" value="0.008800500000000001" />
+          <attvalue for="3" value="6.959905342570383" />
+          <attvalue for="4" value="10.975" />
+        </attvalues>
+      </edge>
+      <edge source="LALKURTI_TENCH_DHOKSYEDAN" target="DHAMIAL_CHAKRI_ROAD" id="154">
+        <attvalues>
+          <attvalue for="2" value="0.0398905" />
+          <attvalue for="3" value="3.529891827232723" />
+          <attvalue for="4" value="5.174" />
+        </attvalues>
+      </edge>
+      <edge source="LALKURTI_TENCH_DHOKSYEDAN" target="DHOKE_HASSU" id="155">
+        <attvalues>
+          <attvalue for="2" value="0.004760833333333333" />
+          <attvalue for="3" value="5.287728745379432" />
+          <attvalue for="4" value="8.118" />
+        </attvalues>
+      </edge>
+      <edge source="LALKURTI_TENCH_DHOKSYEDAN" target="H13_I14_JHANGI_SYEDAN" id="156">
+        <attvalues>
+          <attvalue for="2" value="0.003823166666666667" />
+          <attvalue for="3" value="9.114813133760885" />
+          <attvalue for="4" value="11.366" />
+        </attvalues>
+      </edge>
+      <edge source="LALKURTI_TENCH_DHOKSYEDAN" target="KOHINOOR_MILL_PIRWADHAI" id="157">
+        <attvalues>
+          <attvalue for="2" value="0.01038733333333333" />
+          <attvalue for="3" value="5.857245515215767" />
+          <attvalue for="4" value="8.162" />
+        </attvalues>
+      </edge>
+      <edge source="LALKURTI_TENCH_DHOKSYEDAN" target="LIAQUATBAGH_RAJABAZAR" id="158">
+        <attvalues>
+          <attvalue for="2" value="0.020775" />
+          <attvalue for="3" value="4.294865643813213" />
+          <attvalue for="4" value="5.675" />
+        </attvalues>
+      </edge>
+      <edge source="LALKURTI_TENCH_DHOKSYEDAN" target="MORGAH_ASKARI14" id="159">
+        <attvalues>
+          <attvalue for="2" value="0.013489" />
+          <attvalue for="3" value="4.68651706271486" />
+          <attvalue for="4" value="9.453" />
+        </attvalues>
+      </edge>
+      <edge source="LALKURTI_TENCH_DHOKSYEDAN" target="OLD_AIRPORT" id="160">
+        <attvalues>
+          <attvalue for="2" value="0.004977166666666667" />
+          <attvalue for="3" value="7.540646730724693" />
+          <attvalue for="4" value="9.7" />
+        </attvalues>
+      </edge>
+      <edge source="LALKURTI_TENCH_DHOKSYEDAN" target="QASIM_MARKET_RANGE_ROAD" id="161">
+        <attvalues>
+          <attvalue for="2" value="0.6971856666666666" />
+          <attvalue for="3" value="2.527328494524788" />
+          <attvalue for="4" value="3.105" />
+        </attvalues>
+      </edge>
+      <edge source="LALKURTI_TENCH_DHOKSYEDAN" target="RAWAL_ROAD" id="162">
+        <attvalues>
+          <attvalue for="2" value="0.0072855" />
+          <attvalue for="3" value="5.340035640167721" />
+          <attvalue for="4" value="9.587" />
+        </attvalues>
+      </edge>
+      <edge source="LALKURTI_TENCH_DHOKSYEDAN" target="SADDAR" id="163">
+        <attvalues>
+          <attvalue for="2" value="0.1000513333333333" />
+          <attvalue for="3" value="2.33231216840377" />
+          <attvalue for="4" value="3.402" />
+        </attvalues>
+      </edge>
+      <edge source="LALKURTI_TENCH_DHOKSYEDAN" target="SCHEME3_GULISTAN_COLONY" id="164">
+        <attvalues>
+          <attvalue for="2" value="0.01709583333333333" />
+          <attvalue for="3" value="5.391770625276649" />
+          <attvalue for="4" value="7.61" />
+        </attvalues>
+      </edge>
+      <edge source="LALKURTI_TENCH_DHOKSYEDAN" target="WESTRIDGE" id="165">
+        <attvalues>
+          <attvalue for="2" value="0.0173845" />
+          <attvalue for="3" value="4.148142066512516" />
+          <attvalue for="4" value="5.765" />
+        </attvalues>
+      </edge>
+      <edge source="I8_H8_SHAKARPARIAN" target="CHAKLALA" id="166">
+        <attvalues>
+          <attvalue for="2" value="0.001659" />
+          <attvalue for="3" value="8.831420975407063" />
+          <attvalue for="4" value="11.261" />
+        </attvalues>
+      </edge>
+      <edge source="I8_H8_SHAKARPARIAN" target="DHOKE_HASSU" id="167">
+        <attvalues>
+          <attvalue for="2" value="0.002597" />
+          <attvalue for="3" value="7.192155122913001" />
+          <attvalue for="4" value="10.733" />
+        </attvalues>
+      </edge>
+      <edge source="I8_H8_SHAKARPARIAN" target="F6_F7_E7" id="168">
+        <attvalues>
+          <attvalue for="2" value="0.006780833333333333" />
+          <attvalue for="3" value="5.041045394443421" />
+          <attvalue for="4" value="8.925" />
+        </attvalues>
+      </edge>
+      <edge source="I8_H8_SHAKARPARIAN" target="F8_E8_F9_E9" id="169">
+        <attvalues>
+          <attvalue for="2" value="0.005987166666666666" />
+          <attvalue for="3" value="5.512649236698762" />
+          <attvalue for="4" value="8.253" />
+        </attvalues>
+      </edge>
+      <edge source="I8_H8_SHAKARPARIAN" target="FAIZABAD_STADIUM_ROAD" id="170">
+        <attvalues>
+          <attvalue for="2" value="0.01882733333333333" />
+          <attvalue for="3" value="3.17302512764394" />
+          <attvalue for="4" value="4.843" />
+        </attvalues>
+      </edge>
+      <edge source="I8_H8_SHAKARPARIAN" target="G10_G11_G12" id="171">
+        <attvalues>
+          <attvalue for="2" value="0.006059333333333333" />
+          <attvalue for="3" value="6.626762340411318" />
+          <attvalue for="4" value="11.17" />
+        </attvalues>
+      </edge>
+      <edge source="I8_H8_SHAKARPARIAN" target="G5_F5_DIPLOMATIC_SECRETARIAT" id="172">
+        <attvalues>
+          <attvalue for="2" value="0.01183016666666667" />
+          <attvalue for="3" value="5.507154090478799" />
+          <attvalue for="4" value="10.193" />
+        </attvalues>
+      </edge>
+      <edge source="I8_H8_SHAKARPARIAN" target="G6_G7_BLUE_AREA" id="173">
+        <attvalues>
+          <attvalue for="2" value="0.02712283333333333" />
+          <attvalue for="3" value="3.688016806494518" />
+          <attvalue for="4" value="6.916" />
+        </attvalues>
+      </edge>
+      <edge source="I8_H8_SHAKARPARIAN" target="G8_G9" id="174">
+        <attvalues>
+          <attvalue for="2" value="0.0161585" />
+          <attvalue for="3" value="3.612582439405362" />
+          <attvalue for="4" value="6.269" />
+        </attvalues>
+      </edge>
+      <edge source="I8_H8_SHAKARPARIAN" target="GHAURI_BURMA_TOWN_KHANNA" id="175">
+        <attvalues>
+          <attvalue for="2" value="0.005987" />
+          <attvalue for="3" value="7.673439601969601" />
+          <attvalue for="4" value="9.731" />
+        </attvalues>
+      </edge>
+      <edge source="I8_H8_SHAKARPARIAN" target="H9_I9" id="176">
+        <attvalues>
+          <attvalue for="2" value="0.02012566666666667" />
+          <attvalue for="3" value="3.070838260902646" />
+          <attvalue for="4" value="5.852" />
+        </attvalues>
+      </edge>
+      <edge source="I8_H8_SHAKARPARIAN" target="I10_I11" id="177">
+        <attvalues>
+          <attvalue for="2" value="0.006564166666666667" />
+          <attvalue for="3" value="5.439139429645257" />
+          <attvalue for="4" value="8.681" />
+        </attvalues>
+      </edge>
+      <edge source="I8_H8_SHAKARPARIAN" target="KHANNA_KORAL" id="178">
+        <attvalues>
+          <attvalue for="2" value="0.003116" />
+          <attvalue for="3" value="6.78646594019393" />
+          <attvalue for="4" value="9.16" />
+        </attvalues>
+      </edge>
+      <edge source="I8_H8_SHAKARPARIAN" target="LIAQUATBAGH_RAJABAZAR" id="179">
+        <attvalues>
+          <attvalue for="2" value="0.0035345" />
+          <attvalue for="3" value="7.429332365185111" />
+          <attvalue for="4" value="9.799" />
+        </attvalues>
+      </edge>
+      <edge source="I8_H8_SHAKARPARIAN" target="RAWAL_ROAD" id="180">
+        <attvalues>
+          <attvalue for="2" value="0.0024238" />
+          <attvalue for="3" value="6.853851839309542" />
+          <attvalue for="4" value="8.676" />
+        </attvalues>
+      </edge>
+      <edge source="I8_H8_SHAKARPARIAN" target="SATELLITE_TOWN" id="181">
+        <attvalues>
+          <attvalue for="2" value="0.02668983333333333" />
+          <attvalue for="3" value="4.696286959272657" />
+          <attvalue for="4" value="7.055" />
+        </attvalues>
+      </edge>
+      <edge source="I8_H8_SHAKARPARIAN" target="SHAKRIAL_SADIQABAD" id="182">
+        <attvalues>
+          <attvalue for="2" value="0.006492333333333333" />
+          <attvalue for="3" value="4.865299956877056" />
+          <attvalue for="4" value="7.086" />
+        </attvalues>
+      </edge>
+      <edge source="I8_H8_SHAKARPARIAN" target="SHAMSABAD_DHOK_KALA" id="183">
+        <attvalues>
+          <attvalue for="2" value="0.004039500000000001" />
+          <attvalue for="3" value="3.608349547194914" />
+          <attvalue for="4" value="4.87" />
+        </attvalues>
+      </edge>
+      <edge source="I8_H8_SHAKARPARIAN" target="SOHAN_CHAK_SHAHZAD" id="184">
+        <attvalues>
+          <attvalue for="2" value="0.01118083333333333" />
+          <attvalue for="3" value="5.173811709623252" />
+          <attvalue for="4" value="10.26" />
+        </attvalues>
+      </edge>
+      <edge source="H9_I9" target="DHOKE_HASSU" id="185">
+        <attvalues>
+          <attvalue for="2" value="0.002452666666666667" />
+          <attvalue for="3" value="4.310665568944017" />
+          <attvalue for="4" value="7.358" />
+        </attvalues>
+      </edge>
+      <edge source="H9_I9" target="F10_F11_E11_D12" id="186">
+        <attvalues>
+          <attvalue for="2" value="0.002524666666666666" />
+          <attvalue for="3" value="6.578665299754547" />
+          <attvalue for="4" value="10.904" />
+        </attvalues>
+      </edge>
+      <edge source="H9_I9" target="F6_F7_E7" id="187">
+        <attvalues>
+          <attvalue for="2" value="0.001586833333333333" />
+          <attvalue for="3" value="6.872397396498649" />
+          <attvalue for="4" value="10.928" />
+        </attvalues>
+      </edge>
+      <edge source="H9_I9" target="F8_E8_F9_E9" id="188">
+        <attvalues>
+          <attvalue for="2" value="0.002741" />
+          <attvalue for="3" value="5.949605251535492" />
+          <attvalue for="4" value="7.538" />
+        </attvalues>
+      </edge>
+      <edge source="H9_I9" target="FAIZABAD_STADIUM_ROAD" id="189">
+        <attvalues>
+          <attvalue for="2" value="0.001154166666666667" />
+          <attvalue for="3" value="2.30604287774996" />
+          <attvalue for="4" value="3.859" />
+        </attvalues>
+      </edge>
+      <edge source="H9_I9" target="G10_G11_G12" id="190">
+        <attvalues>
+          <attvalue for="2" value="0.003246" />
+          <attvalue for="3" value="4.352867429231747" />
+          <attvalue for="4" value="9.68" />
+        </attvalues>
+      </edge>
+      <edge source="H9_I9" target="G6_G7_BLUE_AREA" id="191">
+        <attvalues>
+          <attvalue for="2" value="0.004833166666666667" />
+          <attvalue for="3" value="6.051272809874395" />
+          <attvalue for="4" value="8.919" />
+        </attvalues>
+      </edge>
+      <edge source="H9_I9" target="G8_G9" id="192">
+        <attvalues>
+          <attvalue for="2" value="0.007718500000000001" />
+          <attvalue for="3" value="3.305075655196279" />
+          <attvalue for="4" value="4.523" />
+        </attvalues>
+      </edge>
+      <edge source="H9_I9" target="H10_H11_H12" id="193">
+        <attvalues>
+          <attvalue for="2" value="0.001803333333333333" />
+          <attvalue for="3" value="5.139973745548373" />
+          <attvalue for="4" value="8.738" />
+        </attvalues>
+      </edge>
+      <edge source="H9_I9" target="I10_I11" id="194">
+        <attvalues>
+          <attvalue for="2" value="0.0168075" />
+          <attvalue for="3" value="2.384156003254394" />
+          <attvalue for="4" value="3.457" />
+        </attvalues>
+      </edge>
+      <edge source="H9_I9" target="I8_H8_SHAKARPARIAN" id="195">
+        <attvalues>
+          <attvalue for="2" value="0.01529266666666667" />
+          <attvalue for="3" value="3.070838260902646" />
+          <attvalue for="4" value="8.184" />
+        </attvalues>
+      </edge>
+      <edge source="H9_I9" target="KOHINOOR_MILL_PIRWADHAI" id="196">
+        <attvalues>
+          <attvalue for="2" value="0.0008657999999999999" />
+          <attvalue for="3" value="8.128163314688937" />
+          <attvalue for="4" value="10.531" />
+        </attvalues>
+      </edge>
+      <edge source="H9_I9" target="LIAQUATBAGH_RAJABAZAR" id="197">
+        <attvalues>
+          <attvalue for="2" value="0.001659166666666667" />
+          <attvalue for="3" value="5.182340928662262" />
+          <attvalue for="4" value="9.354" />
+        </attvalues>
+      </edge>
+      <edge source="H9_I9" target="RAWAL_ROAD" id="198">
+        <attvalues>
+          <attvalue for="2" value="0.0012985" />
+          <attvalue for="3" value="5.249286567707197" />
+          <attvalue for="4" value="10.454" />
+        </attvalues>
+      </edge>
+      <edge source="H9_I9" target="SATELLITE_TOWN" id="199">
+        <attvalues>
+          <attvalue for="2" value="0.0188995" />
+          <attvalue for="3" value="2.681397918591253" />
+          <attvalue for="4" value="6.071" />
+        </attvalues>
+      </edge>
+      <edge source="H9_I9" target="SHAKRIAL_SADIQABAD" id="200">
+        <attvalues>
+          <attvalue for="2" value="0.002885666666666667" />
+          <attvalue for="3" value="4.425760970803887" />
+          <attvalue for="4" value="8.87" />
+        </attvalues>
+      </edge>
+      <edge source="H9_I9" target="SHAMSABAD_DHOK_KALA" id="201">
+        <attvalues>
+          <attvalue for="2" value="0.001154333333333333" />
+          <attvalue for="3" value="3.901015334480336" />
+          <attvalue for="4" value="7.349" />
+        </attvalues>
+      </edge>
+      <edge source="H9_I9" target="WESTRIDGE" id="202">
+        <attvalues>
+          <attvalue for="2" value="0.0007574999999999999" />
+          <attvalue for="3" value="6.330455834127848" />
+          <attvalue for="4" value="9.067" />
+        </attvalues>
+      </edge>
+      <edge source="LIAQUATBAGH_RAJABAZAR" target="ADIALA" id="203">
+        <attvalues>
+          <attvalue for="2" value="0.003462333333333333" />
+          <attvalue for="3" value="7.751477386169976" />
+          <attvalue for="4" value="10.205" />
+        </attvalues>
+      </edge>
+      <edge source="LIAQUATBAGH_RAJABAZAR" target="CHAKLALA" id="204">
+        <attvalues>
+          <attvalue for="2" value="0.0226505" />
+          <attvalue for="3" value="2.414892346010863" />
+          <attvalue for="4" value="3.513" />
+        </attvalues>
+      </edge>
+      <edge source="LIAQUATBAGH_RAJABAZAR" target="DHAMIAL_CHAKRI_ROAD" id="205">
+        <attvalues>
+          <attvalue for="2" value="0.004616666666666667" />
+          <attvalue for="3" value="7.478583193522065" />
+          <attvalue for="4" value="10.52" />
+        </attvalues>
+      </edge>
+      <edge source="LIAQUATBAGH_RAJABAZAR" target="DHOKE_HASSU" id="206">
+        <attvalues>
+          <attvalue for="2" value="0.04789766666666667" />
+          <attvalue for="3" value="2.384655581906615" />
+          <attvalue for="4" value="4.36" />
+        </attvalues>
+      </edge>
+      <edge source="LIAQUATBAGH_RAJABAZAR" target="FAIZABAD_STADIUM_ROAD" id="207">
+        <attvalues>
+          <attvalue for="2" value="0.003173833333333333" />
+          <attvalue for="3" value="4.326612509475824" />
+          <attvalue for="4" value="6.356" />
+        </attvalues>
+      </edge>
+      <edge source="LIAQUATBAGH_RAJABAZAR" target="G8_G9" id="208">
+        <attvalues>
+          <attvalue for="2" value="0.009522000000000001" />
+          <attvalue for="3" value="8.415018945411168" />
+          <attvalue for="4" value="11.407" />
+        </attvalues>
+      </edge>
+      <edge source="LIAQUATBAGH_RAJABAZAR" target="H10_H11_H12" id="209">
+        <attvalues>
+          <attvalue for="2" value="0.0018755" />
+          <attvalue for="3" value="6.205133877832031" />
+          <attvalue for="4" value="9.985" />
+        </attvalues>
+      </edge>
+      <edge source="LIAQUATBAGH_RAJABAZAR" target="H9_I9" id="210">
+        <attvalues>
+          <attvalue for="2" value="0.0044" />
+          <attvalue for="3" value="5.182340928662262" />
+          <attvalue for="4" value="9.499" />
+        </attvalues>
+      </edge>
+      <edge source="LIAQUATBAGH_RAJABAZAR" target="I10_I11" id="211">
+        <attvalues>
+          <attvalue for="2" value="0.010676" />
+          <attvalue for="3" value="3.871660017213911" />
+          <attvalue for="4" value="5.726" />
+        </attvalues>
+      </edge>
+      <edge source="LIAQUATBAGH_RAJABAZAR" target="KHANNA_KORAL" id="212">
+        <attvalues>
+          <attvalue for="2" value="0.003246" />
+          <attvalue for="3" value="4.784452337160824" />
+          <attvalue for="4" value="7.298" />
+        </attvalues>
+      </edge>
+      <edge source="LIAQUATBAGH_RAJABAZAR" target="KOHINOOR_MILL_PIRWADHAI" id="213">
+        <attvalues>
+          <attvalue for="2" value="0.007862666666666665" />
+          <attvalue for="3" value="6.164152122626938" />
+          <attvalue for="4" value="9.292" />
+        </attvalues>
+      </edge>
+      <edge source="LIAQUATBAGH_RAJABAZAR" target="LALKURTI_TENCH_DHOKSYEDAN" id="214">
+        <attvalues>
+          <attvalue for="2" value="0.009665833333333334" />
+          <attvalue for="3" value="4.294865643813213" />
+          <attvalue for="4" value="5.8" />
+        </attvalues>
+      </edge>
+      <edge source="LIAQUATBAGH_RAJABAZAR" target="OLD_AIRPORT" id="215">
+        <attvalues>
+          <attvalue for="2" value="0.003606666666666666" />
+          <attvalue for="3" value="6.148285563498418" />
+          <attvalue for="4" value="8.74" />
+        </attvalues>
+      </edge>
+      <edge source="LIAQUATBAGH_RAJABAZAR" target="QASIM_MARKET_RANGE_ROAD" id="216">
+        <attvalues>
+          <attvalue for="2" value="0.009522000000000001" />
+          <attvalue for="3" value="4.657038521994065" />
+          <attvalue for="4" value="7.484" />
+        </attvalues>
+      </edge>
+      <edge source="LIAQUATBAGH_RAJABAZAR" target="RAWAL_ROAD" id="217">
+        <attvalues>
+          <attvalue for="2" value="0.04717633333333333" />
+          <attvalue for="3" value="1.668656006944972" />
+          <attvalue for="4" value="2.538" />
+        </attvalues>
+      </edge>
+      <edge source="LIAQUATBAGH_RAJABAZAR" target="SADDAR" id="218">
+        <attvalues>
+          <attvalue for="2" value="0.06290183333333334" />
+          <attvalue for="3" value="2.178928872813874" />
+          <attvalue for="4" value="2.575" />
+        </attvalues>
+      </edge>
+      <edge source="LIAQUATBAGH_RAJABAZAR" target="SATELLITE_TOWN" id="219">
+        <attvalues>
+          <attvalue for="2" value="0.2764938333333333" />
+          <attvalue for="3" value="2.737532160910613" />
+          <attvalue for="4" value="3.231" />
+        </attvalues>
+      </edge>
+      <edge source="LIAQUATBAGH_RAJABAZAR" target="SCHEME3_GULISTAN_COLONY" id="220">
+        <attvalues>
+          <attvalue for="2" value="0.007934833333333334" />
+          <attvalue for="3" value="5.845619243678041" />
+          <attvalue for="4" value="7.803" />
+        </attvalues>
+      </edge>
+      <edge source="LIAQUATBAGH_RAJABAZAR" target="SHAKRIAL_SADIQABAD" id="221">
+        <attvalues>
+          <attvalue for="2" value="0.01637483333333333" />
+          <attvalue for="3" value="3.952853890837977" />
+          <attvalue for="4" value="5.542" />
+        </attvalues>
+      </edge>
+      <edge source="LIAQUATBAGH_RAJABAZAR" target="SHAMSABAD_DHOK_KALA" id="222">
+        <attvalues>
+          <attvalue for="2" value="0.00205575" />
+          <attvalue for="3" value="5.029381901098751" />
+          <attvalue for="4" value="8.113" />
+        </attvalues>
+      </edge>
+      <edge source="LIAQUATBAGH_RAJABAZAR" target="WESTRIDGE" id="223">
+        <attvalues>
+          <attvalue for="2" value="0.008872666666666666" />
+          <attvalue for="3" value="3.417798167619054" />
+          <attvalue for="4" value="4.418" />
+        </attvalues>
+      </edge>
+      <edge source="H10_H11_H12" target="DHOKE_HASSU" id="224">
+        <attvalues>
+          <attvalue for="2" value="0.0028855" />
+          <attvalue for="3" value="3.825334064426443" />
+          <attvalue for="4" value="7.264" />
+        </attvalues>
+      </edge>
+      <edge source="H10_H11_H12" target="F10_F11_E11_D12" id="225">
+        <attvalues>
+          <attvalue for="2" value="0.004472166666666667" />
+          <attvalue for="3" value="5.184714783765111" />
+          <attvalue for="4" value="9.842" />
+        </attvalues>
+      </edge>
+      <edge source="H10_H11_H12" target="FAIZABAD_STADIUM_ROAD" id="226">
+        <attvalues>
+          <attvalue for="2" value="0.00086575" />
+          <attvalue for="3" value="6.845547633271425" />
+          <attvalue for="4" value="10.78" />
+        </attvalues>
+      </edge>
+      <edge source="H10_H11_H12" target="G10_G11_G12" id="227">
+        <attvalues>
+          <attvalue for="2" value="0.02611283333333334" />
+          <attvalue for="3" value="2.884828704368906" />
+          <attvalue for="4" value="7.223" />
+        </attvalues>
+      </edge>
+      <edge source="H10_H11_H12" target="G13_G14_GOLRA" id="228">
+        <attvalues>
+          <attvalue for="2" value="0.0088725" />
+          <attvalue for="3" value="4.543915820747387" />
+          <attvalue for="4" value="8.457" />
+        </attvalues>
+      </edge>
+      <edge source="H10_H11_H12" target="G8_G9" id="229">
+        <attvalues>
+          <attvalue for="2" value="0.006203500000000001" />
+          <attvalue for="3" value="6.146574683626245" />
+          <attvalue for="4" value="10.905" />
+        </attvalues>
+      </edge>
+      <edge source="H10_H11_H12" target="H13_I14_JHANGI_SYEDAN" id="230">
+        <attvalues>
+          <attvalue for="2" value="0.01334483333333333" />
+          <attvalue for="3" value="4.458707657033443" />
+          <attvalue for="4" value="8.201" />
+        </attvalues>
+      </edge>
+      <edge source="H10_H11_H12" target="H9_I9" id="231">
+        <attvalues>
+          <attvalue for="2" value="0.003029666666666667" />
+          <attvalue for="3" value="5.139973745548373" />
+          <attvalue for="4" value="7.378" />
+        </attvalues>
+      </edge>
+      <edge source="H10_H11_H12" target="I10_I11" id="232">
+        <attvalues>
+          <attvalue for="2" value="0.01305616666666667" />
+          <attvalue for="3" value="3.271109320262841" />
+          <attvalue for="4" value="5.84" />
+        </attvalues>
+      </edge>
+      <edge source="H10_H11_H12" target="KOHINOOR_MILL_PIRWADHAI" id="233">
+        <attvalues>
+          <attvalue for="2" value="0.010676" />
+          <attvalue for="3" value="4.063120634231013" />
+          <attvalue for="4" value="10.437" />
+        </attvalues>
+      </edge>
+      <edge source="H10_H11_H12" target="LIAQUATBAGH_RAJABAZAR" id="234">
+        <attvalues>
+          <attvalue for="2" value="0.0013705" />
+          <attvalue for="3" value="6.205133877832031" />
+          <attvalue for="4" value="9.979" />
+        </attvalues>
+      </edge>
+      <edge source="H10_H11_H12" target="WESTRIDGE" id="235">
+        <attvalues>
+          <attvalue for="2" value="0.001659166666666666" />
+          <attvalue for="3" value="4.19211378517288" />
+          <attvalue for="4" value="8.973" />
+        </attvalues>
+      </edge>
+      <edge source="I10_I11" target="DHOKE_HASSU" id="236">
+        <attvalues>
+          <attvalue for="2" value="0.08887033333333333" />
+          <attvalue for="3" value="2.16143655942314" />
+          <attvalue for="4" value="4.431" />
+        </attvalues>
+      </edge>
+      <edge source="I10_I11" target="F8_E8_F9_E9" id="237">
+        <attvalues>
+          <attvalue for="2" value="0.005049333333333334" />
+          <attvalue for="3" value="7.493377073211968" />
+          <attvalue for="4" value="10.387" />
+        </attvalues>
+      </edge>
+      <edge source="I10_I11" target="FAIZABAD_STADIUM_ROAD" id="238">
+        <attvalues>
+          <attvalue for="2" value="0.0018755" />
+          <attvalue for="3" value="3.605985990047675" />
+          <attvalue for="4" value="4.834" />
+        </attvalues>
+      </edge>
+      <edge source="I10_I11" target="G10_G11_G12" id="239">
+        <attvalues>
+          <attvalue for="2" value="0.01024333333333333" />
+          <attvalue for="3" value="3.911313050195451" />
+          <attvalue for="4" value="10.357" />
+        </attvalues>
+      </edge>
+      <edge source="I10_I11" target="G8_G9" id="240">
+        <attvalues>
+          <attvalue for="2" value="0.01233516666666667" />
+          <attvalue for="3" value="4.94596051641583" />
+          <attvalue for="4" value="7.372" />
+        </attvalues>
+      </edge>
+      <edge source="I10_I11" target="H10_H11_H12" id="241">
+        <attvalues>
+          <attvalue for="2" value="0.01442683333333333" />
+          <attvalue for="3" value="3.271109320262841" />
+          <attvalue for="4" value="5.82" />
+        </attvalues>
+      </edge>
+      <edge source="I10_I11" target="H13_I14_JHANGI_SYEDAN" id="242">
+        <attvalues>
+          <attvalue for="2" value="0.006275833333333334" />
+          <attvalue for="3" value="7.432576430898791" />
+          <attvalue for="4" value="10.294" />
+        </attvalues>
+      </edge>
+      <edge source="I10_I11" target="H9_I9" id="243">
+        <attvalues>
+          <attvalue for="2" value="0.02445383333333333" />
+          <attvalue for="3" value="2.384156003254394" />
+          <attvalue for="4" value="3.477" />
+        </attvalues>
+      </edge>
+      <edge source="I10_I11" target="I8_H8_SHAKARPARIAN" id="244">
+        <attvalues>
+          <attvalue for="2" value="0.009954666666666667" />
+          <attvalue for="3" value="5.439139429645257" />
+          <attvalue for="4" value="11.034" />
+        </attvalues>
+      </edge>
+      <edge source="I10_I11" target="KOHINOOR_MILL_PIRWADHAI" id="245">
+        <attvalues>
+          <attvalue for="2" value="0.01384983333333333" />
+          <attvalue for="3" value="5.754696492656144" />
+          <attvalue for="4" value="7.604" />
+        </attvalues>
+      </edge>
+      <edge source="I10_I11" target="LIAQUATBAGH_RAJABAZAR" id="246">
+        <attvalues>
+          <attvalue for="2" value="0.0087285" />
+          <attvalue for="3" value="3.871660017213911" />
+          <attvalue for="4" value="7.353" />
+        </attvalues>
+      </edge>
+      <edge source="I10_I11" target="RAWAL_ROAD" id="247">
+        <attvalues>
+          <attvalue for="2" value="0.002813333333333333" />
+          <attvalue for="3" value="4.682937634910337" />
+          <attvalue for="4" value="11.43" />
+        </attvalues>
+      </edge>
+      <edge source="I10_I11" target="SATELLITE_TOWN" id="248">
+        <attvalues>
+          <attvalue for="2" value="0.03671666666666667" />
+          <attvalue for="3" value="2.618348706386028" />
+          <attvalue for="4" value="6.967" />
+        </attvalues>
+      </edge>
+      <edge source="I10_I11" target="SHAKRIAL_SADIQABAD" id="249">
+        <attvalues>
+          <attvalue for="2" value="0.006419999999999999" />
+          <attvalue for="3" value="5.119048054447423" />
+          <attvalue for="4" value="9.845" />
+        </attvalues>
+      </edge>
+      <edge source="I10_I11" target="SHAMSABAD_DHOK_KALA" id="250">
+        <attvalues>
+          <attvalue for="2" value="0.001587" />
+          <attvalue for="3" value="5.228059373713712" />
+          <attvalue for="4" value="8.325" />
+        </attvalues>
+      </edge>
+      <edge source="I10_I11" target="WESTRIDGE" id="251">
+        <attvalues>
+          <attvalue for="2" value="0.007357833333333333" />
+          <attvalue for="3" value="4.030404839833465" />
+          <attvalue for="4" value="6.14" />
+        </attvalues>
+      </edge>
+      <edge source="MORGAH_ASKARI14" target="ADIALA" id="252">
+        <attvalues>
+          <attvalue for="2" value="0.03989066666666666" />
+          <attvalue for="3" value="1.97592833656715" />
+          <attvalue for="4" value="5.307" />
+        </attvalues>
+      </edge>
+      <edge source="MORGAH_ASKARI14" target="BAHRIA8" id="253">
+        <attvalues>
+          <attvalue for="2" value="0.018178" />
+          <attvalue for="3" value="5.838398939649317" />
+          <attvalue for="4" value="10.475" />
+        </attvalues>
+      </edge>
+      <edge source="MORGAH_ASKARI14" target="CHAKLALA" id="254">
+        <attvalues>
+          <attvalue for="2" value="0.008945" />
+          <attvalue for="3" value="5.972604450761007" />
+          <attvalue for="4" value="9.894" />
+        </attvalues>
+      </edge>
+      <edge source="MORGAH_ASKARI14" target="DHA1_BAHRIA7" id="255">
+        <attvalues>
+          <attvalue for="2" value="0.03462466666666666" />
+          <attvalue for="3" value="2.632459779953257" />
+          <attvalue for="4" value="5.287" />
+        </attvalues>
+      </edge>
+      <edge source="MORGAH_ASKARI14" target="DHA2_ZARAJ" id="256">
+        <attvalues>
+          <attvalue for="2" value="0.008872666666666666" />
+          <attvalue for="3" value="7.866918881193262" />
+          <attvalue for="4" value="11.454" />
+        </attvalues>
+      </edge>
+      <edge source="MORGAH_ASKARI14" target="LALKURTI_TENCH_DHOKSYEDAN" id="257">
+        <attvalues>
+          <attvalue for="2" value="0.01586966666666667" />
+          <attvalue for="3" value="4.68651706271486" />
+          <attvalue for="4" value="8.501" />
+        </attvalues>
+      </edge>
+      <edge source="MORGAH_ASKARI14" target="LIAQUATBAGH_RAJABAZAR" id="258">
+        <attvalues>
+          <attvalue for="2" value="0.01327283333333333" />
+          <attvalue for="3" value="7.796011374195264" />
+          <attvalue for="4" value="10.851" />
+        </attvalues>
+      </edge>
+      <edge source="MORGAH_ASKARI14" target="SADDAR" id="259">
+        <attvalues>
+          <attvalue for="2" value="0.01853866666666667" />
+          <attvalue for="3" value="5.691486412127359" />
+          <attvalue for="4" value="8.105" />
+        </attvalues>
+      </edge>
+      <edge source="MORGAH_ASKARI14" target="SCHEME3_GULISTAN_COLONY" id="260">
+        <attvalues>
+          <attvalue for="2" value="0.01522083333333333" />
+          <attvalue for="3" value="4.081818932288518" />
+          <attvalue for="4" value="8.32" />
+        </attvalues>
+      </edge>
+      <edge source="H13_I14_JHANGI_SYEDAN" target="DHOKE_HASSU" id="261">
+        <attvalues>
+          <attvalue for="2" value="0.005915" />
+          <attvalue for="3" value="6.93156835008411" />
+          <attvalue for="4" value="9.011" />
+        </attvalues>
+      </edge>
+      <edge source="H13_I14_JHANGI_SYEDAN" target="G10_G11_G12" id="262">
+        <attvalues>
+          <attvalue for="2" value="0.01889933333333333" />
+          <attvalue for="3" value="6.779442538672756" />
+          <attvalue for="4" value="9.73" />
+        </attvalues>
+      </edge>
+      <edge source="H13_I14_JHANGI_SYEDAN" target="G13_G14_GOLRA" id="263">
+        <attvalues>
+          <attvalue for="2" value="0.04595016666666666" />
+          <attvalue for="3" value="2.602825916175439" />
+          <attvalue for="4" value="5.6" />
+        </attvalues>
+      </edge>
+      <edge source="H13_I14_JHANGI_SYEDAN" target="H10_H11_H12" id="264">
+        <attvalues>
+          <attvalue for="2" value="0.02171266666666667" />
+          <attvalue for="3" value="4.458707657033443" />
+          <attvalue for="4" value="11.194" />
+        </attvalues>
+      </edge>
+      <edge source="H13_I14_JHANGI_SYEDAN" target="I10_I11" id="265">
+        <attvalues>
+          <attvalue for="2" value="0.008223166666666667" />
+          <attvalue for="3" value="7.432576430898791" />
+          <attvalue for="4" value="9.919" />
+        </attvalues>
+      </edge>
+      <edge source="H13_I14_JHANGI_SYEDAN" target="KOHINOOR_MILL_PIRWADHAI" id="266">
+        <attvalues>
+          <attvalue for="2" value="0.07242366666666666" />
+          <attvalue for="3" value="3.273718221340348" />
+          <attvalue for="4" value="5.584" />
+        </attvalues>
+      </edge>
+      <edge source="H13_I14_JHANGI_SYEDAN" target="LIAQUATBAGH_RAJABAZAR" id="267">
+        <attvalues>
+          <attvalue for="2" value="0.009305333333333332" />
+          <attvalue for="3" value="9.050486378370678" />
+          <attvalue for="4" value="10.122" />
+        </attvalues>
+      </edge>
+      <edge source="H13_I14_JHANGI_SYEDAN" target="QASIM_MARKET_RANGE_ROAD" id="268">
+        <attvalues>
+          <attvalue for="2" value="0.006203833333333333" />
+          <attvalue for="3" value="6.607762512426785" />
+          <attvalue for="4" value="9.004" />
+        </attvalues>
+      </edge>
+      <edge source="H13_I14_JHANGI_SYEDAN" target="SADDAR" id="269">
+        <attvalues>
+          <attvalue for="2" value="0.0093055" />
+          <attvalue for="3" value="9.51405527466761" />
+          <attvalue for="4" value="10.08" />
+        </attvalues>
+      </edge>
+      <edge source="H13_I14_JHANGI_SYEDAN" target="WESTRIDGE" id="270">
+        <attvalues>
+          <attvalue for="2" value="0.007141333333333333" />
+          <attvalue for="3" value="5.777434592075871" />
+          <attvalue for="4" value="6.372" />
+        </attvalues>
+      </edge>
+      <edge source="WESTRIDGE" target="ADIALA" id="271">
+        <attvalues>
+          <attvalue for="2" value="0.0009376666666666666" />
+          <attvalue for="3" value="7.939979967074373" />
+          <attvalue for="4" value="11.198" />
+        </attvalues>
+      </edge>
+      <edge source="WESTRIDGE" target="CHAKLALA" id="272">
+        <attvalues>
+          <attvalue for="2" value="0.003029666666666667" />
+          <attvalue for="3" value="5.300535114931185" />
+          <attvalue for="4" value="9.806" />
+        </attvalues>
+      </edge>
+      <edge source="WESTRIDGE" target="DHAMIAL_CHAKRI_ROAD" id="273">
+        <attvalues>
+          <attvalue for="2" value="0.0009524" />
+          <attvalue for="3" value="5.804413177235491" />
+          <attvalue for="4" value="10.938" />
+        </attvalues>
+      </edge>
+      <edge source="WESTRIDGE" target="DHOKE_HASSU" id="274">
+        <attvalues>
+          <attvalue for="2" value="0.03945783333333333" />
+          <attvalue for="3" value="2.080651149014624" />
+          <attvalue for="4" value="3.846" />
+        </attvalues>
+      </edge>
+      <edge source="WESTRIDGE" target="G13_G14_GOLRA" id="275">
+        <attvalues>
+          <attvalue for="2" value="0.001803333333333333" />
+          <attvalue for="3" value="7.464247397728731" />
+          <attvalue for="4" value="10.704" />
+        </attvalues>
+      </edge>
+      <edge source="WESTRIDGE" target="H13_I14_JHANGI_SYEDAN" id="276">
+        <attvalues>
+          <attvalue for="2" value="0.003823333333333334" />
+          <attvalue for="3" value="5.777434592075871" />
+          <attvalue for="4" value="7.506" />
+        </attvalues>
+      </edge>
+      <edge source="WESTRIDGE" target="I10_I11" id="277">
+        <attvalues>
+          <attvalue for="2" value="0.005843" />
+          <attvalue for="3" value="4.030404839833465" />
+          <attvalue for="4" value="9.921" />
+        </attvalues>
+      </edge>
+      <edge source="WESTRIDGE" target="KOHINOOR_MILL_PIRWADHAI" id="278">
+        <attvalues>
+          <attvalue for="2" value="0.02351616666666667" />
+          <attvalue for="3" value="2.748635670548014" />
+          <attvalue for="4" value="4.303" />
+        </attvalues>
+      </edge>
+      <edge source="WESTRIDGE" target="LALKURTI_TENCH_DHOKSYEDAN" id="279">
+        <attvalues>
+          <attvalue for="2" value="0.01291216666666667" />
+          <attvalue for="3" value="4.148142066512516" />
+          <attvalue for="4" value="6.217" />
+        </attvalues>
+      </edge>
+      <edge source="WESTRIDGE" target="LIAQUATBAGH_RAJABAZAR" id="280">
+        <attvalues>
+          <attvalue for="2" value="0.020198" />
+          <attvalue for="3" value="3.417798167619054" />
+          <attvalue for="4" value="3.879" />
+        </attvalues>
+      </edge>
+      <edge source="WESTRIDGE" target="QASIM_MARKET_RANGE_ROAD" id="281">
+        <attvalues>
+          <attvalue for="2" value="0.03592333333333333" />
+          <attvalue for="3" value="2.490290827269272" />
+          <attvalue for="4" value="3.733" />
+        </attvalues>
+      </edge>
+      <edge source="WESTRIDGE" target="RAWAL_ROAD" id="282">
+        <attvalues>
+          <attvalue for="2" value="0.003982" />
+          <attvalue for="3" value="5.083085995027736" />
+          <attvalue for="4" value="6.368" />
+        </attvalues>
+      </edge>
+      <edge source="WESTRIDGE" target="SADDAR" id="283">
+        <attvalues>
+          <attvalue for="2" value="0.0195485" />
+          <attvalue for="3" value="3.800662318285798" />
+          <attvalue for="4" value="4.809" />
+        </attvalues>
+      </edge>
+      <edge source="WESTRIDGE" target="SATELLITE_TOWN" id="284">
+        <attvalues>
+          <attvalue for="2" value="0.003029833333333334" />
+          <attvalue for="3" value="5.035857663886821" />
+          <attvalue for="4" value="6.842" />
+        </attvalues>
+      </edge>
+      <edge source="WESTRIDGE" target="SCHEME3_GULISTAN_COLONY" id="285">
+        <attvalues>
+          <attvalue for="2" value="0.002019833333333333" />
+          <attvalue for="3" value="8.324515533647324" />
+          <attvalue for="4" value="10.333" />
+        </attvalues>
+      </edge>
+      <edge source="WESTRIDGE" target="SHAKRIAL_SADIQABAD" id="286">
+        <attvalues>
+          <attvalue for="2" value="0.001009833333333333" />
+          <attvalue for="3" value="7.095633159786396" />
+          <attvalue for="4" value="8.612" />
+        </attvalues>
+      </edge>
+      <edge source="KHANNA_KORAL" target="CHAKLALA" id="287">
+        <attvalues>
+          <attvalue for="2" value="0.007574166666666667" />
+          <attvalue for="3" value="3.932977968165409" />
+          <attvalue for="4" value="7.412" />
+        </attvalues>
+      </edge>
+      <edge source="KHANNA_KORAL" target="FAIZABAD_STADIUM_ROAD" id="288">
+        <attvalues>
+          <attvalue for="2" value="0.0034625" />
+          <attvalue for="3" value="4.331573295107846" />
+          <attvalue for="4" value="8.334" />
+        </attvalues>
+      </edge>
+      <edge source="KHANNA_KORAL" target="GHAURI_BURMA_TOWN_KHANNA" id="289">
+        <attvalues>
+          <attvalue for="2" value="0.05338" />
+          <attvalue for="3" value="2.216229634773043" />
+          <attvalue for="4" value="4.581" />
+        </attvalues>
+      </edge>
+      <edge source="KHANNA_KORAL" target="H9_I9" id="290">
+        <attvalues>
+          <attvalue for="2" value="0.0039675" />
+          <attvalue for="3" value="6.587582698733645" />
+          <attvalue for="4" value="10.934" />
+        </attvalues>
+      </edge>
+      <edge source="KHANNA_KORAL" target="OLD_AIRPORT" id="291">
+        <attvalues>
+          <attvalue for="2" value="0.01067583333333333" />
+          <attvalue for="3" value="3.147219296267868" />
+          <attvalue for="4" value="8.205" />
+        </attvalues>
+      </edge>
+      <edge source="KHANNA_KORAL" target="RAWAL_ROAD" id="292">
+        <attvalues>
+          <attvalue for="2" value="0.012191" />
+          <attvalue for="3" value="3.115868825559371" />
+          <attvalue for="4" value="4.917" />
+        </attvalues>
+      </edge>
+      <edge source="KHANNA_KORAL" target="SATELLITE_TOWN" id="293">
+        <attvalues>
+          <attvalue for="2" value="0.01565333333333334" />
+          <attvalue for="3" value="4.433852788820509" />
+          <attvalue for="4" value="10.546" />
+        </attvalues>
+      </edge>
+      <edge source="KHANNA_KORAL" target="SHAKRIAL_SADIQABAD" id="294">
+        <attvalues>
+          <attvalue for="2" value="0.03426433333333333" />
+          <attvalue for="3" value="2.167821994398809" />
+          <attvalue for="4" value="4.893" />
+        </attvalues>
+      </edge>
+      <edge source="KHANNA_KORAL" target="SHAMSABAD_DHOK_KALA" id="295">
+        <attvalues>
+          <attvalue for="2" value="0.0022504" />
+          <attvalue for="3" value="3.183716462333116" />
+          <attvalue for="4" value="4.944" />
+        </attvalues>
+      </edge>
+      <edge source="KHANNA_KORAL" target="TARAMRI_ALIPUR_FARASHTOWN" id="296">
+        <attvalues>
+          <attvalue for="2" value="0.004833" />
+          <attvalue for="3" value="8.444448136765427" />
+          <attvalue for="4" value="10.176" />
+        </attvalues>
+      </edge>
+      <edge source="F10_F11_E11_D12" target="F6_F7_E7" id="297">
+        <attvalues>
+          <attvalue for="2" value="0.01666316666666667" />
+          <attvalue for="3" value="7.398026410152882" />
+          <attvalue for="4" value="10.868" />
+        </attvalues>
+      </edge>
+      <edge source="F10_F11_E11_D12" target="F8_E8_F9_E9" id="298">
+        <attvalues>
+          <attvalue for="2" value="0.043858" />
+          <attvalue for="3" value="4.548887883517593" />
+          <attvalue for="4" value="5.944" />
+        </attvalues>
+      </edge>
+      <edge source="F10_F11_E11_D12" target="G10_G11_G12" id="299">
+        <attvalues>
+          <attvalue for="2" value="0.0717745" />
+          <attvalue for="3" value="2.70939935451669" />
+          <attvalue for="4" value="3.198" />
+        </attvalues>
+      </edge>
+      <edge source="F10_F11_E11_D12" target="G8_G9" id="300">
+        <attvalues>
+          <attvalue for="2" value="0.0333985" />
+          <attvalue for="3" value="4.571568758559376" />
+          <attvalue for="4" value="7.241" />
+        </attvalues>
+      </edge>
+      <edge source="F10_F11_E11_D12" target="H10_H11_H12" id="301">
+        <attvalues>
+          <attvalue for="2" value="0.004616666666666666" />
+          <attvalue for="3" value="5.184714783765111" />
+          <attvalue for="4" value="10.365" />
+        </attvalues>
+      </edge>
+      <edge source="F10_F11_E11_D12" target="H9_I9" id="302">
+        <attvalues>
+          <attvalue for="2" value="0.004039500000000001" />
+          <attvalue for="3" value="6.578665299754547" />
+          <attvalue for="4" value="11.303" />
+        </attvalues>
+      </edge>
+      <edge source="F10_F11_E11_D12" target="I10_I11" id="303">
+        <attvalues>
+          <attvalue for="2" value="0.007790666666666667" />
+          <attvalue for="3" value="6.591604060036061" />
+          <attvalue for="4" value="11.165" />
+        </attvalues>
+      </edge>
+      <edge source="BHARAKAHU_BANIGALA" target="G5_F5_DIPLOMATIC_SECRETARIAT" id="304">
+        <attvalues>
+          <attvalue for="2" value="0.05316333333333333" />
+          <attvalue for="3" value="7.709142776116121" />
+          <attvalue for="4" value="11.48" />
+        </attvalues>
+      </edge>
+      <edge source="FAIZABAD_STADIUM_ROAD" target="CHAKLALA" id="305">
+        <attvalues>
+          <attvalue for="2" value="0.003895333333333334" />
+          <attvalue for="3" value="5.675488975571227" />
+          <attvalue for="4" value="9.556" />
+        </attvalues>
+      </edge>
+      <edge source="FAIZABAD_STADIUM_ROAD" target="DHOKE_HASSU" id="306">
+        <attvalues>
+          <attvalue for="2" value="0.005266" />
+          <attvalue for="3" value="4.630654667701324" />
+          <attvalue for="4" value="7.83" />
+        </attvalues>
+      </edge>
+      <edge source="FAIZABAD_STADIUM_ROAD" target="F8_E8_F9_E9" id="307">
+        <attvalues>
+          <attvalue for="2" value="0.010604" />
+          <attvalue for="3" value="7.805396778948949" />
+          <attvalue for="4" value="9.482" />
+        </attvalues>
+      </edge>
+      <edge source="FAIZABAD_STADIUM_ROAD" target="G6_G7_BLUE_AREA" id="308">
+        <attvalues>
+          <attvalue for="2" value="0.01976483333333333" />
+          <attvalue for="3" value="6.835941474334113" />
+          <attvalue for="4" value="10.546" />
+        </attvalues>
+      </edge>
+      <edge source="FAIZABAD_STADIUM_ROAD" target="G8_G9" id="309">
+        <attvalues>
+          <attvalue for="2" value="0.0126235" />
+          <attvalue for="3" value="5.277601243191062" />
+          <attvalue for="4" value="6.467" />
+        </attvalues>
+      </edge>
+      <edge source="FAIZABAD_STADIUM_ROAD" target="GHAURI_BURMA_TOWN_KHANNA" id="310">
+        <attvalues>
+          <attvalue for="2" value="0.008655999999999999" />
+          <attvalue for="3" value="5.926830382972772" />
+          <attvalue for="4" value="10.872" />
+        </attvalues>
+      </edge>
+      <edge source="FAIZABAD_STADIUM_ROAD" target="H9_I9" id="311">
+        <attvalues>
+          <attvalue for="2" value="0.0185385" />
+          <attvalue for="3" value="2.30604287774996" />
+          <attvalue for="4" value="4.559" />
+        </attvalues>
+      </edge>
+      <edge source="FAIZABAD_STADIUM_ROAD" target="I10_I11" id="312">
+        <attvalues>
+          <attvalue for="2" value="0.008006833333333333" />
+          <attvalue for="3" value="3.605985990047675" />
+          <attvalue for="4" value="6.42" />
+        </attvalues>
+      </edge>
+      <edge source="FAIZABAD_STADIUM_ROAD" target="I8_H8_SHAKARPARIAN" id="313">
+        <attvalues>
+          <attvalue for="2" value="0.0500615" />
+          <attvalue for="3" value="3.17302512764394" />
+          <attvalue for="4" value="9.811" />
+        </attvalues>
+      </edge>
+      <edge source="FAIZABAD_STADIUM_ROAD" target="KHANNA_KORAL" id="314">
+        <attvalues>
+          <attvalue for="2" value="0.0023805" />
+          <attvalue for="3" value="4.331573295107846" />
+          <attvalue for="4" value="10.301" />
+        </attvalues>
+      </edge>
+      <edge source="FAIZABAD_STADIUM_ROAD" target="KOHINOOR_MILL_PIRWADHAI" id="315">
+        <attvalues>
+          <attvalue for="2" value="0.003606833333333333" />
+          <attvalue for="3" value="9.00659924720807" />
+          <attvalue for="4" value="11.002" />
+        </attvalues>
+      </edge>
+      <edge source="FAIZABAD_STADIUM_ROAD" target="LIAQUATBAGH_RAJABAZAR" id="316">
+        <attvalues>
+          <attvalue for="2" value="0.0119745" />
+          <attvalue for="3" value="4.326612509475824" />
+          <attvalue for="4" value="8.094" />
+        </attvalues>
+      </edge>
+      <edge source="FAIZABAD_STADIUM_ROAD" target="RAWAL_ROAD" id="317">
+        <attvalues>
+          <attvalue for="2" value="0.0072135" />
+          <attvalue for="3" value="3.691364072260281" />
+          <attvalue for="4" value="6.971" />
+        </attvalues>
+      </edge>
+      <edge source="FAIZABAD_STADIUM_ROAD" target="SADDAR" id="318">
+        <attvalues>
+          <attvalue for="2" value="0.004111666666666666" />
+          <attvalue for="3" value="6.408861352676452" />
+          <attvalue for="4" value="10.027" />
+        </attvalues>
+      </edge>
+      <edge source="FAIZABAD_STADIUM_ROAD" target="SATELLITE_TOWN" id="319">
+        <attvalues>
+          <attvalue for="2" value="1.074091333333333" />
+          <attvalue for="3" value="1.684687156856972" />
+          <attvalue for="4" value="4.152" />
+        </attvalues>
+      </edge>
+      <edge source="FAIZABAD_STADIUM_ROAD" target="SHAKRIAL_SADIQABAD" id="320">
+        <attvalues>
+          <attvalue for="2" value="0.0232275" />
+          <attvalue for="3" value="2.16551232835021" />
+          <attvalue for="4" value="5.387" />
+        </attvalues>
+      </edge>
+      <edge source="FAIZABAD_STADIUM_ROAD" target="SHAMSABAD_DHOK_KALA" id="321">
+        <attvalues>
+          <attvalue for="2" value="0.01868316666666667" />
+          <attvalue for="3" value="1.674286543794784" />
+          <attvalue for="4" value="3.866" />
+        </attvalues>
+      </edge>
+      <edge source="FAIZABAD_STADIUM_ROAD" target="SOHAN_CHAK_SHAHZAD" id="322">
+        <attvalues>
+          <attvalue for="2" value="0.0110365" />
+          <attvalue for="3" value="5.770566757327558" />
+          <attvalue for="4" value="11.141" />
+        </attvalues>
+      </edge>
+      <edge source="FAIZABAD_STADIUM_ROAD" target="WESTRIDGE" id="323">
+        <attvalues>
+          <attvalue for="2" value="0.001587" />
+          <attvalue for="3" value="6.675978841012927" />
+          <attvalue for="4" value="9.538" />
+        </attvalues>
+      </edge>
+      <edge source="NAVAL_GULBERG" target="BAHRIA1_6_PWD" id="324">
+        <attvalues>
+          <attvalue for="2" value="0.048042" />
+          <attvalue for="3" value="4.165937260224322" />
+          <attvalue for="4" value="7.049" />
+        </attvalues>
+      </edge>
+      <edge source="NAVAL_GULBERG" target="DHA2_ZARAJ" id="325">
+        <attvalues>
+          <attvalue for="2" value="0.02128" />
+          <attvalue for="3" value="5.667313114809573" />
+          <attvalue for="4" value="10.389" />
+        </attvalues>
+      </edge>
+      <edge source="NAVAL_GULBERG" target="KHANNA_KORAL" id="326">
+        <attvalues>
+          <attvalue for="2" value="0.0020772" />
+          <attvalue for="3" value="8.363431907955198" />
+          <attvalue for="4" value="11.431" />
+        </attvalues>
+      </edge>
+      <edge source="NAVAL_GULBERG" target="OLD_AIRPORT" id="327">
+        <attvalues>
+          <attvalue for="2" value="0.007862666666666667" />
+          <attvalue for="3" value="5.906225143539785" />
+          <attvalue for="4" value="9.184" />
+        </attvalues>
+      </edge>
+      <edge source="TARAMRI_ALIPUR_FARASHTOWN" target="GHAURI_BURMA_TOWN_KHANNA" id="328">
+        <attvalues>
+          <attvalue for="2" value="0.03815950000000001" />
+          <attvalue for="3" value="6.245002261407725" />
+          <attvalue for="4" value="7.026" />
+        </attvalues>
+      </edge>
+      <edge source="TARAMRI_ALIPUR_FARASHTOWN" target="KHANNA_KORAL" id="329">
+        <attvalues>
+          <attvalue for="2" value="0.005626333333333333" />
+          <attvalue for="3" value="8.444448136765427" />
+          <attvalue for="4" value="9.746" />
+        </attvalues>
+      </edge>
+      <edge source="TARAMRI_ALIPUR_FARASHTOWN" target="SOHAN_CHAK_SHAHZAD" id="330">
+        <attvalues>
+          <attvalue for="2" value="0.03238866666666667" />
+          <attvalue for="3" value="6.570511296244099" />
+          <attvalue for="4" value="8.508" />
+        </attvalues>
+      </edge>
+      <edge source="DHA1_BAHRIA7" target="ADIALA" id="331">
+        <attvalues>
+          <attvalue for="2" value="0.0029575" />
+          <attvalue for="3" value="4.567469415538677" />
+          <attvalue for="4" value="10.186" />
+        </attvalues>
+      </edge>
+      <edge source="DHA1_BAHRIA7" target="BAHRIA8" id="332">
+        <attvalues>
+          <attvalue for="2" value="0.04623849999999999" />
+          <attvalue for="3" value="5.373536636412007" />
+          <attvalue for="4" value="9.723" />
+        </attvalues>
+      </edge>
+      <edge source="DHA1_BAHRIA7" target="CHAKLALA" id="333">
+        <attvalues>
+          <attvalue for="2" value="0.004977333333333334" />
+          <attvalue for="3" value="6.95975797061739" />
+          <attvalue for="4" value="10.677" />
+        </attvalues>
+      </edge>
+      <edge source="DHA1_BAHRIA7" target="LALKURTI_TENCH_DHOKSYEDAN" id="334">
+        <attvalues>
+          <attvalue for="2" value="0.005338" />
+          <attvalue for="3" value="6.959905342570383" />
+          <attvalue for="4" value="9.283" />
+        </attvalues>
+      </edge>
+      <edge source="DHA1_BAHRIA7" target="MORGAH_ASKARI14" id="335">
+        <attvalues>
+          <attvalue for="2" value="0.0365725" />
+          <attvalue for="3" value="2.632459779953257" />
+          <attvalue for="4" value="4.754" />
+        </attvalues>
+      </edge>
+      <edge source="DHA1_BAHRIA7" target="SADDAR" id="336">
+        <attvalues>
+          <attvalue for="2" value="0.0087285" />
+          <attvalue for="3" value="7.334477262209218" />
+          <attvalue for="4" value="8.887" />
+        </attvalues>
+      </edge>
+      <edge source="DHA1_BAHRIA7" target="SCHEME3_GULISTAN_COLONY" id="337">
+        <attvalues>
+          <attvalue for="2" value="0.02286683333333333" />
+          <attvalue for="3" value="3.891415140759801" />
+          <attvalue for="4" value="8.539" />
+        </attvalues>
+      </edge>
+      <edge source="SHAKRIAL_SADIQABAD" target="CHAKLALA" id="338">
+        <attvalues>
+          <attvalue for="2" value="0.01002683333333333" />
+          <attvalue for="3" value="4.321159305847289" />
+          <attvalue for="4" value="5.908" />
+        </attvalues>
+      </edge>
+      <edge source="SHAKRIAL_SADIQABAD" target="FAIZABAD_STADIUM_ROAD" id="339">
+        <attvalues>
+          <attvalue for="2" value="0.01637483333333333" />
+          <attvalue for="3" value="2.16551232835021" />
+          <attvalue for="4" value="6.833" />
+        </attvalues>
+      </edge>
+      <edge source="SHAKRIAL_SADIQABAD" target="GHAURI_BURMA_TOWN_KHANNA" id="340">
+        <attvalues>
+          <attvalue for="2" value="0.030441" />
+          <attvalue for="3" value="3.9446750767347" />
+          <attvalue for="4" value="6.232" />
+        </attvalues>
+      </edge>
+      <edge source="SHAKRIAL_SADIQABAD" target="H9_I9" id="341">
+        <attvalues>
+          <attvalue for="2" value="0.0115415" />
+          <attvalue for="3" value="4.425760970803887" />
+          <attvalue for="4" value="9.433" />
+        </attvalues>
+      </edge>
+      <edge source="SHAKRIAL_SADIQABAD" target="I10_I11" id="342">
+        <attvalues>
+          <attvalue for="2" value="0.01031533333333333" />
+          <attvalue for="3" value="5.119048054447423" />
+          <attvalue for="4" value="11.314" />
+        </attvalues>
+      </edge>
+      <edge source="SHAKRIAL_SADIQABAD" target="KHANNA_KORAL" id="343">
+        <attvalues>
+          <attvalue for="2" value="0.03260533333333333" />
+          <attvalue for="3" value="2.167821994398809" />
+          <attvalue for="4" value="5.093" />
+        </attvalues>
+      </edge>
+      <edge source="SHAKRIAL_SADIQABAD" target="LALKURTI_TENCH_DHOKSYEDAN" id="344">
+        <attvalues>
+          <attvalue for="2" value="0.005554333333333332" />
+          <attvalue for="3" value="7.920741282879512" />
+          <attvalue for="4" value="10.514" />
+        </attvalues>
+      </edge>
+      <edge source="SHAKRIAL_SADIQABAD" target="LIAQUATBAGH_RAJABAZAR" id="345">
+        <attvalues>
+          <attvalue for="2" value="0.03087383333333333" />
+          <attvalue for="3" value="3.952853890837977" />
+          <attvalue for="4" value="5.599" />
+        </attvalues>
+      </edge>
+      <edge source="SHAKRIAL_SADIQABAD" target="OLD_AIRPORT" id="346">
+        <attvalues>
+          <attvalue for="2" value="0.005770666666666667" />
+          <attvalue for="3" value="5.186905521015595" />
+          <attvalue for="4" value="9.855" />
+        </attvalues>
+      </edge>
+      <edge source="SHAKRIAL_SADIQABAD" target="RAWAL_ROAD" id="347">
+        <attvalues>
+          <attvalue for="2" value="0.0387365" />
+          <attvalue for="3" value="2.580730314755247" />
+          <attvalue for="4" value="3.413" />
+        </attvalues>
+      </edge>
+      <edge source="SHAKRIAL_SADIQABAD" target="SADDAR" id="348">
+        <attvalues>
+          <attvalue for="2" value="0.01413833333333333" />
+          <attvalue for="3" value="5.589867237246803" />
+          <attvalue for="4" value="7.533" />
+        </attvalues>
+      </edge>
+      <edge source="SHAKRIAL_SADIQABAD" target="SATELLITE_TOWN" id="349">
+        <attvalues>
+          <attvalue for="2" value="0.07906" />
+          <attvalue for="3" value="2.520129504782987" />
+          <attvalue for="4" value="4.584" />
+        </attvalues>
+      </edge>
+      <edge source="SHAKRIAL_SADIQABAD" target="SCHEME3_GULISTAN_COLONY" id="350">
+        <attvalues>
+          <attvalue for="2" value="0.005843" />
+          <attvalue for="3" value="6.79851464547823" />
+          <attvalue for="4" value="10.824" />
+        </attvalues>
+      </edge>
+      <edge source="SHAKRIAL_SADIQABAD" target="SHAMSABAD_DHOK_KALA" id="351">
+        <attvalues>
+          <attvalue for="2" value="0.08086333333333333" />
+          <attvalue for="3" value="1.381377725640426" />
+          <attvalue for="4" value="2.361" />
+        </attvalues>
+      </edge>
+      <edge source="SCHEME3_GULISTAN_COLONY" target="ADIALA" id="352">
+        <attvalues>
+          <attvalue for="2" value="0.005266" />
+          <attvalue for="3" value="5.534127177826924" />
+          <attvalue for="4" value="9.732" />
+        </attvalues>
+      </edge>
+      <edge source="SCHEME3_GULISTAN_COLONY" target="BAHRIA1_6_PWD" id="353">
+        <attvalues>
+          <attvalue for="2" value="0.05734733333333333" />
+          <attvalue for="3" value="3.951978374228264" />
+          <attvalue for="4" value="6.201" />
+        </attvalues>
+      </edge>
+      <edge source="SCHEME3_GULISTAN_COLONY" target="CHAKLALA" id="354">
+        <attvalues>
+          <attvalue for="2" value="0.03664466666666667" />
+          <attvalue for="3" value="3.440474903301653" />
+          <attvalue for="4" value="5.549" />
+        </attvalues>
+      </edge>
+      <edge source="SCHEME3_GULISTAN_COLONY" target="DHA1_BAHRIA7" id="355">
+        <attvalues>
+          <attvalue for="2" value="0.023588" />
+          <attvalue for="3" value="3.891415140759801" />
+          <attvalue for="4" value="7.787" />
+        </attvalues>
+      </edge>
+      <edge source="SCHEME3_GULISTAN_COLONY" target="DHA2_ZARAJ" id="356">
+        <attvalues>
+          <attvalue for="2" value="0.01695183333333333" />
+          <attvalue for="3" value="7.365229539473021" />
+          <attvalue for="4" value="9.996" />
+        </attvalues>
+      </edge>
+      <edge source="SCHEME3_GULISTAN_COLONY" target="LALKURTI_TENCH_DHOKSYEDAN" id="357">
+        <attvalues>
+          <attvalue for="2" value="0.01623033333333334" />
+          <attvalue for="3" value="5.391770625276649" />
+          <attvalue for="4" value="7.521" />
+        </attvalues>
+      </edge>
+      <edge source="SCHEME3_GULISTAN_COLONY" target="LIAQUATBAGH_RAJABAZAR" id="358">
+        <attvalues>
+          <attvalue for="2" value="0.03671683333333333" />
+          <attvalue for="3" value="5.845619243678041" />
+          <attvalue for="4" value="8.67" />
+        </attvalues>
+      </edge>
+      <edge source="SCHEME3_GULISTAN_COLONY" target="MORGAH_ASKARI14" id="359">
+        <attvalues>
+          <attvalue for="2" value="0.01183016666666667" />
+          <attvalue for="3" value="4.081818932288518" />
+          <attvalue for="4" value="9.698" />
+        </attvalues>
+      </edge>
+      <edge source="SCHEME3_GULISTAN_COLONY" target="OLD_AIRPORT" id="360">
+        <attvalues>
+          <attvalue for="2" value="0.04154966666666667" />
+          <attvalue for="3" value="2.980085341987831" />
+          <attvalue for="4" value="5.217" />
+        </attvalues>
+      </edge>
+      <edge source="SCHEME3_GULISTAN_COLONY" target="QASIM_MARKET_RANGE_ROAD" id="361">
+        <attvalues>
+          <attvalue for="2" value="0.0044725" />
+          <attvalue for="3" value="7.755187316124863" />
+          <attvalue for="4" value="11.177" />
+        </attvalues>
+      </edge>
+      <edge source="SCHEME3_GULISTAN_COLONY" target="RAWAL_ROAD" id="362">
+        <attvalues>
+          <attvalue for="2" value="0.0114695" />
+          <attvalue for="3" value="5.17368352531637" />
+          <attvalue for="4" value="8.054" />
+        </attvalues>
+      </edge>
+      <edge source="SCHEME3_GULISTAN_COLONY" target="SADDAR" id="363">
+        <attvalues>
+          <attvalue for="2" value="0.02769983333333333" />
+          <attvalue for="3" value="4.523854249674577" />
+          <attvalue for="4" value="6.803" />
+        </attvalues>
+      </edge>
+      <edge source="SCHEME3_GULISTAN_COLONY" target="SATELLITE_TOWN" id="364">
+        <attvalues>
+          <attvalue for="2" value="0.01255133333333333" />
+          <attvalue for="3" value="7.740792875322972" />
+          <attvalue for="4" value="10.827" />
+        </attvalues>
+      </edge>
+      <edge source="SCHEME3_GULISTAN_COLONY" target="SHAKRIAL_SADIQABAD" id="365">
+        <attvalues>
+          <attvalue for="2" value="0.006853000000000001" />
+          <attvalue for="3" value="6.79851464547823" />
+          <attvalue for="4" value="10.331" />
+        </attvalues>
+      </edge>
+      <edge source="SCHEME3_GULISTAN_COLONY" target="WESTRIDGE" id="366">
+        <attvalues>
+          <attvalue for="2" value="0.003462333333333333" />
+          <attvalue for="3" value="8.324515533647324" />
+          <attvalue for="4" value="10.587" />
+        </attvalues>
+      </edge>
+      <edge source="OLD_AIRPORT" target="BAHRIA1_6_PWD" id="367">
+        <attvalues>
+          <attvalue for="2" value="0.01760083333333333" />
+          <attvalue for="3" value="4.318770573300677" />
+          <attvalue for="4" value="9.617" />
+        </attvalues>
+      </edge>
+      <edge source="OLD_AIRPORT" target="CHAKLALA" id="368">
+        <attvalues>
+          <attvalue for="2" value="0.0227225" />
+          <attvalue for="3" value="4.080623248814675" />
+          <attvalue for="4" value="5.737" />
+        </attvalues>
+      </edge>
+      <edge source="OLD_AIRPORT" target="GHAURI_BURMA_TOWN_KHANNA" id="369">
+        <attvalues>
+          <attvalue for="2" value="0.02611283333333334" />
+          <attvalue for="3" value="3.431447052669173" />
+          <attvalue for="4" value="9.688" />
+        </attvalues>
+      </edge>
+      <edge source="OLD_AIRPORT" target="KHANNA_KORAL" id="370">
+        <attvalues>
+          <attvalue for="2" value="0.0108925" />
+          <attvalue for="3" value="3.147219296267868" />
+          <attvalue for="4" value="7.731" />
+        </attvalues>
+      </edge>
+      <edge source="OLD_AIRPORT" target="LALKURTI_TENCH_DHOKSYEDAN" id="371">
+        <attvalues>
+          <attvalue for="2" value="0.005338" />
+          <attvalue for="3" value="7.540646730724693" />
+          <attvalue for="4" value="9.373" />
+        </attvalues>
+      </edge>
+      <edge source="OLD_AIRPORT" target="LIAQUATBAGH_RAJABAZAR" id="372">
+        <attvalues>
+          <attvalue for="2" value="0.0147155" />
+          <attvalue for="3" value="6.148285563498418" />
+          <attvalue for="4" value="8.987" />
+        </attvalues>
+      </edge>
+      <edge source="OLD_AIRPORT" target="NAVAL_GULBERG" id="373">
+        <attvalues>
+          <attvalue for="2" value="0.009954666666666667" />
+          <attvalue for="3" value="5.906225143539785" />
+          <attvalue for="4" value="8.634" />
+        </attvalues>
+      </edge>
+      <edge source="OLD_AIRPORT" target="RAWAL_ROAD" id="374">
+        <attvalues>
+          <attvalue for="2" value="0.0108925" />
+          <attvalue for="3" value="4.774461169139133" />
+          <attvalue for="4" value="8.371" />
+        </attvalues>
+      </edge>
+      <edge source="OLD_AIRPORT" target="SADDAR" id="375">
+        <attvalues>
+          <attvalue for="2" value="0.009594" />
+          <attvalue for="3" value="5.862058850873776" />
+          <attvalue for="4" value="8.654" />
+        </attvalues>
+      </edge>
+      <edge source="OLD_AIRPORT" target="SATELLITE_TOWN" id="376">
+        <attvalues>
+          <attvalue for="2" value="0.009305666666666667" />
+          <attvalue for="3" value="6.992754496568533" />
+          <attvalue for="4" value="11.145" />
+        </attvalues>
+      </edge>
+      <edge source="OLD_AIRPORT" target="SCHEME3_GULISTAN_COLONY" id="377">
+        <attvalues>
+          <attvalue for="2" value="0.04003499999999999" />
+          <attvalue for="3" value="2.980085341987831" />
+          <attvalue for="4" value="3.918" />
+        </attvalues>
+      </edge>
+      <edge source="OLD_AIRPORT" target="SHAKRIAL_SADIQABAD" id="378">
+        <attvalues>
+          <attvalue for="2" value="0.006997166666666666" />
+          <attvalue for="3" value="5.186905521015595" />
+          <attvalue for="4" value="9.766" />
+        </attvalues>
+      </edge>
+      <edge source="OLD_AIRPORT" target="SHAMSABAD_DHOK_KALA" id="379">
+        <attvalues>
+          <attvalue for="2" value="0.0012984" />
+          <attvalue for="3" value="6.324578496328312" />
+          <attvalue for="4" value="9.817" />
+        </attvalues>
+      </edge>
+      <edge source="G8_G9" target="F10_F11_E11_D12" id="380">
+        <attvalues>
+          <attvalue for="2" value="0.02048633333333333" />
+          <attvalue for="3" value="4.571568758559376" />
+          <attvalue for="4" value="6.311" />
+        </attvalues>
+      </edge>
+      <edge source="G8_G9" target="F6_F7_E7" id="381">
+        <attvalues>
+          <attvalue for="2" value="0.01695166666666667" />
+          <attvalue for="3" value="4.190485939134717" />
+          <attvalue for="4" value="6.708" />
+        </attvalues>
+      </edge>
+      <edge source="G8_G9" target="F8_E8_F9_E9" id="382">
+        <attvalues>
+          <attvalue for="2" value="0.027195" />
+          <attvalue for="3" value="2.649948232869767" />
+          <attvalue for="4" value="3.677" />
+        </attvalues>
+      </edge>
+      <edge source="G8_G9" target="FAIZABAD_STADIUM_ROAD" id="383">
+        <attvalues>
+          <attvalue for="2" value="0.0034625" />
+          <attvalue for="3" value="5.277601243191062" />
+          <attvalue for="4" value="5.822" />
+        </attvalues>
+      </edge>
+      <edge source="G8_G9" target="G10_G11_G12" id="384">
+        <attvalues>
+          <attvalue for="2" value="0.03895299999999999" />
+          <attvalue for="3" value="3.746906491483829" />
+          <attvalue for="4" value="5.23" />
+        </attvalues>
+      </edge>
+      <edge source="G8_G9" target="G5_F5_DIPLOMATIC_SECRETARIAT" id="385">
+        <attvalues>
+          <attvalue for="2" value="0.02394883333333334" />
+          <attvalue for="3" value="6.790329922971028" />
+          <attvalue for="4" value="8.677" />
+        </attvalues>
+      </edge>
+      <edge source="G8_G9" target="G6_G7_BLUE_AREA" id="386">
+        <attvalues>
+          <attvalue for="2" value="0.05027816666666666" />
+          <attvalue for="3" value="4.096096623474692" />
+          <attvalue for="4" value="7.95" />
+        </attvalues>
+      </edge>
+      <edge source="G8_G9" target="H10_H11_H12" id="387">
+        <attvalues>
+          <attvalue for="2" value="0.006131500000000001" />
+          <attvalue for="3" value="6.146574683626245" />
+          <attvalue for="4" value="9.92" />
+        </attvalues>
+      </edge>
+      <edge source="G8_G9" target="H9_I9" id="388">
+        <attvalues>
+          <attvalue for="2" value="0.009594" />
+          <attvalue for="3" value="3.305075655196279" />
+          <attvalue for="4" value="4.872" />
+        </attvalues>
+      </edge>
+      <edge source="G8_G9" target="I10_I11" id="389">
+        <attvalues>
+          <attvalue for="2" value="0.0093055" />
+          <attvalue for="3" value="4.94596051641583" />
+          <attvalue for="4" value="7.702" />
+        </attvalues>
+      </edge>
+      <edge source="G8_G9" target="I8_H8_SHAKARPARIAN" id="390">
+        <attvalues>
+          <attvalue for="2" value="0.01897166666666667" />
+          <attvalue for="3" value="3.612582439405362" />
+          <attvalue for="4" value="7.215" />
+        </attvalues>
+      </edge>
+      <edge source="G8_G9" target="LIAQUATBAGH_RAJABAZAR" id="391">
+        <attvalues>
+          <attvalue for="2" value="0.003376" />
+          <attvalue for="3" value="8.415018945411168" />
+          <attvalue for="4" value="11.317" />
+        </attvalues>
+      </edge>
+      <edge source="G8_G9" target="SATELLITE_TOWN" id="392">
+        <attvalues>
+          <attvalue for="2" value="0.01074816666666666" />
+          <attvalue for="3" value="5.98573098305537" />
+          <attvalue for="4" value="8.034" />
+        </attvalues>
+      </edge>
+      <edge source="SADDAR" target="ADIALA" id="393">
+        <attvalues>
+          <attvalue for="2" value="0.0051935" />
+          <attvalue for="3" value="5.57407919358671" />
+          <attvalue for="4" value="7.548" />
+        </attvalues>
+      </edge>
+      <edge source="SADDAR" target="CHAKLALA" id="394">
+        <attvalues>
+          <attvalue for="2" value="0.02517516666666667" />
+          <attvalue for="3" value="1.863734602797637" />
+          <attvalue for="4" value="4.81" />
+        </attvalues>
+      </edge>
+      <edge source="SADDAR" target="DHA1_BAHRIA7" id="395">
+        <attvalues>
+          <attvalue for="2" value="0.003173666666666667" />
+          <attvalue for="3" value="7.334477262209218" />
+          <attvalue for="4" value="9.641" />
+        </attvalues>
+      </edge>
+      <edge source="SADDAR" target="DHAMIAL_CHAKRI_ROAD" id="396">
+        <attvalues>
+          <attvalue for="2" value="0.006997333333333334" />
+          <attvalue for="3" value="5.799193469927861" />
+          <attvalue for="4" value="8.375" />
+        </attvalues>
+      </edge>
+      <edge source="SADDAR" target="DHOKE_HASSU" id="397">
+        <attvalues>
+          <attvalue for="2" value="0.005915166666666667" />
+          <attvalue for="3" value="3.938019784158749" />
+          <attvalue for="4" value="6.206" />
+        </attvalues>
+      </edge>
+      <edge source="SADDAR" target="FAIZABAD_STADIUM_ROAD" id="398">
+        <attvalues>
+          <attvalue for="2" value="0.001298333333333333" />
+          <attvalue for="3" value="6.408861352676452" />
+          <attvalue for="4" value="8.551" />
+        </attvalues>
+      </edge>
+      <edge source="SADDAR" target="H13_I14_JHANGI_SYEDAN" id="399">
+        <attvalues>
+          <attvalue for="2" value="0.0023805" />
+          <attvalue for="3" value="9.51405527466761" />
+          <attvalue for="4" value="10.443" />
+        </attvalues>
+      </edge>
+      <edge source="SADDAR" target="KOHINOOR_MILL_PIRWADHAI" id="400">
+        <attvalues>
+          <attvalue for="2" value="0.008439833333333334" />
+          <attvalue for="3" value="6.310046488763919" />
+          <attvalue for="4" value="7.24" />
+        </attvalues>
+      </edge>
+      <edge source="SADDAR" target="LALKURTI_TENCH_DHOKSYEDAN" id="401">
+        <attvalues>
+          <attvalue for="2" value="0.046383" />
+          <attvalue for="3" value="2.33231216840377" />
+          <attvalue for="4" value="3.654" />
+        </attvalues>
+      </edge>
+      <edge source="SADDAR" target="LIAQUATBAGH_RAJABAZAR" id="402">
+        <attvalues>
+          <attvalue for="2" value="0.04544500000000001" />
+          <attvalue for="3" value="2.178928872813874" />
+          <attvalue for="4" value="2.718" />
+        </attvalues>
+      </edge>
+      <edge source="SADDAR" target="MORGAH_ASKARI14" id="403">
+        <attvalues>
+          <attvalue for="2" value="0.0046885" />
+          <attvalue for="3" value="5.691486412127359" />
+          <attvalue for="4" value="10.983" />
+        </attvalues>
+      </edge>
+      <edge source="SADDAR" target="OLD_AIRPORT" id="404">
+        <attvalues>
+          <attvalue for="2" value="0.003116" />
+          <attvalue for="3" value="5.862058850873776" />
+          <attvalue for="4" value="8.82" />
+        </attvalues>
+      </edge>
+      <edge source="SADDAR" target="QASIM_MARKET_RANGE_ROAD" id="405">
+        <attvalues>
+          <attvalue for="2" value="0.02077483333333334" />
+          <attvalue for="3" value="3.693926263957708" />
+          <attvalue for="4" value="5.432" />
+        </attvalues>
+      </edge>
+      <edge source="SADDAR" target="RAWAL_ROAD" id="406">
+        <attvalues>
+          <attvalue for="2" value="0.004905333333333334" />
+          <attvalue for="3" value="3.009319049608492" />
+          <attvalue for="4" value="4.021" />
+        </attvalues>
+      </edge>
+      <edge source="SADDAR" target="SATELLITE_TOWN" id="407">
+        <attvalues>
+          <attvalue for="2" value="0.007502166666666667" />
+          <attvalue for="3" value="4.891430267972225" />
+          <attvalue for="4" value="6.829" />
+        </attvalues>
+      </edge>
+      <edge source="SADDAR" target="SCHEME3_GULISTAN_COLONY" id="408">
+        <attvalues>
+          <attvalue for="2" value="0.007574333333333333" />
+          <attvalue for="3" value="4.523854249674577" />
+          <attvalue for="4" value="6.73" />
+        </attvalues>
+      </edge>
+      <edge source="SADDAR" target="SHAKRIAL_SADIQABAD" id="409">
+        <attvalues>
+          <attvalue for="2" value="0.004039333333333333" />
+          <attvalue for="3" value="5.589867237246803" />
+          <attvalue for="4" value="7.737" />
+        </attvalues>
+      </edge>
+      <edge source="SADDAR" target="SHAMSABAD_DHOK_KALA" id="410">
+        <attvalues>
+          <attvalue for="2" value="0.0006062" />
+          <attvalue for="3" value="6.848463072242009" />
+          <attvalue for="4" value="10.308" />
+        </attvalues>
+      </edge>
+      <edge source="SADDAR" target="WESTRIDGE" id="411">
+        <attvalues>
+          <attvalue for="2" value="0.01269583333333334" />
+          <attvalue for="3" value="3.800662318285798" />
+          <attvalue for="4" value="4.843" />
+        </attvalues>
+      </edge>
+      <edge source="G6_G7_BLUE_AREA" target="F10_F11_E11_D12" id="412">
+        <attvalues>
+          <attvalue for="2" value="0.0131285" />
+          <attvalue for="3" value="8.107050169437347" />
+          <attvalue for="4" value="11.042" />
+        </attvalues>
+      </edge>
+      <edge source="G6_G7_BLUE_AREA" target="F6_F7_E7" id="413">
+        <attvalues>
+          <attvalue for="2" value="0.05287516666666667" />
+          <attvalue for="3" value="1.680422038231084" />
+          <attvalue for="4" value="2.122" />
+        </attvalues>
+      </edge>
+      <edge source="G6_G7_BLUE_AREA" target="F8_E8_F9_E9" id="414">
+        <attvalues>
+          <attvalue for="2" value="0.02257833333333333" />
+          <attvalue for="3" value="3.862646814587169" />
+          <attvalue for="4" value="5.882" />
+        </attvalues>
+      </edge>
+      <edge source="G6_G7_BLUE_AREA" target="FAIZABAD_STADIUM_ROAD" id="415">
+        <attvalues>
+          <attvalue for="2" value="0.003823166666666667" />
+          <attvalue for="3" value="6.835941474334113" />
+          <attvalue for="4" value="10.8" />
+        </attvalues>
+      </edge>
+      <edge source="G6_G7_BLUE_AREA" target="G10_G11_G12" id="416">
+        <attvalues>
+          <attvalue for="2" value="0.0120465" />
+          <attvalue for="3" value="7.835035445173103" />
+          <attvalue for="4" value="9.694" />
+        </attvalues>
+      </edge>
+      <edge source="G6_G7_BLUE_AREA" target="G5_F5_DIPLOMATIC_SECRETARIAT" id="417">
+        <attvalues>
+          <attvalue for="2" value="0.06095416666666667" />
+          <attvalue for="3" value="2.705999042411221" />
+          <attvalue for="4" value="4.292" />
+        </attvalues>
+      </edge>
+      <edge source="G6_G7_BLUE_AREA" target="G8_G9" id="418">
+        <attvalues>
+          <attvalue for="2" value="0.042055" />
+          <attvalue for="3" value="4.096096623474692" />
+          <attvalue for="4" value="5.965" />
+        </attvalues>
+      </edge>
+      <edge source="G6_G7_BLUE_AREA" target="H9_I9" id="419">
+        <attvalues>
+          <attvalue for="2" value="0.005987166666666666" />
+          <attvalue for="3" value="6.051272809874395" />
+          <attvalue for="4" value="9.85" />
+        </attvalues>
+      </edge>
+      <edge source="G6_G7_BLUE_AREA" target="I8_H8_SHAKARPARIAN" id="420">
+        <attvalues>
+          <attvalue for="2" value="0.01803383333333333" />
+          <attvalue for="3" value="3.688016806494518" />
+          <attvalue for="4" value="6.026" />
+        </attvalues>
+      </edge>
+      <edge source="G6_G7_BLUE_AREA" target="SHAMSABAD_DHOK_KALA" id="421">
+        <attvalues>
+          <attvalue for="2" value="0.003173833333333334" />
+          <attvalue for="3" value="7.208428810399502" />
+          <attvalue for="4" value="10.575" />
+        </attvalues>
+      </edge>
+      <edge source="DHOKE_HASSU" target="CHAKLALA" id="422">
+        <attvalues>
+          <attvalue for="2" value="0.007357833333333333" />
+          <attvalue for="3" value="4.767512562911802" />
+          <attvalue for="4" value="7.393" />
+        </attvalues>
+      </edge>
+      <edge source="DHOKE_HASSU" target="FAIZABAD_STADIUM_ROAD" id="423">
+        <attvalues>
+          <attvalue for="2" value="0.0055545" />
+          <attvalue for="3" value="4.630654667701324" />
+          <attvalue for="4" value="7.245" />
+        </attvalues>
+      </edge>
+      <edge source="DHOKE_HASSU" target="H10_H11_H12" id="424">
+        <attvalues>
+          <attvalue for="2" value="0.007429833333333333" />
+          <attvalue for="3" value="3.825334064426443" />
+          <attvalue for="4" value="7.39" />
+        </attvalues>
+      </edge>
+      <edge source="DHOKE_HASSU" target="H13_I14_JHANGI_SYEDAN" id="425">
+        <attvalues>
+          <attvalue for="2" value="0.005915166666666667" />
+          <attvalue for="3" value="6.93156835008411" />
+          <attvalue for="4" value="8.541" />
+        </attvalues>
+      </edge>
+      <edge source="DHOKE_HASSU" target="H9_I9" id="426">
+        <attvalues>
+          <attvalue for="2" value="0.0098825" />
+          <attvalue for="3" value="4.310665568944017" />
+          <attvalue for="4" value="7.552" />
+        </attvalues>
+      </edge>
+      <edge source="DHOKE_HASSU" target="I10_I11" id="427">
+        <attvalues>
+          <attvalue for="2" value="0.09110649999999999" />
+          <attvalue for="3" value="2.16143655942314" />
+          <attvalue for="4" value="4.626" />
+        </attvalues>
+      </edge>
+      <edge source="DHOKE_HASSU" target="KOHINOOR_MILL_PIRWADHAI" id="428">
+        <attvalues>
+          <attvalue for="2" value="0.01500416666666667" />
+          <attvalue for="3" value="4.443409013338161" />
+          <attvalue for="4" value="5.85" />
+        </attvalues>
+      </edge>
+      <edge source="DHOKE_HASSU" target="LALKURTI_TENCH_DHOKSYEDAN" id="429">
+        <attvalues>
+          <attvalue for="2" value="0.008872666666666666" />
+          <attvalue for="3" value="5.287728745379432" />
+          <attvalue for="4" value="8.872" />
+        </attvalues>
+      </edge>
+      <edge source="DHOKE_HASSU" target="LIAQUATBAGH_RAJABAZAR" id="430">
+        <attvalues>
+          <attvalue for="2" value="0.1289775" />
+          <attvalue for="3" value="2.384655581906615" />
+          <attvalue for="4" value="3.929" />
+        </attvalues>
+      </edge>
+      <edge source="DHOKE_HASSU" target="QASIM_MARKET_RANGE_ROAD" id="431">
+        <attvalues>
+          <attvalue for="2" value="0.007934833333333334" />
+          <attvalue for="3" value="4.377158634951421" />
+          <attvalue for="4" value="9.97" />
+        </attvalues>
+      </edge>
+      <edge source="DHOKE_HASSU" target="RAWAL_ROAD" id="432">
+        <attvalues>
+          <attvalue for="2" value="0.01247933333333333" />
+          <attvalue for="3" value="3.801039699572261" />
+          <attvalue for="4" value="6.418" />
+        </attvalues>
+      </edge>
+      <edge source="DHOKE_HASSU" target="SADDAR" id="433">
+        <attvalues>
+          <attvalue for="2" value="0.02986416666666666" />
+          <attvalue for="3" value="3.938019784158749" />
+          <attvalue for="4" value="6.439" />
+        </attvalues>
+      </edge>
+      <edge source="DHOKE_HASSU" target="SATELLITE_TOWN" id="434">
+        <attvalues>
+          <attvalue for="2" value="0.210923" />
+          <attvalue for="3" value="3.039259960053293" />
+          <attvalue for="4" value="4.98" />
+        </attvalues>
+      </edge>
+      <edge source="DHOKE_HASSU" target="SHAKRIAL_SADIQABAD" id="435">
+        <attvalues>
+          <attvalue for="2" value="0.009089166666666667" />
+          <attvalue for="3" value="5.316194099227924" />
+          <attvalue for="4" value="7.38" />
+        </attvalues>
+      </edge>
+      <edge source="DHOKE_HASSU" target="SHAMSABAD_DHOK_KALA" id="436">
+        <attvalues>
+          <attvalue for="2" value="0.001442833333333333" />
+          <attvalue for="3" value="5.945541199599869" />
+          <attvalue for="4" value="10.736" />
+        </attvalues>
+      </edge>
+      <edge source="DHOKE_HASSU" target="WESTRIDGE" id="437">
+        <attvalues>
+          <attvalue for="2" value="0.229029" />
+          <attvalue for="3" value="2.080651149014624" />
+          <attvalue for="4" value="3.954" />
+        </attvalues>
+      </edge>
+      <edge source="G10_G11_G12" target="DHOKE_HASSU" id="438">
+        <attvalues>
+          <attvalue for="2" value="0.002019666666666667" />
+          <attvalue for="3" value="5.618614251736585" />
+          <attvalue for="4" value="9.861" />
+        </attvalues>
+      </edge>
+      <edge source="G10_G11_G12" target="F10_F11_E11_D12" id="439">
+        <attvalues>
+          <attvalue for="2" value="0.09456933333333332" />
+          <attvalue for="3" value="2.70939935451669" />
+          <attvalue for="4" value="3.283" />
+        </attvalues>
+      </edge>
+      <edge source="G10_G11_G12" target="F8_E8_F9_E9" id="440">
+        <attvalues>
+          <attvalue for="2" value="0.01882716666666667" />
+          <attvalue for="3" value="5.245806919299066" />
+          <attvalue for="4" value="7.502" />
+        </attvalues>
+      </edge>
+      <edge source="G10_G11_G12" target="FAIZABAD_STADIUM_ROAD" id="441">
+        <attvalues>
+          <attvalue for="2" value="0.002380333333333333" />
+          <attvalue for="3" value="6.598508853791139" />
+          <attvalue for="4" value="9.524" />
+        </attvalues>
+      </edge>
+      <edge source="G10_G11_G12" target="G13_G14_GOLRA" id="442">
+        <attvalues>
+          <attvalue for="2" value="0.02207316666666667" />
+          <attvalue for="3" value="5.792213142962094" />
+          <attvalue for="4" value="8.493" />
+        </attvalues>
+      </edge>
+      <edge source="G10_G11_G12" target="G6_G7_BLUE_AREA" id="443">
+        <attvalues>
+          <attvalue for="2" value="0.0296475" />
+          <attvalue for="3" value="7.835035445173103" />
+          <attvalue for="4" value="10.026" />
+        </attvalues>
+      </edge>
+      <edge source="G10_G11_G12" target="G8_G9" id="444">
+        <attvalues>
+          <attvalue for="2" value="0.0670135" />
+          <attvalue for="3" value="3.746906491483829" />
+          <attvalue for="4" value="5.777" />
+        </attvalues>
+      </edge>
+      <edge source="G10_G11_G12" target="H10_H11_H12" id="445">
+        <attvalues>
+          <attvalue for="2" value="0.02769983333333333" />
+          <attvalue for="3" value="2.884828704368906" />
+          <attvalue for="4" value="7.196" />
+        </attvalues>
+      </edge>
+      <edge source="G10_G11_G12" target="H13_I14_JHANGI_SYEDAN" id="446">
+        <attvalues>
+          <attvalue for="2" value="0.009161166666666666" />
+          <attvalue for="3" value="6.779442538672756" />
+          <attvalue for="4" value="8.692" />
+        </attvalues>
+      </edge>
+      <edge source="G10_G11_G12" target="H9_I9" id="447">
+        <attvalues>
+          <attvalue for="2" value="0.0098825" />
+          <attvalue for="3" value="4.352867429231747" />
+          <attvalue for="4" value="8.575" />
+        </attvalues>
+      </edge>
+      <edge source="G10_G11_G12" target="I10_I11" id="448">
+        <attvalues>
+          <attvalue for="2" value="0.01060383333333333" />
+          <attvalue for="3" value="3.911313050195451" />
+          <attvalue for="4" value="8.438" />
+        </attvalues>
+      </edge>
+      <edge source="G10_G11_G12" target="I8_H8_SHAKARPARIAN" id="449">
+        <attvalues>
+          <attvalue for="2" value="0.0125515" />
+          <attvalue for="3" value="6.626762340411318" />
+          <attvalue for="4" value="9.292" />
+        </attvalues>
+      </edge>
+      <edge source="G5_F5_DIPLOMATIC_SECRETARIAT" target="BHARAKAHU_BANIGALA" id="450">
+        <attvalues>
+          <attvalue for="2" value="0.02366033333333334" />
+          <attvalue for="3" value="7.709142776116121" />
+          <attvalue for="4" value="10.773" />
+        </attvalues>
+      </edge>
+      <edge source="G5_F5_DIPLOMATIC_SECRETARIAT" target="F6_F7_E7" id="451">
+        <attvalues>
+          <attvalue for="2" value="0.01695183333333333" />
+          <attvalue for="3" value="3.544526936167741" />
+          <attvalue for="4" value="6.173" />
+        </attvalues>
+      </edge>
+      <edge source="G5_F5_DIPLOMATIC_SECRETARIAT" target="F8_E8_F9_E9" id="452">
+        <attvalues>
+          <attvalue for="2" value="0.0046165" />
+          <attvalue for="3" value="6.32420315445997" />
+          <attvalue for="4" value="10.241" />
+        </attvalues>
+      </edge>
+      <edge source="G5_F5_DIPLOMATIC_SECRETARIAT" target="G6_G7_BLUE_AREA" id="453">
+        <attvalues>
+          <attvalue for="2" value="0.03664466666666667" />
+          <attvalue for="3" value="2.705999042411221" />
+          <attvalue for="4" value="5.137" />
+        </attvalues>
+      </edge>
+      <edge source="G5_F5_DIPLOMATIC_SECRETARIAT" target="G8_G9" id="454">
+        <attvalues>
+          <attvalue for="2" value="0.008872666666666666" />
+          <attvalue for="3" value="6.790329922971028" />
+          <attvalue for="4" value="10.16" />
+        </attvalues>
+      </edge>
+      <edge source="G5_F5_DIPLOMATIC_SECRETARIAT" target="I8_H8_SHAKARPARIAN" id="455">
+        <attvalues>
+          <attvalue for="2" value="0.007141333333333334" />
+          <attvalue for="3" value="5.507154090478799" />
+          <attvalue for="4" value="8.379" />
+        </attvalues>
+      </edge>
+      <edge source="G5_F5_DIPLOMATIC_SECRETARIAT" target="SHAMSABAD_DHOK_KALA" id="456">
+        <attvalues>
+          <attvalue for="2" value="0.0023805" />
+          <attvalue for="3" value="8.495944746023538" />
+          <attvalue for="4" value="11.436" />
+        </attvalues>
+      </edge>
+      <edge source="G5_F5_DIPLOMATIC_SECRETARIAT" target="SOHAN_CHAK_SHAHZAD" id="457">
+        <attvalues>
+          <attvalue for="2" value="0.005770833333333334" />
+          <attvalue for="3" value="6.894105136096113" />
+          <attvalue for="4" value="10.08" />
+        </attvalues>
+      </edge>
+      <edge source="BAHRIA1_6_PWD" target="DHA1_BAHRIA7" id="458">
+        <attvalues>
+          <attvalue for="2" value="0.022867" />
+          <attvalue for="3" value="4.072144381639381" />
+          <attvalue for="4" value="9.39" />
+        </attvalues>
+      </edge>
+      <edge source="BAHRIA1_6_PWD" target="DHA2_ZARAJ" id="459">
+        <attvalues>
+          <attvalue for="2" value="0.04782566666666666" />
+          <attvalue for="3" value="3.877762452368223" />
+          <attvalue for="4" value="9.355" />
+        </attvalues>
+      </edge>
+      <edge source="BAHRIA1_6_PWD" target="MORGAH_ASKARI14" id="460">
+        <attvalues>
+          <attvalue for="2" value="0.0044725" />
+          <attvalue for="3" value="6.200194651052481" />
+          <attvalue for="4" value="11.301" />
+        </attvalues>
+      </edge>
+      <edge source="BAHRIA1_6_PWD" target="NAVAL_GULBERG" id="461">
+        <attvalues>
+          <attvalue for="2" value="0.0409005" />
+          <attvalue for="3" value="4.165937260224322" />
+          <attvalue for="4" value="6.597" />
+        </attvalues>
+      </edge>
+      <edge source="BAHRIA1_6_PWD" target="OLD_AIRPORT" id="462">
+        <attvalues>
+          <attvalue for="2" value="0.01536483333333333" />
+          <attvalue for="3" value="4.318770573300677" />
+          <attvalue for="4" value="9.765" />
+        </attvalues>
+      </edge>
+      <edge source="BAHRIA1_6_PWD" target="SCHEME3_GULISTAN_COLONY" id="463">
+        <attvalues>
+          <attvalue for="2" value="0.0393135" />
+          <attvalue for="3" value="3.951978374228264" />
+          <attvalue for="4" value="6.105" />
+        </attvalues>
+      </edge>
+      <edge source="SOHAN_CHAK_SHAHZAD" target="FAIZABAD_STADIUM_ROAD" id="464">
+        <attvalues>
+          <attvalue for="2" value="0.0137775" />
+          <attvalue for="3" value="5.770566757327558" />
+          <attvalue for="4" value="10.835" />
+        </attvalues>
+      </edge>
+      <edge source="SOHAN_CHAK_SHAHZAD" target="G5_F5_DIPLOMATIC_SECRETARIAT" id="465">
+        <attvalues>
+          <attvalue for="2" value="0.0216405" />
+          <attvalue for="3" value="6.894105136096113" />
+          <attvalue for="4" value="9.99" />
+        </attvalues>
+      </edge>
+      <edge source="SOHAN_CHAK_SHAHZAD" target="GHAURI_BURMA_TOWN_KHANNA" id="466">
+        <attvalues>
+          <attvalue for="2" value="0.01435483333333333" />
+          <attvalue for="3" value="4.787186545180123" />
+          <attvalue for="4" value="10.365" />
+        </attvalues>
+      </edge>
+      <edge source="SOHAN_CHAK_SHAHZAD" target="SHAMSABAD_DHOK_KALA" id="467">
+        <attvalues>
+          <attvalue for="2" value="0.01428266666666667" />
+          <attvalue for="3" value="4.359244516574154" />
+          <attvalue for="4" value="10.769" />
+        </attvalues>
+      </edge>
+      <edge source="SOHAN_CHAK_SHAHZAD" target="TARAMRI_ALIPUR_FARASHTOWN" id="468">
+        <attvalues>
+          <attvalue for="2" value="0.02467016666666666" />
+          <attvalue for="3" value="6.570511296244099" />
+          <attvalue for="4" value="9.483" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-09-05">
+    <creator>NetworkX 3.3</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="latitude" type="double" />
+      <attribute id="1" title="longitude" type="double" />
+    </attributes>
+    <nodes>
+      <node id="F8_E8_F9_E9" label="F8_E8_F9_E9">
+        <attvalues>
+          <attvalue for="0" value="33.7134014" />
+          <attvalue for="1" value="73.03277168" />
+        </attvalues>
+      </node>
+      <node id="CHAKLALA" label="CHAKLALA">
+        <attvalues>
+          <attvalue for="0" value="33.60093813" />
+          <attvalue for="1" value="73.07507165" />
+        </attvalues>
+      </node>
+      <node id="GHAURI_BURMA_TOWN_KHANNA" label="GHAURI_BURMA_TOWN_KHANNA">
+        <attvalues>
+          <attvalue for="0" value="33.62744882" />
+          <attvalue for="1" value="73.13042452" />
+        </attvalues>
+      </node>
+      <node id="RAWAL_ROAD" label="RAWAL_ROAD">
+        <attvalues>
+          <attvalue for="0" value="33.61876717" />
+          <attvalue for="1" value="73.073812" />
+        </attvalues>
+      </node>
+      <node id="ADIALA" label="ADIALA">
+        <attvalues>
+          <attvalue for="0" value="33.54623619" />
+          <attvalue for="1" value="73.05209675" />
+        </attvalues>
+      </node>
+      <node id="SATELLITE_TOWN" label="SATELLITE_TOWN">
+        <attvalues>
+          <attvalue for="0" value="33.63989311" />
+          <attvalue for="1" value="73.06257614" />
+        </attvalues>
+      </node>
+      <node id="G13_G14_GOLRA" label="G13_G14_GOLRA">
+        <attvalues>
+          <attvalue for="0" value="33.64752556" />
+          <attvalue for="1" value="72.95087122" />
+        </attvalues>
+      </node>
+      <node id="QASIM_MARKET_RANGE_ROAD" label="QASIM_MARKET_RANGE_ROAD">
+        <attvalues>
+          <attvalue for="0" value="33.59000295" />
+          <attvalue for="1" value="73.01657994" />
+        </attvalues>
+      </node>
+      <node id="DHA2_ZARAJ" label="DHA2_ZARAJ">
+        <attvalues>
+          <attvalue for="0" value="33.53117099" />
+          <attvalue for="1" value="73.15604532" />
+        </attvalues>
+      </node>
+      <node id="SHAMSABAD_DHOK_KALA" label="SHAMSABAD_DHOK_KALA">
+        <attvalues>
+          <attvalue for="0" value="33.65017158" />
+          <attvalue for="1" value="73.09153509" />
+        </attvalues>
+      </node>
+      <node id="F6_F7_E7" label="F6_F7_E7">
+        <attvalues>
+          <attvalue for="0" value="33.72367762" />
+          <attvalue for="1" value="73.06117237" />
+        </attvalues>
+      </node>
+      <node id="KOHINOOR_MILL_PIRWADHAI" label="KOHINOOR_MILL_PIRWADHAI">
+        <attvalues>
+          <attvalue for="0" value="33.61071461" />
+          <attvalue for="1" value="72.98985375" />
+        </attvalues>
+      </node>
+      <node id="BAHRIA8" label="BAHRIA8">
+        <attvalues>
+          <attvalue for="0" value="33.495714" />
+          <attvalue for="1" value="73.085473" />
+        </attvalues>
+      </node>
+      <node id="DHAMIAL_CHAKRI_ROAD" label="DHAMIAL_CHAKRI_ROAD">
+        <attvalues>
+          <attvalue for="0" value="33.56066811" />
+          <attvalue for="1" value="73.01000235" />
+        </attvalues>
+      </node>
+      <node id="LALKURTI_TENCH_DHOKSYEDAN" label="LALKURTI_TENCH_DHOKSYEDAN">
+        <attvalues>
+          <attvalue for="0" value="33.57943285" />
+          <attvalue for="1" value="73.04073332" />
+        </attvalues>
+      </node>
+      <node id="I8_H8_SHAKARPARIAN" label="I8_H8_SHAKARPARIAN">
+        <attvalues>
+          <attvalue for="0" value="33.68034167" />
+          <attvalue for="1" value="73.07717667" />
+        </attvalues>
+      </node>
+      <node id="H9_I9" label="H9_I9">
+        <attvalues>
+          <attvalue for="0" value="33.662345" />
+          <attvalue for="1" value="73.05200625" />
+        </attvalues>
+      </node>
+      <node id="LIAQUATBAGH_RAJABAZAR" label="LIAQUATBAGH_RAJABAZAR">
+        <attvalues>
+          <attvalue for="0" value="33.61586581" />
+          <attvalue for="1" value="73.05613158" />
+        </attvalues>
+      </node>
+      <node id="H10_H11_H12" label="H10_H11_H12">
+        <attvalues>
+          <attvalue for="0" value="33.6462776" />
+          <attvalue for="1" value="72.9999366" />
+        </attvalues>
+      </node>
+      <node id="I10_I11" label="I10_I11">
+        <attvalues>
+          <attvalue for="0" value="33.646044" />
+          <attvalue for="1" value="73.03527323" />
+        </attvalues>
+      </node>
+      <node id="MORGAH_ASKARI14" label="MORGAH_ASKARI14">
+        <attvalues>
+          <attvalue for="0" value="33.54724362" />
+          <attvalue for="1" value="73.07338379" />
+        </attvalues>
+      </node>
+      <node id="H13_I14_JHANGI_SYEDAN" label="H13_I14_JHANGI_SYEDAN">
+        <attvalues>
+          <attvalue for="0" value="33.62512322" />
+          <attvalue for="1" value="72.95902271" />
+        </attvalues>
+      </node>
+      <node id="WESTRIDGE" label="WESTRIDGE">
+        <attvalues>
+          <attvalue for="0" value="33.61226834" />
+          <attvalue for="1" value="73.01947658" />
+        </attvalues>
+      </node>
+      <node id="KHANNA_KORAL" label="KHANNA_KORAL">
+        <attvalues>
+          <attvalue for="0" value="33.62449535" />
+          <attvalue for="1" value="73.1067525" />
+        </attvalues>
+      </node>
+      <node id="F10_F11_E11_D12" label="F10_F11_E11_D12">
+        <attvalues>
+          <attvalue for="0" value="33.69226281" />
+          <attvalue for="1" value="72.99067119" />
+        </attvalues>
+      </node>
+      <node id="BHARAKAHU_BANIGALA" label="BHARAKAHU_BANIGALA">
+        <attvalues>
+          <attvalue for="0" value="33.73680847" />
+          <attvalue for="1" value="73.18177033" />
+        </attvalues>
+      </node>
+      <node id="FAIZABAD_STADIUM_ROAD" label="FAIZABAD_STADIUM_ROAD">
+        <attvalues>
+          <attvalue for="0" value="33.65196382" />
+          <attvalue for="1" value="73.07357536" />
+        </attvalues>
+      </node>
+      <node id="NAVAL_GULBERG" label="NAVAL_GULBERG">
+        <attvalues>
+          <attvalue for="0" value="33.57863522" />
+          <attvalue for="1" value="73.17832789" />
+        </attvalues>
+      </node>
+      <node id="TARAMRI_ALIPUR_FARASHTOWN" label="TARAMRI_ALIPUR_FARASHTOWN">
+        <attvalues>
+          <attvalue for="0" value="33.64359527" />
+          <attvalue for="1" value="73.195033" />
+        </attvalues>
+      </node>
+      <node id="DHA1_BAHRIA7" label="DHA1_BAHRIA7">
+        <attvalues>
+          <attvalue for="0" value="33.54223911" />
+          <attvalue for="1" value="73.10114689" />
+        </attvalues>
+      </node>
+      <node id="SHAKRIAL_SADIQABAD" label="SHAKRIAL_SADIQABAD">
+        <attvalues>
+          <attvalue for="0" value="33.63784416" />
+          <attvalue for="1" value="73.08968728" />
+        </attvalues>
+      </node>
+      <node id="SCHEME3_GULISTAN_COLONY" label="SCHEME3_GULISTAN_COLONY">
+        <attvalues>
+          <attvalue for="0" value="33.57718407" />
+          <attvalue for="1" value="73.09887208" />
+        </attvalues>
+      </node>
+      <node id="OLD_AIRPORT" label="OLD_AIRPORT">
+        <attvalues>
+          <attvalue for="0" value="33.59809288" />
+          <attvalue for="1" value="73.11899808" />
+        </attvalues>
+      </node>
+      <node id="G8_G9" label="G8_G9">
+        <attvalues>
+          <attvalue for="0" value="33.69034756" />
+          <attvalue for="1" value="73.04003006" />
+        </attvalues>
+      </node>
+      <node id="SADDAR" label="SADDAR">
+        <attvalues>
+          <attvalue for="0" value="33.59627289" />
+          <attvalue for="1" value="73.05574406" />
+        </attvalues>
+      </node>
+      <node id="G6_G7_BLUE_AREA" label="G6_G7_BLUE_AREA">
+        <attvalues>
+          <attvalue for="0" value="33.71343576" />
+          <attvalue for="1" value="73.07453243" />
+        </attvalues>
+      </node>
+      <node id="DHOKE_HASSU" label="DHOKE_HASSU">
+        <attvalues>
+          <attvalue for="0" value="33.62664115" />
+          <attvalue for="1" value="73.03386451" />
+        </attvalues>
+      </node>
+      <node id="G10_G11_G12" label="G10_G11_G12">
+        <attvalues>
+          <attvalue for="0" value="33.67167071" />
+          <attvalue for="1" value="73.00632507" />
+        </attvalues>
+      </node>
+      <node id="G5_F5_DIPLOMATIC_SECRETARIAT" label="G5_F5_DIPLOMATIC_SECRETARIAT">
+        <attvalues>
+          <attvalue for="0" value="33.72629888" />
+          <attvalue for="1" value="73.09936917" />
+        </attvalues>
+      </node>
+      <node id="BAHRIA1_6_PWD" label="BAHRIA1_6_PWD">
+        <attvalues>
+          <attvalue for="0" value="33.56252679" />
+          <attvalue for="1" value="73.13773117" />
+        </attvalues>
+      </node>
+      <node id="SOHAN_CHAK_SHAHZAD" label="SOHAN_CHAK_SHAHZAD">
+        <attvalues>
+          <attvalue for="0" value="33.67048536" />
+          <attvalue for="1" value="73.13181945" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="GHAURI_BURMA_TOWN_KHANNA" target="TARAMRI_ALIPUR_FARASHTOWN" id="0" />
+      <edge source="GHAURI_BURMA_TOWN_KHANNA" target="DHOKE_HASSU" id="1" />
+      <edge source="GHAURI_BURMA_TOWN_KHANNA" target="SHAMSABAD_DHOK_KALA" id="2" />
+      <edge source="GHAURI_BURMA_TOWN_KHANNA" target="I10_I11" id="3" />
+      <edge source="GHAURI_BURMA_TOWN_KHANNA" target="FAIZABAD_STADIUM_ROAD" id="4" />
+      <edge source="GHAURI_BURMA_TOWN_KHANNA" target="KHANNA_KORAL" id="5" />
+      <edge source="SHAMSABAD_DHOK_KALA" target="TARAMRI_ALIPUR_FARASHTOWN" id="6" />
+      <edge source="SHAMSABAD_DHOK_KALA" target="DHOKE_HASSU" id="7" />
+      <edge source="SHAMSABAD_DHOK_KALA" target="I10_I11" id="8" />
+      <edge source="SHAMSABAD_DHOK_KALA" target="FAIZABAD_STADIUM_ROAD" id="9" />
+      <edge source="SHAMSABAD_DHOK_KALA" target="KHANNA_KORAL" id="10" />
+      <edge source="H9_I9" target="G8_G9" id="11" />
+      <edge source="H9_I9" target="I10_I11" id="12" />
+      <edge source="I10_I11" target="FAIZABAD_STADIUM_ROAD" id="13" />
+      <edge source="I10_I11" target="KHANNA_KORAL" id="14" />
+      <edge source="I10_I11" target="G8_G9" id="15" />
+      <edge source="I10_I11" target="TARAMRI_ALIPUR_FARASHTOWN" id="16" />
+      <edge source="I10_I11" target="DHOKE_HASSU" id="17" />
+      <edge source="KHANNA_KORAL" target="TARAMRI_ALIPUR_FARASHTOWN" id="18" />
+      <edge source="KHANNA_KORAL" target="DHOKE_HASSU" id="19" />
+      <edge source="KHANNA_KORAL" target="FAIZABAD_STADIUM_ROAD" id="20" />
+      <edge source="FAIZABAD_STADIUM_ROAD" target="TARAMRI_ALIPUR_FARASHTOWN" id="21" />
+      <edge source="FAIZABAD_STADIUM_ROAD" target="DHOKE_HASSU" id="22" />
+      <edge source="TARAMRI_ALIPUR_FARASHTOWN" target="DHOKE_HASSU" id="23" />
+      <edge source="G8_G9" target="G10_G11_G12" id="24" />
+    </edges>
+  </graph>
+</gexf>
